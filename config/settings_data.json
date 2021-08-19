@@ -4,6 +4,14 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "blocks": {
+          "62fae789-cd01-4a40-975b-191b33200daa": {
+            "type": "announcement",
+            "settings": {
+              "text": "Welcome to our store",
+              "color_scheme": "inverse",
+              "link": ""
+            }
+          },
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
@@ -14,6 +22,7 @@
           }
         },
         "block_order": [
+          "62fae789-cd01-4a40-975b-191b33200daa",
           "announcement-bar-0"
         ],
         "settings": {
