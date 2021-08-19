@@ -705,7 +705,7 @@
         "video": {
           "name": "Video",
           "settings": {
-            "text": {
+            "video": {
               "label": "Background video"
             }
           }
