@@ -83,6 +83,7 @@
         "1629916579dcc1a952-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/PRINT.png",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
