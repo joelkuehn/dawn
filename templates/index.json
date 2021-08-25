@@ -129,8 +129,9 @@
         "column1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "image": "shopify:\/\/shop_images\/test.jpg",
+            "title": "Legacy Union",
+            "text": "<p>12 N. 8th St.<br\/>Suite 2<br\/>Charlotte, NC 28203<\/p><p><\/p><p>Open everyday<br\/>7a - 4p<\/p><p><\/p><p>704-555-8888<\/p>"
           }
         },
         "column2": {
@@ -157,8 +158,8 @@
         "title": "Multicolumn",
         "image_width": "full",
         "image_ratio": "adapt",
-        "column_alignment": "center",
-        "background_style": "primary",
+        "column_alignment": "left",
+        "background_style": "secondary",
         "button_label": "Button label",
         "button_link": "",
         "swipe_on_mobile": false
