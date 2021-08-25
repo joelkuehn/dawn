@@ -130,12 +130,52 @@
         "button_link": "",
         "swipe_on_mobile": false
       }
+    },
+    "1629924605d0243796": {
+      "type": "slideshow",
+      "blocks": {
+        "1629924605d0243796-0": {
+          "type": "slide",
+          "settings": {
+            "title": "Slide 1",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "1629924605d0243796-1": {
+          "type": "slide",
+          "settings": {
+            "title": "header",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "1629924605d0243796-2": {
+          "type": "slide",
+          "settings": {
+            "title": "header",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1629924605d0243796-0",
+        "1629924605d0243796-1",
+        "1629924605d0243796-2"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
     "image_banner",
     "featured_products",
     "1629916579dcc1a952",
-    "multi_column"
+    "multi_column",
+    "1629924605d0243796"
   ]
 }
