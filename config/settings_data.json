@@ -11,19 +11,10 @@
               "color_scheme": "inverse",
               "link": ""
             }
-          },
-          "announcement-bar-0": {
-            "type": "announcement",
-            "settings": {
-              "text": "Welcome to our shop",
-              "color_scheme": "accent-1",
-              "link": ""
-            }
           }
         },
         "block_order": [
-          "62fae789-cd01-4a40-975b-191b33200daa",
-          "announcement-bar-0"
+          "62fae789-cd01-4a40-975b-191b33200daa"
         ],
         "settings": {
         }
@@ -31,10 +22,11 @@
       "header": {
         "type": "header",
         "settings": {
+          "logo": "shopify:\/\/shop_images\/NightSwim_Primary.png",
           "logo_width": 100,
-          "logo_position": "middle-left",
+          "logo_position": "top-center",
           "menu": "main-menu",
-          "show_line_separator": true,
+          "show_line_separator": false,
           "enable_sticky_header": true
         }
       },
