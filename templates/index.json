@@ -155,12 +155,12 @@
         "column3"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "Locations",
         "image_width": "full",
         "image_ratio": "adapt",
         "column_alignment": "left",
         "background_style": "secondary",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "swipe_on_mobile": false
       }
