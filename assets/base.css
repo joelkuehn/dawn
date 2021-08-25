@@ -428,7 +428,7 @@ h5,
 .h5 {
   font-family: 'basic-sans';
   font-style: regular;
-  font-weight: '600';
+  font-weight: 400;
   letter-spacing: 0.06rem;
   color: rgb(var(--color-foreground));
   line-height: 1.3;
