@@ -2,7 +2,7 @@
 
 <section id="Slideshow-{{ section.id }}" class="slideshow carousel">
   {%- for block in section.blocks -%} 
-  	<div class="slide-item" style="background-image:url({{ section.settings.image }});">
+  	<div class="slide-item" style="background-image:url({{ block.settings.image }});">
       	{%- if block.settings.title != blank -%}
       	  <h2 class="banner__heading h1" {{ block.shopify_attributes }}>
             <span>{{ block.settings.title | escape }}</span>
