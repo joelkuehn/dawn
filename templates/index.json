@@ -23,7 +23,7 @@
         "b6e682f5-38de-461a-b9c3-e0e470bda326": {
           "type": "video",
           "settings": {
-            "video": "Background video"
+            "video": "https:\/\/joelkuehn.com\/_client\/nsc\/Gradient27.mp4"
           }
         }
       },
@@ -97,7 +97,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/test.jpg",
             "title": "Legacy Union",
-            "text": "<p>12 N. 8th St.<br>Suite 2<br>Charlotte, NC 28203<\/p><p><\/p><div class=\"test\">Open everyday<br>7a - 4p<\/div><p><\/p><p>704-555-8888<\/p>"
+            "text": "<p>12 N. 8th St.<br>Suite 2<br>Charlotte, NC 28203<\/p><p><\/p><div class=\"test\">Open everyday<br>7a - 4p<\/div><p><\/p><p><\/p><p>704-555-8888<\/p>"
           }
         },
         "column2": {
