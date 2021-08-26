@@ -6,7 +6,7 @@
       {%- case block.type -%}
         {%- when 'title' -%}
           <h2 class="banner__heading h1" {{ block.shopify_attributes }}>
-            <span>{{ block.settings.heading | escape }}</span>
+            <span>{{ block.settings.title | escape }}</span>
           </h2>
         {%- when 'text' -%}
           <div class="banner__text" {{ block.shopify_attributes }}>
