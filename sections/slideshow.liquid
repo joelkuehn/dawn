@@ -10,7 +10,7 @@
         {%- endif -%}
         {%- if block.settings.text != "" -%}
       	  <div class="banner__text" {{ block.shopify_attributes }}>
-            <span>{{ block.settings.text | escape }}</span>
+            {{ block.settings.text }}
           </div>
         {%- endif -%}
       {%- case block.type -%}
