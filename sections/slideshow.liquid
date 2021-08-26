@@ -88,4 +88,36 @@
 {% endstylesheet %}
 
 {% javascript %}
+$('.slideshow').slick({
+    adaptiveHeight: false,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    arrows: false,
+    dots: false,
+    fade: false,
+    //mobileFirst: true,
+    // nextArrow: '<button type="button" class="slick-next"><svg class="svg svg-arrow-right"><use xlink:href="#arrow-right"></use></svg>Next</button>',
+    // prevArrow: '<button type="button" class="slick-prev"><svg class="svg svg-arrow-left"><use xlink:href="#arrow-left"></use></svg>Prev</button>',
+    //slide: '.card-stats-cell',
+    slidesToScroll: 1,
+    slidesToShow: 4,
+    responsive: [
+        {
+            breakpoint: 1024,
+            settings: {
+                arrows: false,
+                dots: true,
+                slidesToShow: 2,
+            }
+        },
+        {
+            breakpoint: 768,
+            settings: {
+                arrows: false,
+                dots: true,
+                slidesToShow: 1,
+            }
+        }
+    ]
+});
 {% endjavascript %}
