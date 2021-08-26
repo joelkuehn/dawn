@@ -1,3 +1,5 @@
+{{ 'section-slideshow.css' | asset_url | stylesheet_tag }}
+
 <div id="Slideshow-{{ section.id }}" class="slideshow carousel">
   {%- for block in section.blocks -%}
   	<div class="slide-item" style="background-image:url({{ }});">
