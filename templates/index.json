@@ -137,10 +137,11 @@
         "1629924605d0243796-0": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-08-19_at_5.52.53_PM.png",
             "title": "Slide 1",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "button_label": "Button label",
-            "button_link": ""
+            "button_link": "\/"
           }
         },
         "1629924605d0243796-1": {
