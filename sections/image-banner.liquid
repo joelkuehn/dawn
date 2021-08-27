@@ -278,3 +278,21 @@
   ]
 }
 {% endschema %}
+
+
+
+{% javascript %}
+	jQuery(document).ready(function($) {
+		if(!isMobileOnly()) {	
+		console.log('video device');
+		var videos = $('video.inline-video');
+			videos.each(function() {
+				var source = $(this).find('source');
+				$(this).attr('src', source.attr('data-src'));
+
+				//$(this).load(); 
+			});
+		}
+	});
+
+{% endjavascript %}
