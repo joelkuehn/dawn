@@ -1,5 +1,7 @@
 /* Color custom properties */
 
+/* Background 2 - Transparent */
+
 :root,
 .color-background-1 {
   --color-foreground: var(--color-base-text);
@@ -7,7 +9,8 @@
 }
 
 .color-background-2 {
-  --color-background: var(--color-base-background-2);
+/*   --color-background: var(--color-base-background-2); */
+  --color-background: transparent;
 }
 
 .color-inverse {
