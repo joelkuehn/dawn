@@ -59,13 +59,21 @@
     </div>
   {%- endif -%}
   
-
+{%- for block in section.blocks -%}
+  {% if block.settings.video != blank -%}
+ 	<video playsinline 
+		class="inline-video hidden md:block absolute inset-0 w-full h-full object-cover z-5"
+		autoplay muted loop>
+		<source data-src="{{ block.settings.video }}">
+	</video>
+  {%- endif -%}    							
+{%- endfor -%}
+  
   <div class="banner__content page-width" style="align-items: {{ section.settings.desktop_text_box_position }};">
     <div class="banner__box color-{{ section.settings.color_scheme }}">
       {%- for block in section.blocks -%}
-      	 {% if block.settings.video != blank -%}
-           <!--   {{ block.settings.video }} -->
-          {%- endif -%}
+
+      
       
         {%- case block.type -%}
           {%- when 'heading' -%}
