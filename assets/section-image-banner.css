@@ -3,6 +3,7 @@
   position: relative;
   flex-direction: column;
   min-height: initial;
+	overflow:hidden;
 }
 
 @media screen and (max-width: 749px) {
@@ -201,7 +202,5 @@ video.inline-video {
   top:0;
   left:0;
   bottom:0;
-  right:0;
-  z-index:10;
-  
+  right:0;  
 }
