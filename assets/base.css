@@ -1820,13 +1820,13 @@ input[type='checkbox'] {
 }
 
 .header {
-  display: grid;
+/*   display: grid;
   grid-template-areas: 'left-icon heading icons';
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 1fr 2fr 1fr; */
   align-items: center;
-  background-color: rgb(var(--color-background));
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+/*   background-color: rgb(var(--color-background)); */
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 @media screen and (min-width: 990px) {
