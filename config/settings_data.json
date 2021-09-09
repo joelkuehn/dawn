@@ -5,6 +5,10 @@
     "colors_text": "#202a44",
     "colors_outline_button_labels": "#67823a",
     "colors_background_2": "#f8f8f8",
+    "accent_icons": "accent-1",
+    "social_twitter_link": "#",
+    "social_facebook_link": "#",
+    "social_instagram_link": "#",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -27,8 +31,8 @@
       "header": {
         "type": "header",
         "settings": {
-          "logo": "shopify:\/\/shop_images\/NightSwim_Primary.png",
-          "logo_width": 120,
+          "logo": "shopify:\/\/shop_images\/NightSwim_Logo.png",
+          "logo_width": 160,
           "logo_position": "top-center",
           "menu": "main-menu",
           "show_line_separator": false,
