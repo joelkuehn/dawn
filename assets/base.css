@@ -430,7 +430,7 @@ h5,
   
   
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -447,8 +447,27 @@ h5,
   letter-spacing: 0.06rem;
   color: rgb(var(--color-foreground));
   line-height: 1.3;
-}
+} */
 
+  h1,
+h2,
+h3,
+h4,
+h5,
+.h0,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
+  font-family: 'basic-sans';
+  font-style: regular;
+  font-weight: 400;
+  letter-spacing: 0.06rem;
+  color: rgb(var(--color-foreground));
+  line-height: 1.3;
+}
+  
 .h0 {
   font-size: 4rem;
 }
