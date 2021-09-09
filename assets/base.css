@@ -1852,12 +1852,12 @@ input[type='checkbox'] {
     column-gap: 2rem;
   }
 
-  .header--top-center {
+/*   .header--top-center {
     grid-template-areas:
       'left-icon navigation heading icons'
       'navigation navigation navigation';
   }
-
+ */
   .header--middle-left .header__inline-menu {
     min-width: 45rem;
   }
