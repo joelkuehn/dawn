@@ -2150,17 +2150,19 @@ details[open] > .header__icon--menu .icon-hamburger {
   font-size:18px;
   font-family:'basic-sans';
 }
-
+.header__menu-item:hover {
+  color: rgba(var(--color-foreground), 0.5);
+}
   body.index .header__menu-item {
     color: #E7E7E0;
   }
+  body.index .header__menu-item:hover {
+  color: #fff;
+}
 .header__menu-item:first-child {
   padding-left:0;
 }
   
-.header__menu-item:hover {
-  color: #fff;
-}
 
 .header__menu-item span {
   transition: text-decoration var(--duration-short) ease;
