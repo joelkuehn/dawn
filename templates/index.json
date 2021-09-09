@@ -171,6 +171,37 @@
       ],
       "settings": {
       }
+    },
+    "163120961845be377c": {
+      "type": "newsletter",
+      "blocks": {
+        "163120961845be377c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "we don’t waste words"
+          }
+        },
+        "163120961845be377c-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Join our mailing list uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<\/p>"
+          }
+        },
+        "163120961845be377c-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "163120961845be377c-0",
+        "163120961845be377c-1",
+        "163120961845be377c-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
     }
   },
   "order": [
@@ -178,6 +209,7 @@
     "featured_products",
     "1629916579dcc1a952",
     "multi_column",
-    "1629924605d0243796"
+    "1629924605d0243796",
+    "163120961845be377c"
   ]
 }
