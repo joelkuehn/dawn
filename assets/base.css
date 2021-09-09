@@ -1869,7 +1869,7 @@ input[type='checkbox'] {
   } */
 }
   
- #MainContent {
+ body.index #MainContent {
    margin-top:-251px;
  }
 
