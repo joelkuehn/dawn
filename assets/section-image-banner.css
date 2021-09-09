@@ -178,7 +178,7 @@
 
 @media screen and (min-width: 750px) {
   .banner__box {
-    padding: 4rem;
+/*     padding: 4rem; */
     width: 775px;
   }
 
