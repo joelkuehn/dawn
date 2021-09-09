@@ -1832,10 +1832,10 @@ input[type='checkbox'] {
 }
 
 @media screen and (min-width: 990px) {
-  .header {
-  padding-top: 50px;
-  padding-bottom: 20px;
-  }
+/*   .header {
+  	padding-top: 50px;
+  	padding-bottom: 20px;
+  } */
 
   .header--has-menu:not(.header--middle-left) {
     padding-bottom: 0;
