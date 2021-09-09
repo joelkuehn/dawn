@@ -1854,8 +1854,8 @@ input[type='checkbox'] {
 
   .header--top-center {
     grid-template-areas:
-      'left-icon heading icons'
-      'navigation navigation navigation';
+      'navigation heading icons'
+      'left-icon navigation navigation';
   }
 
   .header--middle-left .header__inline-menu {
