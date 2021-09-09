@@ -1812,7 +1812,11 @@ input[type='checkbox'] {
 .header-wrapper {
   display: block;
   position: absolute;
-  background-color: rgb(var(--color-background));
+  top:0;
+  left:0;
+  width:100%;
+  background:transparent;
+/*   background-color: rgb(var(--color-background)); */
 }
 
 /* .header-wrapper--border-bottom {
