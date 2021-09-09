@@ -2171,6 +2171,7 @@ details[open] > .header__icon--menu .icon-hamburger {
 }
 .header__menu-item:hover {
   color: rgba(var(--color-foreground), 0.5);
+    text-deocration:none;
 }
   body.index .header__menu-item {
     color: #E7E7E0;
