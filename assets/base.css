@@ -2143,7 +2143,7 @@ details[open] > .header__icon--menu .icon-hamburger {
 
 .header__menu-item {
   text-decoration: none;
-  color: #E7E7E0;
+  color: var(--color-foreground);
   font-weight:bold;
   padding:0 25px;
   text-transform:uppercase;
@@ -2151,6 +2151,9 @@ details[open] > .header__icon--menu .icon-hamburger {
   font-family:'basic-sans';
 }
 
+  body.index .header__menu-item {
+    color: #E7E7E0;
+  }
 .header__menu-item:first-child {
   padding-left:0;
 }
