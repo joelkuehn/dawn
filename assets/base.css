@@ -142,6 +142,10 @@
   
 /* base */
 
+html.sr .load-hidden {
+    visibility: hidden;
+}
+  
 .no-js:not(html) {
   display: none !important;
 }
