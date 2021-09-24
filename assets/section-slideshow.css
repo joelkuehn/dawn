@@ -191,13 +191,13 @@
     pointer-events: none; }
 
 .slick-prev {
-  left: -130px; }
+  left: calc(50% - 400px); }
   [dir="rtl"] .slick-prev {
     left: auto;
     right: -130px; }
 
 .slick-next {
-  right: -130px; }
+  right:calc(50% - 400px); }
   [dir="rtl"] .slick-next {
     left: -130px;
     right: auto; }
