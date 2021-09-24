@@ -197,12 +197,8 @@
 
 .slick-prev {
   left: calc(50% - 560px);
-	background-image:url({{ 'arrow-left-white.svg' | asset_url }});
-  	background-size:auto 30px;
 }
 
 .slick-next {
   right:calc(50% - 560px); 
-	background-image:url({{ 'arrow-right-white.svg' | asset_url }});
-  	background-size:auto 30px;
 }
