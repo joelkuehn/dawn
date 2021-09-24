@@ -2313,3 +2313,12 @@ details-disclosure > details {
   #shopify-section-template--14818742862030__multi_column .title {
   	margin:0 0 40px;
   }
+  
+  .multicolumn-list {
+  	margin:0;
+    padding:0;
+  }
+  
+  .multicolumn-list__item {
+  	padding:0;
+  }
