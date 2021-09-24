@@ -28,6 +28,7 @@
     {% render 'meta-tags' %}
 
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'scrollreveal.min.js' | asset_url }}" defer="defer"></script>
     {{ content_for_header }}
 
     {%- liquid
@@ -173,6 +174,13 @@
 			return false
 		};
 	 };
+      
+     $(document).ready(function(){
+		window.sr = ScrollReveal();
+		//sr.reveal('.block-page-header > div div', { duration: 1000 });
+		sr.reveal('div.banner > div', { duration: 1000 });
+
+	});
       
     </script>
   </body>
