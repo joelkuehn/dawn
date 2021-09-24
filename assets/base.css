@@ -2299,6 +2299,8 @@ details-disclosure > details {
   
   #shopify-section-template--14818742862030__multi_column {
   	background:#202A44;
+    margin:0;
+    padding:100px 0;
     
   }
   #shopify-section-template--14818742862030__multi_column .title, #shopify-section-template--14818742862030__multi_column .title-wrapper-with-link {
