@@ -2322,3 +2322,6 @@ details-disclosure > details {
   .multicolumn-list__item {
   	padding:0;
   }
+  .multicolumn-card__info {
+  	color:#fff !important;
+  }
