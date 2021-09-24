@@ -1,17 +1,5 @@
 {{ 'section-slideshow.css' | asset_url | stylesheet_tag }}
 
-{% stylesheet %}
-.slick-prev {
-	background-image:url({{ 'arrow-left-white.svg' | asset_url }});
-  	background-size:auto 30px;
-}
-
-.slick-next {
-	background-image:url({{ 'arrow-right-white.svg' | asset_url }});
-  	background-size:auto 30px;
-}
-{% endstylesheet %}
-
 <section id="Slideshow-{{ section.id }}" class="slideshow carousel">
   {%- for block in section.blocks -%} 
   	<div class="slide-item" style="background-image:url({{ block.settings.image | img_url: '1500x' }});">
@@ -96,6 +84,17 @@
 {% endschema %}
 
 
+{% stylesheet %}
+.slick-prev {
+	background-image:url({{ 'arrow-left-white.svg' | asset_url }});
+  	background-size:auto 30px;
+}
+
+.slick-next {
+	background-image:url({{ 'arrow-right-white.svg' | asset_url }});
+  	background-size:auto 30px;
+}
+{% endstylesheet %}
 
 {% javascript %}
 	jQuery(document).ready(function($) {
