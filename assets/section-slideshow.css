@@ -173,6 +173,11 @@
   position: absolute;
   text-align: center;
   text-transform: uppercase;
+  text-indent:-50000px;
+  background-repeat:no-repeat;
+  background-position:center center;
+  width:20px;
+  height:30px;
   top: 50%;
   transform: translateY(-50%);
   transition: color 0.2s linear;
@@ -191,13 +196,10 @@
     pointer-events: none; }
 
 .slick-prev {
-  left: calc(50% - 560px); }
-  [dir="rtl"] .slick-prev {
-    left: auto;
-    right: -130px; }
+  left: calc(50% - 560px);
+	background-image:url();
+  	background-size:auto 30px;
+}
 
 .slick-next {
   right:calc(50% - 560px); }
-  [dir="rtl"] .slick-next {
-    left: -130px;
-    right: auto; }
