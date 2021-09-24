@@ -158,7 +158,7 @@
 .slick-arrow.slick-hidden {
   display: none; }
 
-/* .slick-prev,
+.slick-prev,
 .slick-next {
   appearance: none;
   background: transparent;
@@ -202,4 +202,3 @@
 .slick-next {
   right:calc(50% - 560px); 
 }
- */
