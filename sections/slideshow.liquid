@@ -83,6 +83,17 @@
 }
 {% endschema %}
 
+{% stylesheet %}
+.slick-prev {
+	background-image:url({{ 'arrow-left-white.svg' | asset_url }});
+  	background-size:auto 30px;
+}
+
+.slick-next {
+	background-image:url({{ 'arrow-right-white.svg' | asset_url }});
+  	background-size:auto 30px;
+}
+{% endstylesheet %}
 
 {% javascript %}
 	jQuery(document).ready(function($) {
@@ -93,10 +104,6 @@
             arrows: true,
             dots: true,
             fade: true,
-            //mobileFirst: true,
-            // nextArrow: '<button type="button" class="slick-next"><svg class="svg svg-arrow-right"><use xlink:href="#arrow-right"></use></svg>Next</button>',
-            // prevArrow: '<button type="button" class="slick-prev"><svg class="svg svg-arrow-left"><use xlink:href="#arrow-left"></use></svg>Prev</button>',
-            //slide: '.card-stats-cell',
             slidesToScroll: 1,
             slidesToShow: 1,
             responsive: [
@@ -114,14 +121,3 @@
 
 {% endjavascript %}
 
-{% stylesheet %}
-.slick-prev {
-	background-image:url({{ 'arrow-left-white.svg' | asset_url }});
-  	background-size:auto 30px;
-}
-
-.slick-next {
-	background-image:url({{ 'arrow-right-white.svg' | asset_url }});
-  	background-size:auto 30px;
-}
-{% endstylesheet %}
