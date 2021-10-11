@@ -9,13 +9,12 @@
     <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
 
     <link rel="stylesheet" href="https://use.typekit.net/llr1apd.css">
-    <link rel="stylesheet" type="text/css" href="https://joelkuehn.com/_client/nsc/Webfont_Kit/type.css" crossorigin>
     
     <style>
       @font-face {
           font-family: 'Viksjoe Web';
-          src: url('https://joelkuehn.com/_client/nsc/Webfont_Kit/ViksjoeWeb-Regular.woff2') format('woff2'),
-               url('https://joelkuehn.com/_client/nsc/Webfont_Kit/ViksjoeWeb-Regular.woff') format('woff');
+          src: url({{ 'ViksjoeWeb-Regular.woff2' | asset_url }}) format('woff2'),
+               url({{ 'ViksjoeWeb-Regular.woff' | asset_url }}') format('woff');
           font-weight: normal;
           font-style: normal;
 
@@ -23,8 +22,8 @@
 
       @font-face {
           font-family: 'Viksjoe Web';
-          src: url('https://joelkuehn.com/_client/nsc/Webfont_Kit/ViksjoeWeb-RegularItalic.woff2') format('woff2'),
-               url('https://joelkuehn.com/_client/nsc/Webfont_Kit/ViksjoeWeb-RegularItalic.woff') format('woff');
+          src: url({{ 'ViksjoeWeb-Regular.woff2' | asset_url }}) format('woff2'),
+               url({{ 'ViksjoeWeb-Regular.woff' | asset_url }}') format('woff');
           font-weight: normal;
           font-style: italic;
 
