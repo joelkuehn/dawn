@@ -156,6 +156,10 @@
   word-break: break-word;
 }
 
+.card-information {
+	text-align:center;
+}
+
 .card-information__text {
   display: block;
   padding-right: 1.2rem;
