@@ -2,7 +2,9 @@
 	background:#F8F8F8;
   padding:60px 0;
 }
-
+.newsletter__wrapper.color-background-1 {
+	background:#f8f8f8;
+}
 /* .newsletter--narrow .newsletter__wrapper,
 .newsletter:not(.newsletter--narrow) .newsletter__wrapper.color-background-1 {
   margin-top: 5rem;
