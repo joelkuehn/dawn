@@ -58,6 +58,12 @@
     "1629916579dcc1a952": {
       "type": "image-with-text",
       "blocks": {
+        "6550a8c6-39de-4156-b217-f639f83a0837": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Never Miss A Cup"
+          }
+        },
         "1629916579dcc1a952-0": {
           "type": "heading",
           "settings": {
@@ -79,6 +85,7 @@
         }
       },
       "block_order": [
+        "6550a8c6-39de-4156-b217-f639f83a0837",
         "1629916579dcc1a952-0",
         "1629916579dcc1a952-1",
         "1629916579dcc1a952-2"
