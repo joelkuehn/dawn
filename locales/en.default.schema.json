@@ -788,6 +788,14 @@
         }
       },
       "blocks": {
+        "subheading": {
+          "name": "Sub Heading",
+          "settings": {
+            "heading": {
+              "label": "Sub Heading"
+            }
+          }
+        },
         "heading": {
           "name": "Heading",
           "settings": {
