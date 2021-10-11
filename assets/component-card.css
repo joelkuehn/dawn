@@ -163,7 +163,7 @@
 .card-information__text {
   display: block;
   padding-right: 1.2rem;
-  font-weight:bold;
+  font-weight:600;
 }
 
 .card-information__wrapper {
