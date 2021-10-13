@@ -1254,7 +1254,7 @@ deferred-media {
   box-shadow: 0 0 0 0.1rem rgba(var(--color-button), var(--alpha-button-border));
   color: rgb(var(--color-button-text));
   min-width: 12rem;
-  min-height: 4.5rem;
+  min-height: 2.5rem;
   transition: box-shadow var(--duration-short) ease;
   -webkit-appearance: none;
   appearance: none;
