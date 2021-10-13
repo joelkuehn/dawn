@@ -170,6 +170,21 @@
         unavailable: `{{ 'products.product.unavailable' | t }}`,
       }
       
+      
+    //////////////////////////////////////////////////
+	// Menu
+	//////////////////////////////////////////////////
+
+	$(window).scroll(function() {
+		if ($(this).scrollTop() > 100){  
+			$('header.header').addClass("sticky");
+		}
+		else{
+			$('header.header').removeClass("sticky");
+		}
+	});
+      
+      
      function isMobileOnly () {
 		// credit to Timothy Huang for this regex test:
 		// https://dev.to/timhuang/a-simple-way-to-detect-if-browser-is-on-a-mobile-device-with-javascript-44j3
