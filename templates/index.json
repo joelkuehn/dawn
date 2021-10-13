@@ -12,7 +12,7 @@
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
+            "button_label_1": "Shop Coffee",
             "button_link_1": "shopify:\/\/collections\/all",
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -20,24 +20,24 @@
             "button_style_secondary_2": false
           }
         },
-        "b6e682f5-38de-461a-b9c3-e0e470bda326": {
-          "type": "video",
-          "settings": {
-            "video": ""
-          }
-        },
         "4e644f6d-a15a-459a-b0d7-59108cbeb396": {
           "type": "text",
           "settings": {
             "text": "Free standard shipping on all orders!"
+          }
+        },
+        "b6e682f5-38de-461a-b9c3-e0e470bda326": {
+          "type": "video",
+          "settings": {
+            "video": ""
           }
         }
       },
       "block_order": [
         "heading",
         "button",
-        "b6e682f5-38de-461a-b9c3-e0e470bda326",
-        "4e644f6d-a15a-459a-b0d7-59108cbeb396"
+        "4e644f6d-a15a-459a-b0d7-59108cbeb396",
+        "b6e682f5-38de-461a-b9c3-e0e470bda326"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/bg-static.jpg",
