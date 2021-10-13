@@ -37,10 +37,26 @@
               "heading": "",
               "menu": "footer"
             }
+          },
+          "d60a5732-3529-45fb-82a7-7ab1947e5150": {
+            "type": "image",
+            "settings": {
+              "image_width": 100,
+              "alignment": "center"
+            }
+          },
+          "06402779-5889-44d1-9a98-eeebbc1ada15": {
+            "type": "link_list",
+            "settings": {
+              "heading": "",
+              "menu": "footer"
+            }
           }
         },
         "block_order": [
-          "footer-0"
+          "footer-0",
+          "d60a5732-3529-45fb-82a7-7ab1947e5150",
+          "06402779-5889-44d1-9a98-eeebbc1ada15"
         ],
         "settings": {
           "color_scheme": "background-1",
