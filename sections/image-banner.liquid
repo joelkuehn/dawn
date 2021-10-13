@@ -81,8 +81,9 @@
               <span>{{ block.settings.heading | escape }}</span>
             </h2>
    		{%- endcase -%}
-       {%- case block.type -%}
-      		<div class="banner_text_wrap">
+      	<div class="banner_text_wrap">
+       	{%- case block.type -%}
+      		
               {%- when 'text' -%}
                 <div class="banner__text" {{ block.shopify_attributes }}>
                   <span>{{ block.settings.text | escape }}</span>
@@ -96,8 +97,9 @@
                     <a{% if block.settings.button_link_2 != blank %} href="{{ block.settings.button_link_2 }}"{% endif %} class="button{% if block.settings.button_style_secondary_2 %} button--secondary{% else %} button--primary{% endif %}"{% if block.settings.button_link_2 == blank %} aria-disabled="true"{% endif %}>{{ block.settings.button_label_2 | escape }}</a>
                   {%- endif -%}
                 </div>
-      		  </div>
+      		 
         {%- endcase -%}
+         </div>
       {%- endfor -%}
     </div>
   </div>
