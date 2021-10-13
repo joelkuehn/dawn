@@ -47,6 +47,9 @@
   left: auto;
 }
 
+.banner_text_wrap {
+}
+
 @media screen and (max-width: 749px) {
   .banner--stacked .banner__media-half {
     width: 100%;
