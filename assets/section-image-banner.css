@@ -156,6 +156,12 @@
   color:#202A44!important;
 }
 
+.banner__content .button:hover {
+  background:#202A44 !important;
+  box-shadow:none!important;
+  color:#fff!important;
+}
+
 /* .banner__box > * + .banner__text {
   margin-top: 1.5rem;
 }
