@@ -1905,7 +1905,22 @@ input[type='checkbox'] {
   outline: none;
 }
 
-.header__heading {
+  header.header.sticky {
+  	background:rgba(255,255,255,0.5);
+    padding-top:0;
+  }
+  
+  header.header.sticky a.header__heading-link {
+    background:url({{ 'NightSwim_Icon' | asset_url }}) no-repeat center center;
+    background-size:66px auto;
+    width:66px;
+    height:66px;
+  }
+  header.header.sticky a.header__heading-link img {display:none;}
+  
+  
+  
+  .header__heading {
   margin: 0;
   line-height: 0;
 }
