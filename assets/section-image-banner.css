@@ -48,6 +48,7 @@
 }
 
 .banner_text_wrap {
+	margin-top:150px;
 }
 
 @media screen and (max-width: 749px) {
