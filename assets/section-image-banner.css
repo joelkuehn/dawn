@@ -150,6 +150,7 @@
 
 .banner__content .button {
   height: auto;
+  margin-bottom:40px;
  }
 
 /* .banner__box > * + .banner__text {
