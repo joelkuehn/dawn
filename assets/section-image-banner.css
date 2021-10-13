@@ -151,6 +151,9 @@
 .banner__content .button {
   height: auto;
   margin-bottom:30px;
+  background:#E7E7E0 !important;
+  border-color:#E7E7E0 !important;
+  color:#202A44;
 }
 
 /* .banner__box > * + .banner__text {
