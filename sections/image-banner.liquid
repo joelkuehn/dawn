@@ -80,6 +80,8 @@
             <h2 class="banner__heading h1" {{ block.shopify_attributes }}>
               <span>{{ block.settings.heading | escape }}</span>
             </h2>
+   		{%- endcase -%}
+       {%- case block.type -%}
       		<div class="banner_text_wrap">
               {%- when 'text' -%}
                 <div class="banner__text" {{ block.shopify_attributes }}>
