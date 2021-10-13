@@ -81,7 +81,11 @@
               <span>{{ block.settings.heading | escape }}</span>
             </h2>
    		{%- endcase -%}
-      	<div class="banner_text_wrap">
+      {%- endfor -%}
+      
+      <div class="banner_text_wrap">
+      {%- for block in section.blocks -%}
+      	
        	{%- case block.type -%}
       		
               {%- when 'text' -%}
@@ -99,8 +103,9 @@
                 </div>
       		 
         {%- endcase -%}
-         </div>
+         
       {%- endfor -%}
+        </div>
     </div>
   </div>
 </div>
