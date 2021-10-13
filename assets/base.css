@@ -1282,8 +1282,9 @@ deferred-media {
 .shopify-challenge__button,
 .customer button {
   font-size: 1.5rem;
-  letter-spacing: 0.1rem;
-  line-height: 1.2;
+  letter-spacing: 0;
+  line-height: 36px;
+  font-weight:600;
 }
 
 .button--tertiary {
