@@ -38,6 +38,13 @@
               "menu": "footer"
             }
           },
+          "5c75d447-9110-4dcf-916e-a99adf4d5cd3": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "footer"
+            }
+          },
           "d60a5732-3529-45fb-82a7-7ab1947e5150": {
             "type": "image",
             "settings": {
@@ -56,6 +63,7 @@
         },
         "block_order": [
           "footer-0",
+          "5c75d447-9110-4dcf-916e-a99adf4d5cd3",
           "d60a5732-3529-45fb-82a7-7ab1947e5150",
           "06402779-5889-44d1-9a98-eeebbc1ada15"
         ],
