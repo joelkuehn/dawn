@@ -94,6 +94,9 @@
   margin-top: 1rem;
 }
 
+.multicolumn-card__info h3 {
+color:#fff;}
+
 .multicolumn-list__item.center .media--adapt,
 .multicolumn-list__item .media--adapt img {
   width: auto;
