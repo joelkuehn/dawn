@@ -150,7 +150,7 @@
         "column1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/test.jpg",
+            "image": "shopify:\/\/shop_images\/Demo-3.jpg",
             "title": "Legacy Union",
             "text": "<div class=\"two-col\">\n<div class=\"col\"><a href=\"#\" class=\"location-address\">12 N. 8th St.<br>Suite 2<br>Charlotte, NC 28203<\/a><\/div>\n<div class=\"col col-two\">\n<p class=\"hours\">Open everyday<br>7a - 4p<\/p>\n<a href=\"tel:+17045558888\">704-555-8888<\/a>\n<\/div>\n<\/div>"
           }
