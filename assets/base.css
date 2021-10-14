@@ -2342,10 +2342,10 @@ details-disclosure > details {
   #shopify-section-template--14818742862030__163423462154ad684f {
   	background:#202A44;
     margin:0;
-    padding:0 0 80px;
+    padding:80px 0;
     
   }
   
-  #shopify-section-template--14818742862030__163423462154ad684f multicolumn.background-none.no-heading {
-  	margin:0;
+  #shopify-section-template--14818742862030__163423462154ad684f .multicolumn.background-none.no-heading {
+  	margin-top:0;
   }
