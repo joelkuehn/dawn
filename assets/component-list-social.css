@@ -22,7 +22,7 @@
 .list-social__link {
   align-items: center;
   display: flex;
-  padding: 1.3rem;
+  padding: 1rem;
   border-radius:50%;
   border:1px solid #202A44;
 }
