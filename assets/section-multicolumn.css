@@ -118,6 +118,9 @@ font-weight:600;
 .col {
 	max-width:50%;
 }
+.col.col-two {
+   text-align:right;
+}
 
 @media screen and (max-width: 749px) {
   .multicolumn .page-width {
