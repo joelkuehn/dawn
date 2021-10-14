@@ -109,6 +109,15 @@ font-weight:600;
   transform: translateX(-50%);
 }
 
+.two-col {
+  display:flex;
+  flex-direction:row;
+  align-items:flex-start;
+}
+.col {
+
+}
+
 @media screen and (max-width: 749px) {
   .multicolumn .page-width {
     padding: 0;
