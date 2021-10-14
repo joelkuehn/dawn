@@ -165,9 +165,6 @@
 	          </ul>
 	        {%- endif -%}
             <a class="link-email" href="mailto:info@nightswimcoffee.com" title="Email us at info@nightswimcoffee.com">info@nightswimcoffee.com</a>
-	      	<div class="footer__copyright caption">
-              <small class="copyright__content">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }}. All Rights Reserved.</small>
-            </div>
           </div>
 		  
         </div>
@@ -176,16 +173,8 @@
      
     </div>
   {%- endif -%}
-
-  <div class="footer__content-bottom">
-    <div class="footer__content-bottom-wrapper page-width">
-      <div class="footer__column footer__column--info">
-        <div class="footer__copyright caption">
-          <small class="copyright__content">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }}</small>
-          <small class="copyright__content">{{ powered_by_link }}</small>
-        </div>
-      </div>
-    </div>
+  <div class="footer__copyright">
+    <small class="copyright__content">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }}. All Rights Reserved.</small>
   </div>
 </footer>
 
