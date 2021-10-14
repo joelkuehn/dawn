@@ -41,8 +41,8 @@
           "5c75d447-9110-4dcf-916e-a99adf4d5cd3": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
-              "menu": "footer"
+              "heading": "",
+              "menu": "footer-locations"
             }
           },
           "d60a5732-3529-45fb-82a7-7ab1947e5150": {
