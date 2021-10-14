@@ -407,7 +407,7 @@ noscript .localization-selector.link {
   margin-bottom: 4rem;
 }
 
-.list-menu__item--link {
+.list-menu__item--link, .footer-block--menu--social span {
 text-transform:uppercase;
   color:#202A44!important;
   font-weight:bold;
@@ -426,6 +426,8 @@ ul.child li a, ul.child li a:link, ul.child li a:visited {
 ul.child li a:hover {
 	text-decoration:underline;
 }
+
+
 
 @media screen and (min-width: 750px) {
   .footer-block__details-content {
