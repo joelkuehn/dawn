@@ -420,6 +420,11 @@ ul.child li a, ul.child li a:link, ul.child li a:visited {
   font-weight:regular;
   font-size:16px;
   font-family:'basic-sans';
+  text-decoration:none;
+}
+
+ul.child li a:hover {
+	text-decoration:underline;
 }
 
 @media screen and (min-width: 750px) {
