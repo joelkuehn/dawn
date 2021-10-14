@@ -119,9 +119,15 @@ font-weight:600;
   width:50%;
   line-height:16px;
   font-size:16px;
+  color:#fff;
 }
 .col.col-two {
   text-align:right;
+}
+
+.rte .col a {
+	color:#fff;
+  text-decoration:none;
 }
 
 
