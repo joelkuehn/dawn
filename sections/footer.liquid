@@ -165,7 +165,10 @@
 	          </ul>
 	        {%- endif -%}
             <a class="link-email" href="mailto:info@nightswimcoffee.com" title="Email us at info@nightswimcoffee.com">info@nightswimcoffee.com</a>
-	      </div>
+	      	<div class="footer__copyright caption">
+              <small class="copyright__content">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }}</small>
+            </div>
+          </div>
 		  
         </div>
       {%- endif -%}
