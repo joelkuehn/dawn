@@ -128,9 +128,12 @@ font-weight:600;
 .rte .col a {
 	color:#fff;
   text-decoration:none;
+  margin:5px 0 0;
+  display:block;
 }
 .rte .col a:hover {
   text-decoration:underline;
+  color:#fff;
 }
 
 
