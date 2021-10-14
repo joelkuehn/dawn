@@ -70,7 +70,7 @@
                   <div class="footer-block__details-content footer-block-image {{ block.settings.alignment }}">
                     {%- if block.settings.image != blank -%}
                       {%- assign image_size = block.settings.image_width | append: 'x' -%}
-                      <img
+                      <a href="/"><img
                         srcset= "{{ block.settings.image | img_url: image_size }}, {{ block.settings.image | img_url: image_size, scale: 2 }} 2x"
                         src="{{ block.settings.image | img_url: '400x' }}"
                         alt="{{ block.settings.image.alt | escape }}"
@@ -78,7 +78,7 @@
                         width="{{ block.settings.image.width }}"
                         height="{{ block.settings.image.height }}"
                         style="max-width: min(100%, {{ block.settings.image_width }}px);"
-                      >
+                                       ></a>
                     {%- else -%}
                       {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
                     {%- endif -%}
