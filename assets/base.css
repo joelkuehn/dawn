@@ -2315,13 +2315,6 @@ details-disclosure > details {
     
   }
   
-  #shopify-section-template--14818742862030__163423462154ad684f {
-  	background:#202A44;
-    margin:0;
-    padding:0 0 80px;
-    
-  }
-  
   #shopify-section-template--14818742862030__multi_column .title, #shopify-section-template--14818742862030__multi_column .title-wrapper-with-link {
   	margin:0;
     text-align:center;
@@ -2343,4 +2336,16 @@ details-disclosure > details {
   }
   .multicolumn-card__info {
   	color:#fff !important;
+  }
+  
+    
+  #shopify-section-template--14818742862030__163423462154ad684f {
+  	background:#202A44;
+    margin:0;
+    padding:0 0 80px;
+    
+  }
+  
+  #shopify-section-template--14818742862030__163423462154ad684f multicolumn.background-none.no-heading {
+  	margin:0;
   }
