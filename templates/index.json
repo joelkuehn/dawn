@@ -158,6 +158,7 @@
         "column2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Demo.jpg",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
@@ -165,6 +166,15 @@
         "column3": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Demo-2.jpg",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "1dbdb3f3-1744-476f-95f5-3021541116ad": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Demo-large.jpg",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
@@ -173,7 +183,8 @@
       "block_order": [
         "column1",
         "column2",
-        "column3"
+        "column3",
+        "1dbdb3f3-1744-476f-95f5-3021541116ad"
       ],
       "settings": {
         "title": "Locations",
@@ -182,6 +193,32 @@
         "column_alignment": "left",
         "background_style": "none",
         "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": true
+      }
+    },
+    "163423462154ad684f": {
+      "type": "multicolumn",
+      "blocks": {
+        "163423462154ad684f-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Demo-large.jpg",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "163423462154ad684f-0"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "Button label",
         "button_link": "",
         "swipe_on_mobile": false
       }
@@ -224,6 +261,7 @@
     "1629916579dcc1a952",
     "1629924605d0243796",
     "multi_column",
+    "163423462154ad684f",
     "163120961845be377c"
   ]
 }
