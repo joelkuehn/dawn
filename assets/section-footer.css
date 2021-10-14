@@ -415,6 +415,7 @@ text-transform:uppercase;
   font-family:'basic-sans';
 }
 
+a.link-email, a.link-email:link, a.link-email:visited,
 ul.child li a, ul.child li a:link, ul.child li a:visited {
   color:#202A44!important;
   font-weight:regular;
