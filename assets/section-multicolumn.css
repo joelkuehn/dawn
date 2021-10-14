@@ -95,7 +95,9 @@
 }
 
 .multicolumn-card__info h3 {
-color:#fff;}
+color:#fff;
+font-weight:600;
+}
 
 .multicolumn-list__item.center .media--adapt,
 .multicolumn-list__item .media--adapt img {
