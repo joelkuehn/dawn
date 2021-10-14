@@ -129,7 +129,9 @@ font-weight:600;
 	color:#fff;
   text-decoration:none;
 }
-
+.rte .col a:hover {
+  text-decoration:underline;
+}
 
 
 @media screen and (max-width: 749px) {
