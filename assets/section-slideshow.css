@@ -212,6 +212,7 @@
   align-items:flex-start;
   height:100%;
   max-width:50%;
+  margin-left:100px;
 }
 .banner__text p {
 	font-size:24px;
