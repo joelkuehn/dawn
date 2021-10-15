@@ -196,7 +196,7 @@
     pointer-events: none; }
 
 .slick-prev {
-  left: calc(var(--page-width) / 2);
+  left: 0px;
 }
 
 .slick-next {
