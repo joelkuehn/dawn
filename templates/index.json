@@ -112,7 +112,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/banner-test.jpg",
             "title": "",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or story.<\/p>",
             "button_label": "Button label",
             "button_link": "\/"
           }
@@ -121,7 +121,7 @@
           "type": "slide",
           "settings": {
             "title": "Slide 2",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or story.<\/p>",
             "button_label": "Button label",
             "button_link": ""
           }
@@ -129,8 +129,8 @@
         "1629924605d0243796-2": {
           "type": "slide",
           "settings": {
-            "title": "Slide 3",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or story.<\/p>",
             "button_label": "Button label",
             "button_link": ""
           }
