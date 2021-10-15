@@ -139,7 +139,7 @@
     .slideshow .slide-item > div {
       width: 100%;
       min-width: 360px;
-      height: 500px; }
+      height: 550px; }
       @media (max-width: 699px) {
         .slideshow .slide-item > div {
           height: 485px; } }
