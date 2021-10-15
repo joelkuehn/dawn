@@ -5,7 +5,8 @@
   	<div class="slide-item" style="background-image:url({{ block.settings.image | img_url: '1500x' }});">
       <img src="{{block.settings.image | img_url: '1500x' }}" style="display:none;" />
       <div class="page-width">
-      {%- if block.settings.title != blank -%}
+      <div class="slide-text-wrap">
+        {%- if block.settings.title != blank -%}
       	  <h2 class="banner__heading h1" {{ block.shopify_attributes }}>
             <span>{{ block.settings.title | escape }}</span>
           </h2>
@@ -18,6 +19,7 @@
 		{%- if block.settings.button_label != blank -%}
       		<a{% if block.settings.button_link != blank %} href="{{ block.settings.button_link }}"{% endif %} class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"{% if block.settings.button_link == blank %} aria-disabled="true"{% endif %}>{{ block.settings.button_label | escape }}</a>
          {%- endif -%}
+      </div>
       </div>
     </div>
   {%- endfor -%}
