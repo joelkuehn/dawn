@@ -6,7 +6,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Every coffee has a story. Every cup starts somewhere."
+            "heading": "Every coffee has a story. <br>Every cup starts somewhere."
           }
         },
         "button": {
