@@ -121,10 +121,10 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/bg-static.jpg",
-            "title": "Slide 2",
+            "title": "",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or story.<\/p>",
             "button_label": "Button label",
-            "button_link": ""
+            "button_link": "#"
           }
         },
         "1629924605d0243796-2": {
