@@ -162,7 +162,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Demo.jpg",
             "title": "Oakhurst",
-            "text": "<div class=\"two-col\">\n<div class=\"col\"><a href=\"#\" class=\"location-address\">12 N. 8th St.<br>Suite 2<br>Charlotte, NC 28203<\/a><\/div>\n<div class=\"col col-two\">\n<p class=\"hours\">Open everyday<br>7a - 4p<\/p>\n<a href=\"tel:+17045558888\">704-555-8888<\/a>\n<\/div>\n<\/div>"
+            "text": "<div class=\"two-col\">\n<div class=\"col\"><a href=\"https:\/\/goo.gl\/maps\/6wRW9NbznLJUcNoJ8\" target=\"_blank\" class=\"location-address\">1640 Oakhurst Commons Dr.<br>Suite __<br>Charlotte, NC 28205<\/a><\/div>\n<div class=\"col col-two\">\n<p class=\"hours\">Open everyday<br>7a - 4p<\/p>\n<a href=\"tel:+17045558888\">704-555-8888<\/a>\n<\/div>\n<\/div>"
           }
         },
         "column3": {
