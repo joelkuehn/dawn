@@ -1975,6 +1975,10 @@ body.index .header__icon, body.index  .header__icon--cart .icon {
   color:#fff!important;
 }
   
+   .stick .header__icon, .sticky .header__icon--cart .icon {
+    color:#202A44 !important
+  }
+  
 .header__icon:not(.header__icon--summary),
 .header__icon span {
   display: flex;
