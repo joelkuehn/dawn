@@ -1972,6 +1972,10 @@ input[type='checkbox'] {
   color:#fff!important;
 }
 
+  .header__icon, .header__icon--cart .icon {
+    color:#fff!important;
+  }
+  
 .header__icon:not(.header__icon--summary),
 .header__icon span {
   display: flex;
