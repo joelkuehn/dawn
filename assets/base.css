@@ -1975,7 +1975,7 @@ body.index .header__icon, body.index .header__icon--cart .icon {
   color:#fff!important;
 }
   
-  body.index  .stick .header__icon,body.index .sticky .header__icon--cart .icon {
+  body.index .sticky .header__icon,body.index .sticky .header__icon--cart .icon {
     color:#202A44 !important
   }
   
