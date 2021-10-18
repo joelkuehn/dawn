@@ -233,7 +233,7 @@ body,
 .color-inverse,
 .color-accent-1,
 .color-accent-2 {
-  color: rgba(var(--color-foreground), 0.75);
+  color: rgba(var(--color-foreground));
   background-color: rgb(var(--color-background));
 }
 
@@ -2186,7 +2186,7 @@ details[open] > .header__icon--menu .icon-hamburger {
   font-family:'basic-sans';
 }
 .header__menu-item:hover {
-  color: rgba(var(--color-foreground));
+  color: rgba(var(--color-foreground), 0.5);
     text-deocration:none;
 }
   body.index .header__menu-item {
