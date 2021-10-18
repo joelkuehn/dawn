@@ -175,10 +175,10 @@
   display: none;
 }
 
-.footer__list-social.list-social:only-child {
+/* .footer__list-social.list-social:only-child {
   justify-content: center;
 }
-
+ */
 .footer-block__newsletter {
   text-align: center;
 }
