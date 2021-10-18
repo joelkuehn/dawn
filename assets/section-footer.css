@@ -426,10 +426,15 @@ text-transform:uppercase;
 a.link-email, a.link-email:link, a.link-email:visited,
 ul.child li a, ul.child li a:link, ul.child li a:visited {
   color:#202A44!important;
-  font-weight:regular;
+  font-weight:400;
   font-size:16px;
   font-family:'basic-sans';
   text-decoration:none;
+}
+@media screen and (max-width: 749px) {
+  a.link-email, a.link-email:link, a.link-email:visited {
+  	font-size:14px;
+  }
 }
 
 ul.child li a:hover {
