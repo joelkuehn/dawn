@@ -380,6 +380,9 @@ noscript .localization-selector.link {
   padding-bottom: 5rem;
   margin-top: -40px;
 }
+@media screen and (max-width: 750px) {
+  text-align: left;
+}
 
 
 /* .footer__copyright a {
