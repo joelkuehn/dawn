@@ -2186,7 +2186,7 @@ details[open] > .header__icon--menu .icon-hamburger {
   font-family:'basic-sans';
 }
 .header__menu-item:hover {
-  color: rgba(var(--color-foreground), 0.5);
+  color: rgba(var(--color-foreground));
     text-deocration:none;
 }
   body.index .header__menu-item {
