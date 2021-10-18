@@ -1969,12 +1969,11 @@ input[type='checkbox'] {
   display: flex;
   grid-area: icons;
   justify-self: end;
-  color:#fff!important;
 }
 
-  body.index .header__icon, body.index  .header__icon--cart .icon {
-    color:#fff!important;
-  }
+body.index .header__icon, body.index  .header__icon--cart .icon {
+  color:#fff!important;
+}
   
 .header__icon:not(.header__icon--summary),
 .header__icon span {
