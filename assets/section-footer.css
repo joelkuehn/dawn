@@ -24,6 +24,9 @@
     margin: 1rem 0 0;
     width: 100%;
   }
+  .footer-block.grid__item:nth-child(3) {
+  	order:1;
+  }
 
   .footer-block.grid__item:first-child {
     margin-top: 0;
