@@ -206,11 +206,11 @@
   margin-top: 3rem;
 }
 
-@media screen and (max-width: 749px) {
+/* @media screen and (max-width: 749px) {
   .footer__list-social.list-social {
     justify-content: center;
   }
-}
+} */
 
 @media screen and (min-width: 750px) {
   .footer-block__newsletter + .footer__list-social {
