@@ -6,7 +6,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "We believe that life should be well lived  and each moment savored."
+            "heading": "Every coffee has a story. Every cup starts somewhere."
           }
         },
         "button": {
@@ -68,19 +68,19 @@
         "6550a8c6-39de-4156-b217-f639f83a0837": {
           "type": "subheading",
           "settings": {
-            "subheading": "Never Miss A Cup"
+            "subheading": "Convenience made possible"
           }
         },
         "1629916579dcc1a952-0": {
           "type": "heading",
           "settings": {
-            "heading": "Freshly roasted coffee at your doorstep"
+            "heading": "Let us do the hard work for you"
           }
         },
         "1629916579dcc1a952-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <\/p>"
+            "text": "<p>We love every coffee we offer, but there will always be coffees we’re particularly excited about. Subscribe for convenient access to the offerings we’re most thrilled to share.<\/p>"
           }
         },
         "1629916579dcc1a952-2": {
@@ -222,13 +222,13 @@
         "163120961845be377c-0": {
           "type": "heading",
           "settings": {
-            "heading": "we don’t waste words"
+            "heading": "Want to know more?"
           }
         },
         "163120961845be377c-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Join our mailing list uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<\/p>"
+            "text": "<p>Join our mailing list to remain in the loop about current offerings, new blog posts, and educational material.<\/p>"
           }
         },
         "163120961845be377c-2": {
