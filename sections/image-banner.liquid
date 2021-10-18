@@ -75,7 +75,7 @@
         {%- case block.type -%}
           {%- when 'heading' -%}
             <h2 class="banner__heading h1" {{ block.shopify_attributes }}>
-              <span>{{ block.settings.heading | escape }}</span>
+              <span>{{ block.settings.heading }}</span>
             </h2>
    		{%- endcase -%}
       {%- endfor -%}
