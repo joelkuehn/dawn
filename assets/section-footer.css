@@ -21,7 +21,7 @@
 
   .footer-block.grid__item {
     padding: 0;
-    margin: 1rem 0 0;
+    margin: 0 0 1rem;
     width: 50%;
   }
   .footer-block.grid__item:nth-child(3) {
@@ -29,9 +29,9 @@
     width:100%;
   }
 
-  .footer-block.grid__item:first-child {
+/*   .footer-block.grid__item:first-child {
     margin-top: 0;
-  }
+  } */
 
   .footer__content-top {
     padding-bottom: 3rem;
