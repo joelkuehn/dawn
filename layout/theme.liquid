@@ -159,9 +159,10 @@
             <div class="team-modal-content">
                 <div class="image">
                     <img src="" alt=" Image" />
-
+		
                 </div>
                 <div class="text">
+                  TEST
                 </div>
             </div>
         </div>
@@ -231,7 +232,9 @@
 		sr.reveal('div.banner div.banner__box *', { duration: 1000 });
        sr.reveal('.shopify-section:not(#shopify-section-template--14818742862030__image_banner) > div > *', { duration: 1000 });
        
-       $().
+       $('ul#Locations ul.child li a').each(function() {
+       		$(this).data('lity');
+       });
 	});
       
     </script>
