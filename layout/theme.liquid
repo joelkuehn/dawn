@@ -153,6 +153,21 @@
       <li id="a11y-refresh-page-message">{{ 'accessibility.refresh_page' | t }}</li>
     </ul>
 
+    
+    <div class="overlay lity-hide" id="team-modal-">
+        <div class="overlay-content">
+            <div class="team-modal-content">
+                <div class="image">
+                    <img src="" alt=" Image" />
+
+                </div>
+                <div class="text">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
     <script>
       window.routes = {
         cart_add_url: '{{ routes.cart_add_url }}',
@@ -216,7 +231,7 @@
 		sr.reveal('div.banner div.banner__box *', { duration: 1000 });
        sr.reveal('.shopify-section:not(#shopify-section-template--14818742862030__image_banner) > div > *', { duration: 1000 });
        
-       
+       $().
 	});
       
     </script>
