@@ -2528,7 +2528,7 @@ details-disclosure > details {
 }
 .lity-loading .lity-content,.lity-closed .lity-content{-webkit-transform:scale(0.8);transform:scale(0.8)}
 .lity-content:after{content:'';position:absolute;left:0;top:0;bottom:0;display:block;right:0;width:auto;height:auto;z-index:-1;box-shadow:0 0 8px rgba(0,0,0,0.6)}
-.lity-close{z-index:9994;width:35px;height:35px;position:absolute;right:0;top:0;-webkit-appearance:none;cursor:pointer;text-decoration:none;text-align:center;padding:0;color:#fff;font-style:normal;font-size:35px;font-family:Arial,Baskerville,monospace;line-height:35px;border:0;background:none;outline:none;box-shadow:none;background:#8BC15D;border-radius:50%;margin:10px;transition:all 0.3s}
+.lity-close{z-index:9994;width:35px;height:35px;position:absolute;right:0;top:0;-webkit-appearance:none;cursor:pointer;text-decoration:none;text-align:center;padding:0;color:#fff;font-style:normal;font-size:35px;font-family:Arial,Baskerville,monospace;line-height:35px;border:0;background:none;outline:none;box-shadow:none;background:#202a44;border-radius:50%;margin:10px;transition:all 0.3s}
 .lity-close::-moz-focus-inner{border:0;padding:0}
 .lity-close:hover,.lity-close:focus,.lity-close:active,.lity-close:visited{text-decoration:none;text-align:center;font-style:normal;font-size:35px;font-family:Arial,Baskerville,monospace;line-height:35px;border:0;background:#000;color:#fff;outline:none;box-shadow:none;transition:all 0.3s}
 .lity-image img{max-width:100%;display:block;line-height:0;border:0}
