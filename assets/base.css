@@ -2486,31 +2486,21 @@ details-disclosure > details {
   .overlay .text .multicolumn-card__info {color:#202a44;padding:0;}
   .location-address span {text-transform:uppercase; font-size:14px;display:block;clear:both;margin:10px 0 0;}
   
-.two-col {
-  display:flex;
-  flex-direction:row;
-  align-items:flex-start;
-  width:100%;
-}
-.col {
+.overlay .col {
   width:50%;
   line-height:20px;
   font-size:16px;
   color:#202a44;
 }
-.col.col-two {
-  text-align:right;
-}
-
-.rte .col a {
+  .overlay .rte .col a {
 	color:#202a44;
   text-decoration:none;
 }
-.rte .col a:hover {
+  .overlay .rte .col a:hover {
   text-decoration:underline;
   color:#202a44;
 }
-.col p {margin:0;}
+.overlay .col p {margin:0;}
 
   
 .lity{z-index:9990;position:fixed;top:0;right:0;bottom:0;left:0;white-space:nowrap;background:rgba(0,0,0,0.9);outline:none !important;opacity:0;transition:opacity 0.3s ease}
