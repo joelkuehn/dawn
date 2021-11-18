@@ -2374,7 +2374,7 @@ details-disclosure > details {
   
   
   .overlay {position:relative;text-align:left;opacity:1;width:100%;max-width:700px;background:#fff;}
-			.overlay img {margin:0px 0 40px;width:100%;max-width:700px;}
+			.overlay img {margin:0px;width:100%;max-width:700px;}
 
 			.overlay-content {position:relative;z-index:10;
 				 -ms-overflow-style: none;
