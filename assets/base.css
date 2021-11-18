@@ -2486,7 +2486,7 @@ details-disclosure > details {
   .overlay .text .multicolumn-card__info {color:#202a44;padding:0;}
   .location-address span {text-transform:uppercase; font-size:14px;display:block;clear:both;margin:10px 0 0;}
   
-  .overlay h3 {
+  .overlay .multicolumn-card__info h3 {
   	color:#202a44;
   }
 .overlay .col {
