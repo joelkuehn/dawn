@@ -23,6 +23,7 @@
       "header": {
         "type": "header",
         "settings": {
+          "logo": "shopify:\/\/shop_images\/NightSwim_Logo_160x_2x_37eb3b37-118e-4bf4-bdd2-df010ef53464.png",
           "logo_width": 160,
           "logo_position": "top-center",
           "menu": "main-menu",
