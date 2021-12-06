@@ -46,6 +46,17 @@
 
     {% render 'meta-tags' %}
 
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4YRX1X0QTZ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-4YRX1X0QTZ');
+    </script>
+    
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'scrollreveal.min.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'lity.min.js' | asset_url }}" defer="defer"></script>
