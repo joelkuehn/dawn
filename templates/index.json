@@ -40,6 +40,7 @@
         "b6e682f5-38de-461a-b9c3-e0e470bda326"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/bg-static.jpg",
         "desktop_text_box_position": "center",
         "color_scheme": "background-2",
         "stack_images_on_mobile": true,
@@ -49,9 +50,9 @@
     "featured_products": {
       "type": "featured-collection",
       "settings": {
-        "title": "Offerings",
+        "title": "Featured Blends",
         "collection": "all",
-        "products_to_show": 6,
+        "products_to_show": 4,
         "show_view_all": true,
         "swipe_on_mobile": false,
         "image_ratio": "portrait",
