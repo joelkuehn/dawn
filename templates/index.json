@@ -61,47 +61,6 @@
         "show_vendor": false
       }
     },
-    "1629916579dcc1a952": {
-      "type": "image-with-text",
-      "blocks": {
-        "6550a8c6-39de-4156-b217-f639f83a0837": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Convenience made possible"
-          }
-        },
-        "1629916579dcc1a952-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Let us do the hard work for you"
-          }
-        },
-        "1629916579dcc1a952-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We love every coffee we offer, but there will always be coffees we’re particularly excited about. Subscribe for convenient access to the offerings we’re most thrilled to share.<\/p>"
-          }
-        },
-        "1629916579dcc1a952-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Subscribe",
-            "button_link": "\/"
-          }
-        }
-      },
-      "block_order": [
-        "6550a8c6-39de-4156-b217-f639f83a0837",
-        "1629916579dcc1a952-0",
-        "1629916579dcc1a952-1",
-        "1629916579dcc1a952-2"
-      ],
-      "settings": {
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first"
-      }
-    },
     "163120961845be377c": {
       "type": "newsletter",
       "blocks": {
@@ -137,7 +96,6 @@
   "order": [
     "image_banner",
     "featured_products",
-    "1629916579dcc1a952",
     "163120961845be377c"
   ]
 }
