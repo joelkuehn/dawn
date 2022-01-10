@@ -28,12 +28,20 @@
             "title": "Where can I buy your coffee beans?",
             "text": "<p>Our retail coffee bags are available for purchase in all of our cafes and our website. Our website features an exclusive subscription service, as well!<\/p>"
           }
+        },
+        "5fb0b802-5319-4502-95cd-200bd8996ceb": {
+          "type": "text",
+          "settings": {
+            "title": "What will I receive in a subscription from you?",
+            "text": "<p>Our subscription boxes will feature a one bag or two bag option. Your order will be roasted and sent to you based on a frequency of your choosing. One bag subscriptions will contain a rotating Single-Origin offering. Two bag subscriptions will contain a year-round blend and a rotating Single-Origin offering.<\/p>"
+          }
         }
       },
       "block_order": [
         "16417853317f4aa7d9-0",
         "16417853317f4aa7d9-1",
-        "16417853317f4aa7d9-2"
+        "16417853317f4aa7d9-2",
+        "5fb0b802-5319-4502-95cd-200bd8996ceb"
       ],
       "settings": {
       }
