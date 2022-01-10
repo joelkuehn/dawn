@@ -23,6 +23,7 @@ transform: rotate(0deg)
 
 
 .block-faq .faq-item .accordion {
+  background:none;
 position: relative;
 cursor: pointer;
 width: 100%;
