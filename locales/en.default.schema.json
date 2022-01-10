@@ -1638,14 +1638,11 @@
       }
     },
     "slideshow": {
-      "name": "Slideshow",
+      "name": "Accordion",
       "blocks": {
         "slide": {
-          "name": "Slide",
+          "name": "Accordion",
           "settings": {
-            "image": {
-              "label": "Image"
-            },
             "title": {
               "label": "Header"
             },
