@@ -49,6 +49,13 @@
             "title": "Do you have gluten free, nut free, or dairy free options?",
             "text": "<p>We offer a selection of items that do not contain gluten, nuts, or dairy, however we cannot guarantee that there is no cross-contamination from these products since we do use them in our kitchens.<\/p>"
           }
+        },
+        "c1ed84fa-bf17-47d5-a751-902f05ade66d": {
+          "type": "text",
+          "settings": {
+            "title": "Where is the Night Swim Roastery?",
+            "text": "<p>Our roastery is located at 4500 Old Pineville Road, Charlotte NC 28217. You’re welcome to visit any time! We’d love to say hey.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -57,7 +64,8 @@
         "16417853317f4aa7d9-2",
         "5fb0b802-5319-4502-95cd-200bd8996ceb",
         "cef10e1b-1745-4167-8d6b-264d03f5ac37",
-        "f1827520-fb9d-44ff-a28d-6801219ae215"
+        "f1827520-fb9d-44ff-a28d-6801219ae215",
+        "c1ed84fa-bf17-47d5-a751-902f05ade66d"
       ],
       "settings": {
       }
