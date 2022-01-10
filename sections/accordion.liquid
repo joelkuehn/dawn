@@ -1,7 +1,7 @@
 {{ 'section-accordion.css' | asset_url | stylesheet_tag }}
 
 <section id="accordion-{{ section.id }}" class="block-faq">
-  <div class="page-width">
+  <div class="page-width page-width--narrow">
     {%- for block in section.blocks -%} 
       <div class="faq-item">
         {%- if block.settings.title != blank -%}
