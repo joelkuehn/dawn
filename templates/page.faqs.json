@@ -56,6 +56,13 @@
             "title": "Where is the Night Swim Roastery?",
             "text": "<p>Our roastery is located at 4500 Old Pineville Road, Charlotte NC 28217. You’re welcome to visit any time! We’d love to say hey.<\/p>"
           }
+        },
+        "ecf84f5d-fff0-4c8e-9b59-b7241670766b": {
+          "type": "text",
+          "settings": {
+            "title": "How can I contact Night Swim about a job opportunity?",
+            "text": "<p>If you’re interested in joining our team, send an email to <a href=\"mailto:info@nightswimcoffee.com\" title=\"mailto:info@nightswimcoffee.com\">info@nightswimcoffee.com<\/a><\/p>"
+          }
         }
       },
       "block_order": [
@@ -65,7 +72,8 @@
         "5fb0b802-5319-4502-95cd-200bd8996ceb",
         "cef10e1b-1745-4167-8d6b-264d03f5ac37",
         "f1827520-fb9d-44ff-a28d-6801219ae215",
-        "c1ed84fa-bf17-47d5-a751-902f05ade66d"
+        "c1ed84fa-bf17-47d5-a751-902f05ade66d",
+        "ecf84f5d-fff0-4c8e-9b59-b7241670766b"
       ],
       "settings": {
       }
