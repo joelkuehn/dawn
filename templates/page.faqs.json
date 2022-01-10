@@ -5,6 +5,39 @@
       "settings": {
       }
     },
+    "1641785331b9231729": {
+      "type": "accordion",
+      "blocks": {
+        "16417853317f4aa7d9-0": {
+          "type": "text",
+          "settings": {
+            "title": "What coffee do you serve?",
+            "text": "<p>We serve Night Swim coffee in all of our cafes. We feature two year-round blends, an espresso and a filter coffee. You’ll also be able to sip and buy retail bags of rotating Single-Origin offerings.<\/p>"
+          }
+        },
+        "16417853317f4aa7d9-1": {
+          "type": "text",
+          "settings": {
+            "title": "Where can I find your coffee?",
+            "text": "<p>Our coffee is served in all Night Swim Coffee, Not Just Coffee, and Undercurrent Coffee locations.<\/p>"
+          }
+        },
+        "16417853317f4aa7d9-2": {
+          "type": "text",
+          "settings": {
+            "title": "Question",
+            "text": "<p>Lorem ipsum<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16417853317f4aa7d9-0",
+        "16417853317f4aa7d9-1",
+        "16417853317f4aa7d9-2"
+      ],
+      "settings": {
+      }
+    },
     "1634243313a0b04d9c": {
       "type": "image-with-text",
       "blocks": {
@@ -76,45 +109,12 @@
         "color_scheme": "background-1",
         "full_width": true
       }
-    },
-    "1641785331b9231729": {
-      "type": "accordion",
-      "blocks": {
-        "16417853317f4aa7d9-0": {
-          "type": "text",
-          "settings": {
-            "title": "What coffee do you serve?",
-            "text": "<p>We serve Night Swim coffee in all of our cafes. We feature two year-round blends, an espresso and a filter coffee. You’ll also be able to sip and buy retail bags of rotating Single-Origin offerings.<\/p>"
-          }
-        },
-        "16417853317f4aa7d9-1": {
-          "type": "text",
-          "settings": {
-            "title": "Where can I find your coffee?",
-            "text": "<p>Our coffee is served in all Night Swim Coffee, Not Just Coffee, and Undercurrent Coffee locations.<\/p>"
-          }
-        },
-        "16417853317f4aa7d9-2": {
-          "type": "text",
-          "settings": {
-            "title": "Question",
-            "text": "<p>Lorem ipsum<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "16417853317f4aa7d9-0",
-        "16417853317f4aa7d9-1",
-        "16417853317f4aa7d9-2"
-      ],
-      "settings": {
-      }
     }
   },
   "order": [
     "main",
+    "1641785331b9231729",
     "1634243313a0b04d9c",
-    "1634243985d64c22ca",
-    "1641785331b9231729"
+    "1634243985d64c22ca"
   ]
 }
