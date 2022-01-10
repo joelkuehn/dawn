@@ -1,12 +1,58 @@
-{% schema %}
-  {
-    "name": "Accordion",
-    "settings": []
-  }
-{% endschema %}
+{{ 'section-accordion.css' | asset_url | stylesheet_tag }}
+
+<section id="accordion-{{ section.id }}" class="accordion">
+  {%- for block in section.blocks -%} 
+  	<div class="faq-item">
+      <div class="page-width">
+      <div class="slide-text-wrap">
+        {%- if block.settings.title != blank -%}
+      	  <h2 class="banner__heading h1" {{ block.shopify_attributes }}>
+            <span>{{ block.settings.title | escape }}</span>
+          </h2>
+        {%- endif -%}
+        {%- if block.settings.text != blank -%}
+      	  <div class="banner__text" {{ block.shopify_attributes }}>
+            {{ block.settings.text }}
+          </div>
+        {%- endif -%}
+		{%- if block.settings.button_label != blank -%}
+      		<a{% if block.settings.button_link != blank %} href="{{ block.settings.button_link }}"{% endif %} class="button button--secondary"{% if block.settings.button_link == blank %} aria-disabled="true"{% endif %}>{{ block.settings.button_label | escape }}</a>
+         {%- endif -%}
+      </div>
+      </div>
+    </div>
+  {%- endfor -%}
+</section>
+
+
 
 {% stylesheet %}
+
 {% endstylesheet %}
 
 {% javascript %}
+	jQuery(document).ready(function($) {
+		$('.slideshow').slick({
+            adaptiveHeight: false,
+            autoplay: true,
+            autoplaySpeed: 5000,
+            arrows: true,
+            dots: true,
+            fade: true,
+            slidesToScroll: 1,
+            slidesToShow: 1,
+            responsive: [
+                {
+                    breakpoint: 1804,
+                    settings: {
+                        arrows: true,
+                        dots: true,
+                        slidesToShow: 1,
+                    }
+                }
+            ]
+        });
+	});
+
 {% endjavascript %}
+
