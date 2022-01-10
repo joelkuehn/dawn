@@ -12,7 +12,9 @@ width: 100%
 position: relative;
 transition: all 500ms linear;
 -webkit-transform: rotate(0deg);
-transform: rotate(0deg)
+transform: rotate(0deg);
+  
+  border-bottom:1px solid #000;
 }
 
 .block-faq .faq-item.active {
@@ -41,31 +43,12 @@ color: #fff;
 font-size: 18px;
 line-height: 27px;
 border-radius: 0px;
-max-height: 140px
-  border-bottom:1px solid #000;
+max-height: 140px;
 }
 @media (max-width:1024px) {.block-faq .faq-item .accordion {
 max-height: inherit
 }
 
-}
-.block-faq .faq-item .accordion:before {
-content: '';
-position: absolute;
-top: -8px;
-right: -33px;
-display: block;
-width: 0;
-height: 0;
-border-left: 50px solid transparent;
-border-right: 50px solid transparent;
-border-bottom: 50px solid #fff;
--webkit-transform: rotate(45deg);
-transform: rotate(45deg)
-}
-
-.block-faq .faq-item .accordion img {
-max-width: 140px
 }
 .block-faq .active,.block-faq .accordion:hover,.block-faq button:focus {
 border: none
