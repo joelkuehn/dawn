@@ -1638,6 +1638,34 @@
       }
     },
     "slideshow": {
+      "name": "Slideshow",
+      "blocks": {
+        "slide": {
+          "name": "Slide",
+          "settings": {
+            "image": {
+              "label": "Image"
+            },
+            "title": {
+              "label": "Header"
+            },
+            "text": {
+              "label": "Text"
+            },
+            "button_label": {
+              "label": "Button Label"
+            },
+            "button_link": {
+              "label": "Button Link"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Slideshow"
+      }
+    },
+    "accordion": {
       "name": "Accordion",
       "blocks": {
         "slide": {
