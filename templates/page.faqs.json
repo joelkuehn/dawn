@@ -42,6 +42,13 @@
             "title": "Do you serve food?",
             "text": "<p>All Night Swim cafe locations have full food menus with pastries made fresh daily. The Night Swim roastery has grab-and-go food options along with bagels.<\/p>"
           }
+        },
+        "f1827520-fb9d-44ff-a28d-6801219ae215": {
+          "type": "text",
+          "settings": {
+            "title": "Do you have gluten free, nut free, or dairy free options?",
+            "text": "<p>We offer a selection of items that do not contain gluten, nuts, or dairy, however we cannot guarantee that there is no cross-contamination from these products since we do use them in our kitchens.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -49,7 +56,8 @@
         "16417853317f4aa7d9-1",
         "16417853317f4aa7d9-2",
         "5fb0b802-5319-4502-95cd-200bd8996ceb",
-        "cef10e1b-1745-4167-8d6b-264d03f5ac37"
+        "cef10e1b-1745-4167-8d6b-264d03f5ac37",
+        "f1827520-fb9d-44ff-a28d-6801219ae215"
       ],
       "settings": {
       }
