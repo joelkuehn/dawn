@@ -45,7 +45,7 @@
             "type": "link_list",
             "settings": {
               "heading": "",
-              "menu": ""
+              "menu": "footer-locations"
             }
           },
           "d60a5732-3529-45fb-82a7-7ab1947e5150": {
@@ -60,7 +60,7 @@
             "type": "link_list",
             "settings": {
               "heading": "",
-              "menu": ""
+              "menu": "footer-right"
             }
           }
         },
