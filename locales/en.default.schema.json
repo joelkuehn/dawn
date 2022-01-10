@@ -1681,7 +1681,7 @@
         }
       },
       "presets": {
-        "name": "Slideshow"
+        "name": "Accordion"
       }
     }
   }
