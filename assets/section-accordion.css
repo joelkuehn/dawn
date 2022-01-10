@@ -5,16 +5,16 @@ padding: 0 0 100px 0;
 min-height: 250px;
 background: #fff
 }
-.block-faq .row .faq {
+.block-faq .faq {
 width: 100%
 }
-.block-faq .row .faq-item {
+.block-faq .faq-item {
 position: relative;
 transition: all 500ms linear;
 -webkit-transform: rotate(0deg);
 transform: rotate(0deg)
 }
-.block-faq .row .faq-item:after {
+.block-faq .faq-item:after {
 position: absolute;
 content: '';
 position: absolute;
@@ -30,7 +30,7 @@ transition: all 500ms linear;
 transform: rotate(135deg);
 pointer-events: none
 }
-@media (max-width:1024px) {.block-faq .row .faq-item:after {
+@media (max-width:1024px) {.block-faq .faq-item:after {
 top: 15px;
 right: 15px;
 width: 20px;
@@ -38,17 +38,17 @@ height: 20px
 }
 
 }
-.block-faq .row .faq-item.active {
+.block-faq .faq-item.active {
 transition: all 500ms linear;
 -webkit-transform: rotate(0deg);
 transform: rotate(0deg)
 }
-.block-faq .row .faq-item.active:after {
+.block-faq .faq-item.active:after {
 transition: all 500ms linear;
 -webkit-transform: rotate(0deg);
 transform: rotate(0deg)
 }
-.block-faq .row .faq-item .accordion {
+.block-faq .faq-item .accordion {
 background-color: #E8F4FA;
 position: relative;
 cursor: pointer;
@@ -69,12 +69,12 @@ line-height: 27px;
 border-radius: 0px;
 max-height: 140px
 }
-@media (max-width:1024px) {.block-faq .row .faq-item .accordion {
+@media (max-width:1024px) {.block-faq .faq-item .accordion {
 max-height: inherit
 }
 
 }
-.block-faq .row .faq-item .accordion:before {
+.block-faq .faq-item .accordion:before {
 content: '';
 position: absolute;
 top: -8px;
@@ -88,12 +88,12 @@ border-bottom: 50px solid #fff;
 -webkit-transform: rotate(45deg);
 transform: rotate(45deg)
 }
-@media (max-width:1024px) {.block-faq .row .faq-item .accordion:before {
+@media (max-width:1024px) {.block-faq .faq-item .accordion:before {
 display: none
 }
 
 }
-.block-faq .row .faq-item .accordion:after {
+.block-faq .faq-item .accordion:after {
 content: '';
 position: absolute;
 bottom: -8px;
@@ -107,12 +107,12 @@ border-top: 50px solid #fff;
 -webkit-transform: rotate(-45deg);
 transform: rotate(-45deg)
 }
-@media (max-width:1024px) {.block-faq .row .faq-item .accordion:after {
+@media (max-width:1024px) {.block-faq .faq-item .accordion:after {
 display: none
 }
 
 }
-.block-faq .row .faq-item .accordion img {
+.block-faq .faq-item .accordion img {
 max-width: 140px
 }
 .block-faq .active,.block-faq .accordion:hover,.block-faq button:focus {
