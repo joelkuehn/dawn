@@ -1648,12 +1648,6 @@
             },
             "text": {
               "label": "Text"
-            },
-            "button_label": {
-              "label": "Button Label"
-            },
-            "button_link": {
-              "label": "Button Link"
             }
           }
         }
