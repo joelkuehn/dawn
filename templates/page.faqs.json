@@ -35,13 +35,21 @@
             "title": "What will I receive in a subscription from you?",
             "text": "<p>Our subscription boxes will feature a one bag or two bag option. Your order will be roasted and sent to you based on a frequency of your choosing. One bag subscriptions will contain a rotating Single-Origin offering. Two bag subscriptions will contain a year-round blend and a rotating Single-Origin offering.<\/p>"
           }
+        },
+        "cef10e1b-1745-4167-8d6b-264d03f5ac37": {
+          "type": "text",
+          "settings": {
+            "title": "Do you serve food?",
+            "text": "<p>All Night Swim cafe locations have full food menus with pastries made fresh daily. The Night Swim roastery has grab-and-go food options along with bagels.<\/p>"
+          }
         }
       },
       "block_order": [
         "16417853317f4aa7d9-0",
         "16417853317f4aa7d9-1",
         "16417853317f4aa7d9-2",
-        "5fb0b802-5319-4502-95cd-200bd8996ceb"
+        "5fb0b802-5319-4502-95cd-200bd8996ceb",
+        "cef10e1b-1745-4167-8d6b-264d03f5ac37"
       ],
       "settings": {
       }
