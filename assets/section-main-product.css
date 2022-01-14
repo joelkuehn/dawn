@@ -16,6 +16,13 @@
   padding-bottom: 0;
 }
 
+
+.product-form__submit {
+  border: 1pz solid rgba(var(--color-button),var(--alpha-button-background));
+    box-shadow: 0 0 0 0.1rem rgba(var(--color-button),var(--alpha-button-border));
+}
+
+
 @media screen and (max-width: 749px) {
   .product-section {
     margin-top: 0;
