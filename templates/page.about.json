@@ -11,7 +11,7 @@
         "1634243313a0b04d9c-0": {
           "type": "subheading",
           "settings": {
-            "subheading": "Image with text"
+            "subheading": "Our Cafes"
           }
         },
         "1634243313a0b04d9c-1": {
@@ -23,28 +23,54 @@
         "1634243313a0b04d9c-2": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        },
-        "1634243313a0b04d9c-3": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "text": "<p>In our cafes, Night Swim Coffee offers the same thoughtfully prepared food and beverages, attention to detail, and hospitable atmosphere that is enjoyed in the legacy Not Just Coffee and Undercurrent Coffee cafes, but in a setting designed in a collaborative effort across the team to create a unique experience at every location. <\/p>"
           }
         }
       },
       "block_order": [
         "1634243313a0b04d9c-0",
         "1634243313a0b04d9c-1",
-        "1634243313a0b04d9c-2",
-        "1634243313a0b04d9c-3"
+        "1634243313a0b04d9c-2"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/NSC_ROASTERYCUPPING_JMJ-18.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
+      }
+    },
+    "164263052384f9fff5": {
+      "type": "image-with-text",
+      "blocks": {
+        "1642630523d9c5c40f-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Our Roasting"
+          }
+        },
+        "1642630523d9c5c40f-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text"
+          }
+        },
+        "1642630523d9c5c40f-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Night Swim Coffee houses its roasting operations in Charlotte alongside an in-house cafe which together with the roastery serves as the epicenter of our concept. The facility highlights state-of-the art equipment and training that provides high quality and sustainable experiences to our guests. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1642630523d9c5c40f-0",
+        "1642630523d9c5c40f-1",
+        "1642630523d9c5c40f-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/NSC_ROASTERYCUPPING_JMJ-18.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first"
       }
     },
     "1634243985d64c22ca": {
@@ -82,6 +108,7 @@
   "order": [
     "main",
     "1634243313a0b04d9c",
+    "164263052384f9fff5",
     "1634243985d64c22ca"
   ]
 }
