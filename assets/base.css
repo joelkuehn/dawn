@@ -2532,6 +2532,6 @@ details-disclosure > details {
 .lity-hide{display:none}
  
   /*ABOUT*/
- .multicolumn.background-none .multicolumn-card__info {
+ .multicolumn.background-none .multicolumn-card__info * {
   	    color: rgba(var(--color-foreground))!important;
   }

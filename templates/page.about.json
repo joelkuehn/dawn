@@ -80,7 +80,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/NSC_ROASTERYCUPPING_JMJ-18.jpg",
-            "title": "",
+            "title": "Our Name",
             "text": "<p>In deciding on a name for this collaborative venture, we chose Night Swim Coffee to embody nostalgia, invoke feelings of excitement, adventure, and presence that are central to the experience that we seek to create, both in our cafes or simply when our coffee is consumed!<\/p>"
           }
         },
@@ -97,7 +97,7 @@
         "164263121398382032-1"
       ],
       "settings": {
-        "title": "Our Name",
+        "title": "",
         "image_width": "full",
         "image_ratio": "adapt",
         "column_alignment": "left",
