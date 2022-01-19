@@ -2533,5 +2533,5 @@ details-disclosure > details {
  
   /*ABOUT*/
  .multicolumn.background-none .multicolumn-card__info {
-  	    color: rgba(var(--color-foreground));
+  	    color: rgba(var(--color-foreground))!important;
   }
