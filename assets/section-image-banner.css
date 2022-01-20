@@ -10,6 +10,7 @@
   .banner:not(.banner--stacked) {
     flex-direction: row;
     flex-wrap: wrap;
+    padding: 150px 0 0;
   }
 }
 
@@ -61,7 +62,8 @@
   }
 
   .banner:not(.banner--adapt):not(.banner--stacked) > .banner__media {
-    height: 39rem;
+    height: 100vh;
+    position: absolute;
   }
 }
 
