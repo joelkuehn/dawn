@@ -2011,6 +2011,7 @@ body.index .header__icon, body.index .header__icon--cart .icon {
 .header__icon--cart .icon {
   height: 4.4rem;
   width: 4.4rem;
+  max-height:20px;
 }
 
 .header__icon--cart {
