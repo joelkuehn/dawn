@@ -134,7 +134,7 @@ font-weight:600;
   color:#fff;
 }
 
-.multicolumn#Locations *, .multicolumn.background-none.no-heading * {
+body.index .multicolumn#Locations *, body.index .multicolumn.background-none.no-heading * {
 	color:#fff!important;
 }
 @media screen and (max-width: 749px) {
