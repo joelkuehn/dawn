@@ -150,7 +150,7 @@ body.page-about .multicolumn:not(.background-secondary) {margin-bottom:0;}
 }
 
 @media screen and (max-width: 749px) {
-  .slider-buttons {display:none;}
+  .slider-buttons {display:none !important;}
   
   .multicolumn .page-width {
     padding: 0;
