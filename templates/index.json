@@ -161,8 +161,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Demo.jpg",
-            "title": "Oakhurst",
-            "text": "<div class=\"two-col\">\n<div class=\"col\"><a href=\"https:\/\/goo.gl\/maps\/6wRW9NbznLJUcNoJ8\" target=\"_blank\" class=\"location-address\">1640 Oakhurst Commons Dr.<br>Suite __<br>Charlotte, NC 28205<\/a><\/div>\n<div class=\"col col-two\">\n<p class=\"hours\">Open everyday<br>7a - 4p<\/p>\n<a href=\"tel:+17045558888\">704-555-8888<\/a>\n<\/div>\n<\/div>"
+            "title": "Bank of America Tower",
+            "text": "<div class=\"two-col\">\n<div class=\"col\"><a href=\"https:\/\/goo.gl\/maps\/hm7pBzkpygrdRhEu9\" target=\"_blank\" class=\"location-address\">620 S Tryon<br>Suite 150<br>Charlotte, NC 28202<\/a><\/div>\n<div class=\"col col-two\">\n<p class=\"hours\">Mon-Fri: 7-6<br>Sat: 9-1<br>Sun: Closed <\/p>\n<\/div>\n<\/div>"
           }
         },
         "column3": {
