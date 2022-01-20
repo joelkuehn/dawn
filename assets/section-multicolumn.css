@@ -134,7 +134,13 @@ font-weight:600;
   color:#fff;
 }
 
-body.index .multicolumn#Locations *:not(button), body.index .multicolumn.background-none.no-heading *:not(button) {
+body.index .multicolumn#Locations h3,
+body.index .multicolumn#Locations p,
+body.index .multicolumn#Locations a,
+body.index .multicolumn.background-none.no-heading h3,
+body.index .multicolumn.background-none.no-heading p,
+body.index .multicolumn.background-none.no-heading a
+{
 	color:#fff!important;
 }
 
