@@ -139,6 +139,9 @@ body.index .multicolumn#Locations *, body.index .multicolumn.background-none.no-
 }
 
 body.page-about .multicolumn:not(.background-secondary) {margin-bottom:0;}
+#shopify-section-template--15180948603086__164263209349555575 .multicolumn:not(.background-secondary) {
+  margin-top:0;
+}
 
 @media screen and (max-width: 749px) {
   .multicolumn .page-width {
