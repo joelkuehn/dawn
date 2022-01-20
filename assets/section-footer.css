@@ -381,7 +381,7 @@ noscript .localization-selector.link {
 }
 @media screen and (max-width: 749px) {
   .footer__copyright {
-  	text-align: left;
+  	text-align: center;
   }
 }
 
