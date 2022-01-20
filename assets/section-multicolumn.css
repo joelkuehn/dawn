@@ -134,7 +134,9 @@ font-weight:600;
   color:#fff;
 }
 
-
+#Locations * {
+	color:#fff!important;
+}
 @media screen and (max-width: 749px) {
   .multicolumn .page-width {
     padding: 0;
