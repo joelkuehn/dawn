@@ -151,7 +151,9 @@ body.page-about .multicolumn:not(.background-secondary) {margin-bottom:0;}
 
 @media screen and (max-width: 749px) {
   .slider-buttons {display:none !important;}
-  
+  #shopify-section-template--14818742862030__163423462154ad684f .title-wrapper-with-link {
+    display:none;
+  }
   .multicolumn .page-width {
     padding: 0;
   }
