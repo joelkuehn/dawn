@@ -80,25 +80,17 @@
         "1629916579dcc1a952-1": {
           "type": "text",
           "settings": {
-            "text": "<p>We love every coffee we offer, but there will always be coffees we’re particularly excited about. Subscribe for convenient access to the offerings we’re most thrilled to share.<\/p>"
-          }
-        },
-        "1629916579dcc1a952-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Subscribe",
-            "button_link": "\/"
+            "text": "<p>We love every coffee we offer, but there will always be coffees we’re particularly excited about. Subscribe for convenient access to the offerings we’re most thrilled to share.<\/p><p><strong>Coming soon!<\/strong><\/p><p><\/p>"
           }
         }
       },
       "block_order": [
         "6550a8c6-39de-4156-b217-f639f83a0837",
         "1629916579dcc1a952-0",
-        "1629916579dcc1a952-1",
-        "1629916579dcc1a952-2"
+        "1629916579dcc1a952-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/PRINT.png",
+        "image": "shopify:\/\/shop_images\/NSC-all-bags-front.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
