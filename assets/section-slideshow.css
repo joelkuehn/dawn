@@ -219,3 +219,6 @@
   color:#fff;
   font-family:'basic-sans';
 }
+.banner__text * {
+	color:#fff;
+}
