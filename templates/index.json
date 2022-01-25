@@ -103,9 +103,9 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/banner-test.jpg",
-            "title": "",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or story.<\/p>",
-            "button_label": "Shop Merch",
+            "title": "Night Swim Merch",
+            "text": "<p>Available at our stores now.<\/p>",
+            "button_label": "",
             "button_link": "#"
           }
         }
