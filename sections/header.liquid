@@ -20,7 +20,7 @@
     }
   }
 
-  header.header.sticky {
+  .animate header.header {
   	background:rgba(255,255,255,0.8);
     padding-top:20px;
     padding-bottom:20px;
@@ -30,20 +30,20 @@
 	box-shadow: 0 2px 2px 2px rgba(0,0,0,0.2); */
   }
   
-  body:not(.index) header.header.sticky a.header__heading-link,
-  header.header.sticky a.header__heading-link {
+  body:not(.index) .animate header.header a.header__heading-link,
+  .animate header.header a.header__heading-link {
     background:url({{ 'NightSwim_Icon.png' | asset_url }}) no-repeat center center;
     background-size:66px auto;
     width:66px;
     height:66px;
   }
-  header.header.sticky a.header__heading-link img {display:none;}
+  .animate header.header a.header__heading-link img {display:none;}
   
-  header.header.sticky .header__menu-item {
+  .animate header.header .header__menu-item {
   	color:#202A44 !important;
   }
   
-  body:not(.index) header.header a.header__heading-link {
+  body:not(.index) .animate header.header a.header__heading-link {
   	background:url({{ 'NightSwim_Primary_Dark.png' | asset_url }}) no-repeat center center;
     background-size:158px auto;
     width:158px;
