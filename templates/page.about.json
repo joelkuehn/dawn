@@ -79,8 +79,8 @@
         "164263121398382032-0": {
           "type": "column",
           "settings": {
-            "title": "Our Name",
-            "text": "<p>In deciding on a name for this collaborative venture, we chose Night Swim Coffee to embody nostalgia, invoke feelings of excitement, adventure, and presence that are central to the experience that we seek to create, both in our cafes or simply when our coffee is consumed!<\/p>"
+            "title": "",
+            "text": "<h2 class=\"h1\">Our Name<\/h2>\n<p>In deciding on a name for this collaborative venture, we chose Night Swim Coffee to embody nostalgia, invoke feelings of excitement, adventure, and presence that are central to the experience that we seek to create, both in our cafes or simply when our coffee is consumed!<\/p>"
           }
         }
       },
