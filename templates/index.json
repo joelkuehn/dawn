@@ -51,7 +51,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Featured Offerings",
-        "collection": "single-origin",
+        "collection": "featured-offerings",
         "products_to_show": 4,
         "show_view_all": true,
         "swipe_on_mobile": false,
