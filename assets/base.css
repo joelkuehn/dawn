@@ -176,6 +176,12 @@ html.no-js .no-js-hidden {
   padding: 0;
   margin: 0 auto;
 }
+  
+ #MainContent {
+ 	position:relative;
+   z-index:2;
+ }
+   
 
 @media screen and (min-width: 750px) {
   .page-width {
