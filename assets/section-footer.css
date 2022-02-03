@@ -414,7 +414,7 @@ noscript .localization-selector.link {
 
 .list-menu__item--link, .footer-block--menu--social span {
 text-transform:uppercase;
-  color:#202A44!important;
+  color:#ffffff!important;
   font-weight:bold;
   font-size:16px;
   font-family:'basic-sans';
@@ -426,7 +426,7 @@ text-transform:uppercase;
 
 a.link-email, a.link-email:link, a.link-email:visited,
 ul.child li a, ul.child li a:link, ul.child li a:visited {
-  color:#202A44!important;
+  color:#ffffff!important;
   font-weight:400;
   font-size:16px;
   font-family:'basic-sans';
