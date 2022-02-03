@@ -25,6 +25,7 @@
   padding: 1rem;
   border-radius:50%;
   border:1px solid #ffffff;
+  color:#fff;
 }
 
 .list-social__link:hover {
