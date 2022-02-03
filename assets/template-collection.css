@@ -54,6 +54,13 @@
   display: grid;
   grid-template-columns: repeat(2, auto);
   grid-template-rows: repeat(2, auto);
+  position:relative;
+  z-index:20;
+}
+
+#CollectionProductGrid {
+	position:relative;
+  z-index:2;
 }
 
 .collection-product-count {
