@@ -141,7 +141,6 @@
 }
   
 /* base */
-
 html.sr .load-hidden {
     visibility: hidden;
 }
@@ -2545,3 +2544,7 @@ details-disclosure > details {
   
   /*HOME*/
   .slideshow.carousel  .slick-dots {display:none!important;}
+  
+  ul#Locations > li > a {pointer-events:none}
+  
+  ul#Locations > li > a:hover {text-decoration:none;}
