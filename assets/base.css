@@ -2548,3 +2548,7 @@ details-disclosure > details {
   ul#Locations > li > a {pointer-events:none}
   
   ul#Locations > li > a:hover {text-decoration:none;}
+  
+  video::-webkit-media-controls-overlay-play-button {
+    display: none;
+  }
