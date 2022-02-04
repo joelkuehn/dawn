@@ -328,6 +328,10 @@
        		$(this).attr('data-lity', 'true');
          	console.log(this);
        });
+       
+       $('ul#Locations > li > a').each(function(e) {
+       		e.preventDefault();
+       });
 	});
       
     </script>
