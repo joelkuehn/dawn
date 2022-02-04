@@ -50,6 +50,10 @@
   margin-bottom: 15rem;
 }
 
+.collection--empty .title-wrapper .underlined-link, .collection--empty .title-wrapper a {
+  font-size:inherit;
+      color: rgb(var(--color-foreground));
+}
 .collection-filters {
   display: grid;
   grid-template-columns: repeat(2, auto);
