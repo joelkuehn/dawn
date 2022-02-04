@@ -2542,3 +2542,6 @@ details-disclosure > details {
  .multicolumn.background-none .multicolumn-card__info * {
   	    color: rgba(var(--color-foreground))!important;
   }
+  
+  /*HOME*/
+  .slideshow.carousel  .slick-dots {display:none!important;}
