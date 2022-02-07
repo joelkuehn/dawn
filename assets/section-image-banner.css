@@ -232,4 +232,5 @@ video.inline-video {
   bottom:0;
   right:0;  
   width:100%;
+  min-height:720px;
 }
