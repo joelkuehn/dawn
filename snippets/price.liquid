@@ -1,3 +1,11 @@
+{%- liquid
+assign wpd_variant = product.selected_or_first_available_variant
+  if use_variant
+    assign target = product.selected_or_first_available_variant
+  else
+    assign target = product
+  endif
+-%}
 
 {% capture wpd_discounted_prices %}{%- render 'wcp_discount'  wcp_discount:product , wpd_is_render:'yes' -%}{% endcapture %}
     
@@ -61,19 +69,22 @@
     Usage:
     {% render 'price', product: product %}
 {% endcomment %}
-{%- liquid
-  if use_variant
-    assign target = product.selected_or_first_available_variant
-  else
-    assign target = product
-  endif
 
-  assign compare_at_price = target.compare_at_price
-  assign price = target.price | default: 1999
+{%- liquid
+
+if target == product
+  assign compare_at_price = wcp_compare_at_price
+  assign price = wcp_price | default: 1999
   assign available = target.available | default: false
   assign money_price = price | money
-  if settings.currency_code_enabled
-    assign money_price = price | money_with_currency
+  
+  else
+  
+  assign compare_at_price = wcp_v_compare_at_price
+  assign price = wcp_v_price | default: 1999
+  assign available = target.available | default: false
+  assign money_price = price | money
+  
   endif
 
   if target == product and product.price_varies
@@ -150,10 +161,3 @@
     </span>
   {%- endif -%}
 </div>
-
-{%- assign wcp_prd_var = product -%}
-{%- unless wcp_prd_var == empty -%}
-            <script type='application/json' class='{%- for wcp_v in wcp_prd_var.variants -%} wcp_json_{{wcp_v.id}} {%- endfor -%} wcp_json_{{ wcp_prd_var.id }} wcp_json' id='wcp_json_{{ wcp_prd_var.id }}' > 
-                {%- render 'wcp_product_json' with wcp_prd_var -%}
-            </script>
-{%- endunless -%}
