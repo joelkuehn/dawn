@@ -43,19 +43,19 @@
 
             <tbody>
               {%- assign wcp_total_price = 0 -%} 
-{%- for item in cart.items -%}
-{%- include 'wcp_discount' with item.product -%}
-                        {%- include 'wcp_variant' with item.variant -%} 
-                        {%- include 'wcp_vd_discount' with item -%} 
-                        {%- assign  wcp_custom_final_Price = item.final_price  -%} 
-                        {%- if wcp_v_price < wcp_custom_final_Price -%}
-                  			{%- assign wcp_line_price = wcp_v_price | floor | minus: 0 | times: item.quantity -%}
-                        {%- else -%}
-                            {%- assign wcp_v_price = wcp_custom_final_Price | floor | minus: 0 -%}
-               	            {%- assign wcp_line_price = wcp_custom_final_Price | floor | minus: 0 | times: item.quantity -%}
-                        {%- endif -%}
- {%- assign wcp_total_price = wcp_total_price | plus: wcp_line_price -%}	
- {{NextDiscountHtml}} 
+              {%- for item in cart.items -%}
+              {%- include 'wcp_discount' with item.product -%}
+              {%- include 'wcp_variant' with item.variant -%} 
+              {%- include 'wcp_vd_discount' with item -%} 
+              {%- assign  wcp_custom_final_Price = item.final_price  -%} 
+              {%- if wcp_v_price < wcp_custom_final_Price -%}
+              {%- assign wcp_line_price = wcp_v_price | floor | minus: 0 | times: item.quantity -%}
+              {%- else -%}
+              {%- assign wcp_v_price = wcp_custom_final_Price | floor | minus: 0 -%}
+              {%- assign wcp_line_price = wcp_custom_final_Price | floor | minus: 0 | times: item.quantity -%}
+              {%- endif -%}
+              {%- assign wcp_total_price = wcp_total_price | plus: wcp_line_price -%}	
+              {{NextDiscountHtml}} 
 
                 <tr class="cart-item" id="CartItem-{{ item.index | plus: 1 }}">
                   <td class="cart-item__media">
@@ -222,7 +222,7 @@
                     </div>
 
                     <cart-remove-button id="Remove-{{ item.index | plus: 1 }}" data-index="{{ item.index | plus: 1 }}">
-                      <a href="{{ item.url_to_remove }}" class="button button--tertiary" aria-label="{{ 'sections.cart.remove_title' | t: title: item.title }}">
+                      <a id="remove" href="{{ item.url_to_remove }}" class="button button--tertiary" aria-label="{{ 'sections.cart.remove_title' | t: title: item.title }}">
                         {% render 'icon-remove' %}
                       </a>
                     </cart-remove-button>
@@ -239,6 +239,14 @@
     <p class="visually-hidden" id="shopping-cart-line-item-status" aria-live="polite" aria-hidden="true" role="status">{{ 'accessibility.loading' | t }}</p>
   </form>
 </cart-items>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function(){
+    var WPD_reloadPage = function(e) {setTimeout(function(){window.location.reload();},2500);};
+    function wcp_build_event(x){for (var i = 0; i < x.length; i++) {x[i].addEventListener('click', WPD_reloadPage, false);}}
+    var x=document.querySelectorAll("#remove");wcp_build_event(x);
+  }, false);
+</script>
 
 {% schema %}
 {
