@@ -628,7 +628,7 @@ var fnCalled = false;
       data: JSON.stringify(wcp_data),
       type: 'POST',
       success: function (data, success) { 
-        $("#wcp-wcpModal-container").html("{{shop.metafields.wcp_net.netThankMsg}}");
+       $("#wcp-wcpModal-container").html($.parseHTML({{shop.metafields.wcp_net.netThankMsg | json}}));
         wcpClearCartnet();
         //return false; 
         if(window.wpd_net_waiting_time==undefined || isNaN(window.wpd_net_waiting_time)){
