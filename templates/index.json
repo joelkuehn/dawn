@@ -96,26 +96,6 @@
         "layout": "image_first"
       }
     },
-    "1629924605d0243796": {
-      "type": "slideshow",
-      "blocks": {
-        "1629924605d0243796-0": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/NSC-MERCH.jpg",
-            "title": "Night Swim Merch",
-            "text": "<p>Available at our stores now.<\/p>",
-            "button_label": "",
-            "button_link": "#"
-          }
-        }
-      },
-      "block_order": [
-        "1629924605d0243796-0"
-      ],
-      "settings": {
-      }
-    },
     "multi_column": {
       "type": "multicolumn",
       "blocks": {
@@ -222,7 +202,6 @@
     "image_banner",
     "featured_products",
     "1629916579dcc1a952",
-    "1629924605d0243796",
     "multi_column",
     "163423462154ad684f",
     "163120961845be377c"
