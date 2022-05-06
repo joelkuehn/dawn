@@ -11,6 +11,7 @@
         },
         "b6e682f5-38de-461a-b9c3-e0e470bda326": {
           "type": "video",
+          "disabled": true,
           "settings": {
             "video": "https:\/\/joelkuehn.com\/_client\/nsc\/Gradient31.mp4"
           }
