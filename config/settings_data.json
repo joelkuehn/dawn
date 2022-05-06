@@ -17,6 +17,19 @@
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
+        "blocks": {
+          "df67c34b-b305-4c57-99ce-c83139e5f98e": {
+            "type": "announcement",
+            "settings": {
+              "text": "Free Shipping On Oders Over $50",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "df67c34b-b305-4c57-99ce-c83139e5f98e"
+        ],
         "settings": {
         }
       },
