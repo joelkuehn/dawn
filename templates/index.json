@@ -29,7 +29,7 @@
         "b6e682f5-38de-461a-b9c3-e0e470bda326": {
           "type": "video",
           "settings": {
-            "video": "https:\/\/cdn.shopify.com\/s\/files\/1\/0594\/4957\/3582\/files\/Gradient_19_480P.mov?v=1651795673"
+            "video": ""
           }
         }
       },
@@ -64,7 +64,6 @@
     },
     "1629916579dcc1a952": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "6550a8c6-39de-4156-b217-f639f83a0837": {
           "type": "subheading",
