@@ -2197,6 +2197,7 @@ details[open] > .header__icon--menu .icon-hamburger {
   color: rgba(var(--color-foreground));
     text-deocration:none;
 }
+  body.index .header__active-menu-item,
   body.index .header__menu-item {
     color: #E7E7E0;
   }
