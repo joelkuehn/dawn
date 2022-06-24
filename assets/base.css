@@ -2213,6 +2213,10 @@ details[open] > .header__icon--menu .icon-hamburger {
 .header__menu-item:first-child {
   padding-left:0;
 }
+  body.index .header__submenu .header__menu-item, body.index .header__submenu .header__menu-item:hover {
+    color:#202a44!important;
+  }
+   
   
 
 .header__menu-item span {
