@@ -1,6 +1,7 @@
 <!doctype html>
 <html class="no-js sr" lang="{{ request.locale.iso_code }}">
   <head>
+	 {%- if dropinblog == 1 -%}{{ dropinblog_head_top }}{%- endif -%}
     <meta name="google-site-verification" content="lge0XDczhjdKp8nmMjL63KDnxksAnlLmaMbDGWojC1s" />
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -146,7 +147,8 @@
     {%- endunless -%}
 
     <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
-  </head>
+  	{%- if dropinblog == 1 -%}{{ dropinblog_head_bottom }}{%- endif -%}
+</head>
 
   <body class="{{ template | handleize }}">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
