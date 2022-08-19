@@ -97,7 +97,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/20220202_NSC_Interiors_JMJ-42.jpg",
             "title": "Oakhurst",
-            "text": "<div class=\"two-col\">\n<div class=\"col\"><a href=\"https:\/\/goo.gl\/maps\/6wRW9NbznLJUcNoJ8\" target=\"_blank\" class=\"location-address\">1640 Oakhurst Commons Dr.<br>Suite 306<br>Charlotte, NC 28205<\/a><\/div>\n<div class=\"col col-two\">\n<p class=\"hours\">Mon-Sat: 7-6<br>Sun: 8-5<\/p>\n<\/div>\n<\/div>"
+            "text": "<div class=\"two-col\">\n<div class=\"col\"><a href=\"https:\/\/goo.gl\/maps\/6wRW9NbznLJUcNoJ8\" target=\"_blank\" class=\"location-address\">1640 Oakhurst Commons Dr.<br>Suite 306<br>Charlotte, NC 28205<\/a><\/div>\n<div class=\"col col-two\">\n<p class=\"hours\">Mon-Sat: 7-4:30<br>Sun: 8-5<\/p>\n<\/div>\n<\/div>"
           }
         },
         "column2": {
@@ -113,7 +113,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/20220202_NSC_Interiors_JMJ-09.jpg",
             "title": "One Wells Fargo",
-            "text": "<div class=\"two-col\">\n<div class=\"col\"><a href=\"https:\/\/goo.gl\/maps\/rZMjqXdA2BZKmhfy6\" target=\"_blank\" class=\"location-address\">301 College Street Center<br>Charlotte, NC 28202<\/a><\/div>\n<div class=\"col col-two\">\n<p class=\"hours\">Mon-Fri: 7-4:30<br>Sat-Sun:8-5 Closed<\/p>\n<\/div>\n<\/div>"
+            "text": "<div class=\"two-col\">\n<div class=\"col\"><a href=\"https:\/\/goo.gl\/maps\/rZMjqXdA2BZKmhfy6\" target=\"_blank\" class=\"location-address\">301 College Street Center<br>Charlotte, NC 28202<\/a><\/div>\n<div class=\"col col-two\">\n<p class=\"hours\">Mon-Fri: 7-3<br>Sat-Sun: Closed<\/p>\n<\/div>\n<\/div>"
           }
         }
       },
