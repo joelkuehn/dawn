@@ -5,11 +5,13 @@
     "colors_text": "#202a44",
     "colors_outline_button_labels": "#FFFFFF",
     "colors_background_2": "#f8f8f8",
+    "type_header_font": "sans-serif",
+    "type_body_font": "sans-serif",
     "sale_badge_color_scheme": "accent-1",
     "sold_out_badge_color_scheme": "background-1",
     "accent_icons": "text",
-    "social_twitter_link": "#",
-    "social_facebook_link": "#",
+    "social_twitter_link": "",
+    "social_facebook_link": "facebook.com\/nightswimcoffee",
     "social_instagram_link": "https:\/\/www.instagram.com\/nightswimcoffee\/",
     "checkout_logo_image": "shopify:\/\/shop_images\/NightSwim_Primary_Dark.png",
     "checkout_accent_color": "#202a44",
@@ -103,7 +105,7 @@
       "main-password-footer": {
         "type": "main-password-footer",
         "settings": {
-          "color_scheme": "background-1"
+          "color_scheme": "inverse"
         }
       }
     },
