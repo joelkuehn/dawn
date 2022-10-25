@@ -17,6 +17,19 @@
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
+        "blocks": {
+          "ac699aec-c9e4-4c0d-b307-2dfa3f0b90d8": {
+            "type": "announcement",
+            "settings": {
+              "text": "- 10% off Karatina AB with code KARATINANOW -",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "ac699aec-c9e4-4c0d-b307-2dfa3f0b90d8"
+        ],
         "settings": {
         }
       },
