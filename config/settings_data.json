@@ -1,12 +1,12 @@
 {
   "current": {
     "colors_solid_button_labels": "#FFFFFF",
-    "colors_accent_1": "#202a44",
+    "colors_accent_1": "#ffffff",
     "colors_accent_2": "#60843a",
     "colors_text": "#202a44",
-    "colors_outline_button_labels": "#FFFFFF",
-    "colors_background_1": "#FFFFFF",
-    "colors_background_2": "#f8f8f8",
+    "colors_outline_button_labels": "#ffffff",
+    "colors_background_1": "#ffffff",
+    "colors_background_2": "#ffffff",
     "sale_badge_color_scheme": "accent-1",
     "sold_out_badge_color_scheme": "background-1",
     "accent_icons": "text",
