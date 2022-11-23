@@ -5,6 +5,7 @@
       "blocks": {
         "b6e682f5-38de-461a-b9c3-e0e470bda326": {
           "type": "video",
+          "disabled": true,
           "settings": {
             "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0ebd45e82b8c4377a22d39b372526221.mp4"
           }
@@ -12,13 +13,13 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Quality-driven roasting<br> and intentional hospitality"
+            "heading": "The Holiday Blend<br> Pre-Orders Available Now!"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Coffee",
+            "button_label_1": "Pre-order Here!",
             "button_link_1": "shopify:\/\/collections\/coffee",
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -33,7 +34,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Screen_Shot_2022-05-05_at_8.16.40_PM.png",
+        "image": "shopify:\/\/shop_images\/Webbanner_2.jpg",
         "desktop_text_box_position": "center",
         "color_scheme": "background-2",
         "stack_images_on_mobile": true,
