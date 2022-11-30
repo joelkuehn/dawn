@@ -24,7 +24,7 @@
             "type": "announcement",
             "settings": {
               "text": "WHOLE SITE IS 10% OFF THRU WEDNESDAY, 11\/30!",
-              "color_scheme": "accent-1",
+              "color_scheme": "inverse",
               "link": ""
             }
           }
