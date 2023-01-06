@@ -5,7 +5,6 @@
       "blocks": {
         "b6e682f5-38de-461a-b9c3-e0e470bda326": {
           "type": "video",
-          "disabled": true,
           "settings": {
             "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/76e9fa3b40de4b2e944417fd8624da2e.mp4"
           }
@@ -13,7 +12,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "The Holiday Blend <br>Pre-orders Available Now!"
+            "heading": "Quality Driven Roasting<br>Intentional Hospitality"
           }
         }
       },
@@ -22,7 +21,6 @@
         "heading"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Webbanner_2.jpg",
         "desktop_text_box_position": "center",
         "color_scheme": "background-2",
         "stack_images_on_mobile": true,
