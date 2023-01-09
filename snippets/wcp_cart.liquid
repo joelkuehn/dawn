@@ -67,7 +67,17 @@ reqJquery(function($){
 	{% assign is_wcp_wholesale_customer = false %}
 	{% assign active_discounts = shop.metafields.wcp_active_discounts.wcp_active_discounts %}
 	{% assign active_discounts_array = active_discounts | split: ',' %}
-    {% assign customer_tags = customer.tags | downcase %}   
+
+    {% assign customer_tags = blank %}
+    {% for tag in customer.tags %}
+      {% assign tempTag = tag | downcase %}
+      {% assign customer_tags = customer_tags | prepend:tempTag %}
+      {% unless forloop.last %}
+        {% assign customer_tags = customer_tags | prepend:','  %}
+      {% endunless %}
+    {% endfor %}
+    {% assign customer_tags = customer_tags | split:',' %}
+  
 	{% if shop.metafields.wcp_status.wcp_status != 'disabled' and customer %}
       {% for discount_key in active_discounts_array %}
           {% assign key_split = discount_key | split: '-' %}

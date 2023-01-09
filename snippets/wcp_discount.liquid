@@ -12,8 +12,19 @@
 {% assign wcp_price_max = wcp_discount.price_max %}
 {% assign wcp_price = wcp_discount.price %}
 {% assign v_discount_tag = null %}
-{% assign customer_tags = customer.tags | downcase %}
+
+{% assign customer_tags = blank %}
+{% for tag in customer.tags %}
+  {% assign tempTag = tag | downcase %}
+  {% assign customer_tags = customer_tags | prepend:tempTag %}
+  {% unless forloop.last %}
+    {% assign customer_tags = customer_tags | prepend:','  %}
+  {% endunless %}
+{% endfor %}
+{% assign customer_tags = customer_tags | split:',' %}
+
 {% assign active_discounts = active_discounts | downcase %}
+{%- assign active_discounts_tag_array = blank -%}
 
 {% if shop.metafields.wcp_status.wcp_status != 'disabled' and customer %}
   {% assign p_discount_value = 0 %}
@@ -30,6 +41,7 @@
     {% endif %}
     {% assign p_key_original = p_key %}
     {% assign p_key = p_key | downcase %}
+    {%- assign active_discounts_tag_array = active_discounts_tag_array | prepend:',' | prepend:p_key -%}     
     {% if customer_tags contains p_key %}
       {% assign discountgroup = shop.metafields.wcp_discountgroup[discount_key] %}
       {% if discountgroup contains 'entire' %}
@@ -59,6 +71,7 @@
       {% endif %}
 {% endif %}
 {% endfor %}
+{% assign active_discounts_tag_array = active_discounts_tag_array | split:',' %}
 {% assign p_discount_tag = p_discount_tag | downcase %}
 {% if customer_tags contains p_discount_tag %}
     {% assign wcp_customer_tag = p_discount_tag %}
@@ -80,8 +93,8 @@
       {% assign sp_arr = sp | split: '--' %}
       {% assign sp_tag = sp_arr | first %}
       {% assign sp_tag = sp_tag | downcase %}
-      {% assign sp_var_arr = sp_arr | last | split: '^' %}
-      {% if active_discounts contains sp_tag %}
+      {% assign sp_var_arr = sp_arr | last | split: '^' %}      
+      {% if active_discounts_tag_array contains sp_tag %}
         {% if customer_tags contains sp_tag %}
 			{% if sp contains variant.id %}
 				{% assign splitter = variant.id  | append: '-' %}
@@ -148,10 +161,10 @@
       {% assign sp_arr = sp | split: '--' %}
       {% assign sp_tag = sp_arr | first %}
       {% assign sp_tag = sp_tag | downcase %}
-      {% assign sp_var_arr = sp_arr | last | split: '^' %}
-      {% if active_discounts contains sp_tag %}
-        {% if customer_tags contains sp_tag %}
-			{% if sp contains variant.id %}
+      {% assign sp_var_arr = sp_arr | last | split: '^' %}              
+      {% if active_discounts_tag_array contains sp_tag %}        
+        {% if customer_tags contains sp_tag %}          
+			{% if sp contains variant.id %}              
 				{% assign splitter = variant.id  | append: '-' %}
 				{% assign split_val = sp |split: splitter  %}
 				{% assign split_val = split_val[1] |split: '^'  %}

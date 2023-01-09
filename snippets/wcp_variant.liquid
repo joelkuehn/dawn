@@ -25,15 +25,24 @@
   {% if wcp_v_price > wcp_variant.price  %}
     {% assign wcp_v_price = wcp_variant.price %}
   {% endif %}
-  {% assign customer_tags = customer.tags | downcase %}
+  
+  {% assign customer_tags = blank %}
+  {% for tag in customer.tags %}
+    {% assign tempTag = tag | downcase %}
+    {% assign customer_tags = customer_tags | prepend:tempTag %}
+    {% unless forloop.last %}
+      {% assign customer_tags = customer_tags | prepend:','  %}
+    {% endunless %}
+  {% endfor %}
+  {% assign customer_tags = customer_tags | split:',' %}
+  
   {% assign ivp_price = 99999999999999999999999999999 %}
   {% if v_discount_tag %}
     {% for sp in set_prices_array %}
       {% assign sp_arr = sp | split: '--' %}
       {% assign sp_tag = sp_arr | first %}
-      {% assign sp_tag = sp_tag | downcase %}  
-      {% assign sp_tag_clone = active_discount_keys | where:sp_tag %}
-        {% if customer_tags contains sp_tag and sp_tag_clone != blank  %}
+      {% assign sp_tag = sp_tag | downcase %}        
+        {% if customer_tags contains sp_tag and active_discount_keys contains sp_tag  %}          
           {% assign sp_var_arr = sp_arr | last | split: '^' %}
           {% for value in sp_var_arr %}
             {% assign val_split = value | split: '-' %}
