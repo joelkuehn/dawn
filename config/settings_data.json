@@ -1,6 +1,6 @@
 {
   "current": {
-    "colors_solid_button_labels": "#FFFFFF",
+    "colors_solid_button_labels": "#202a44",
     "colors_accent_1": "#ffffff",
     "colors_accent_2": "#60843a",
     "colors_text": "#202a44",
@@ -9,7 +9,7 @@
     "colors_background_2": "#ffffff",
     "sale_badge_color_scheme": "accent-1",
     "sold_out_badge_color_scheme": "background-1",
-    "accent_icons": "text",
+    "accent_icons": "outline-button",
     "social_twitter_link": "",
     "social_facebook_link": "",
     "social_instagram_link": "https:\/\/www.instagram.com\/nightswimcoffee\/",
