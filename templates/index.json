@@ -73,14 +73,22 @@
         "1629916579dcc1a952-1": {
           "type": "text",
           "settings": {
-            "text": "<p>We love every coffee we offer, but there will always be coffees we’re particularly excited about. Subscribe for convenient access to the offerings we’re most thrilled to share.<\/p><p><strong>Coming soon!<\/strong><\/p><p><\/p>"
+            "text": "<p>We love every coffee we offer, but there will always be coffees we’re particularly excited about. Subscribe for convenient access to the offerings we’re most thrilled to share.<\/p>"
+          }
+        },
+        "d5c0e8c7-7587-4edb-9f07-938ac0288a39": {
+          "type": "button",
+          "settings": {
+            "button_label": "subscribe to happiness here!",
+            "button_link": "shopify:\/\/collections\/subscriptions"
           }
         }
       },
       "block_order": [
         "6550a8c6-39de-4156-b217-f639f83a0837",
         "1629916579dcc1a952-0",
-        "1629916579dcc1a952-1"
+        "1629916579dcc1a952-1",
+        "d5c0e8c7-7587-4edb-9f07-938ac0288a39"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/DSCF2904Low.jpg",
