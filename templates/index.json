@@ -12,14 +12,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "New Night Swim Merch<br>Available Now!"
+            "heading": "25% Off All<br>Single Origin Coffee!"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Order Now!",
-            "button_link_1": "shopify:\/\/collections\/gear",
+            "button_label_1": "Find Single Origins here!",
+            "button_link_1": "shopify:\/\/collections\/single-origin",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
