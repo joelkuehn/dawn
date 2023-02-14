@@ -12,14 +12,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "25% Off All<br>Single Origin Coffee!"
+            "heading": "Quality Driven Roasting<br>Intentional Hospitality"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Find Single Origins here!",
-            "button_link_1": "shopify:\/\/collections\/single-origin",
+            "button_label_1": "SHOP MERCH HERE",
+            "button_link_1": "shopify:\/\/collections\/gear",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
