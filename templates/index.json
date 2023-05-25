@@ -123,12 +123,21 @@
             "title": "One Wells Fargo",
             "text": "<div class=\"two-col\">\n<div class=\"col\"><a href=\"https:\/\/goo.gl\/maps\/rZMjqXdA2BZKmhfy6\" target=\"_blank\" class=\"location-address\">301 College Street Center<br>Charlotte, NC 28202<\/a><\/div>\n<div class=\"col col-two\">\n<p class=\"hours\">Mon-Fri: 7-3<br>Sat-Sun: Closed<\/p>\n<\/div>\n<\/div>"
           }
+        },
+        "ea96934a-9913-441e-95f7-d51a668eb6e0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OptimistParkInside.jpg",
+            "title": "Optimist Park",
+            "text": "<div class=\"two-col\">\n<div class=\"col\"><a href=\"https:\/\/goo.gl\/maps\/zsbjLCcn8ikJWQzy6\" target=\"_blank\" class=\"location-address\">1824 N Brevard Street<br>Charlotte, NC 28206<\/a><\/div>\n<div class=\"col col-two\">\n<p class=\"hours\">Mon-Fri: 7-5<br>Sat. 8-6<br>Sunday 8-5<\/p>\n<\/div>\n<\/div>"
+          }
         }
       },
       "block_order": [
         "column1",
         "column2",
-        "column3"
+        "column3",
+        "ea96934a-9913-441e-95f7-d51a668eb6e0"
       ],
       "settings": {
         "title": "Locations",
