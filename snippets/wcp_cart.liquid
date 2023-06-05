@@ -124,10 +124,9 @@ reqJquery(function($){
         });  
   {% endif %}
   function wcpolesaleCheckout(){
-    if(window.location.host == "tungstenandtool.com"){
-      if(draftAPIRequestProcessing == true){return false;}
-      draftAPIRequestProcessing = true;
-    }
+    if(draftAPIRequestProcessing == true){return false;}
+    draftAPIRequestProcessing = true;
+    
     window.wcp_data.action_type = 'checkout';
     if ($("[name='note']").length) {
       window.wcp_data.wcp_cart.note = $("[name='note']")[0].value
@@ -228,11 +227,16 @@ reqJquery(function($){
                   if(window.is_wcp_custom_param != undefined &&  window.is_wcp_custom_param ==true){
     				        orderRedirectUrl = orderRedirectUrl += "?" + window.wcp_cusome_invoiceUrlParams.join("&");
     		          }
-              }              
+              }
+              if(window.wpd_checkout_redirect_delay==undefined || isNaN(window.wpd_checkout_redirect_delay)){
+                window.wpd_checkout_redirect_delay=500;
+              }else{
+                window.wpd_checkout_redirect_delay=window.wpd_checkout_redirect_delay < 500 ? 500 : window.wpd_checkout_redirect_delay;                
+              }
               setTimeout(function(){
                 wcpClearCart();
-                window.location.href = orderRedirectUrl;                     
-              }, 500);
+                checkInvoiceAvailability(orderRedirectUrl,1);                    
+              },window.wpd_checkout_redirect_delay);
             } else {
               wcpClearCart();
               window.location.href = "/checkout";               
@@ -246,6 +250,18 @@ reqJquery(function($){
 
   }
 
+  function checkInvoiceAvailability(url,tryCount) {    
+      fetch(url, {
+          method: "GET",
+          credentials: "same-origin",
+      }).then((response) => {
+          if(response.status != 200 && tryCount < 5){
+              setTimeout(function(){tryCount++; checkInvoiceAvailability(url,tryCount)},1000);
+          }else{
+              window.location.href = url;
+          }        
+      });    
+  }
 
   function sameDomainAjax (paramHash, successCallback) {
     $.ajax({
@@ -586,9 +602,11 @@ var fnCalled = false;
     }
 //     ensureStock();
     $('body').on('change', "input[name='updates[]'], input[id^='updates_'], input[id^='Updates_']", function(e) {
-   	  e.preventDefault();  
-       ensureStock();
-       setTimeout(function(){$("form[action$='cart']").submit();},500);      
+       if(window.wpd_bypass_quantity_reload != true) {
+          e.preventDefault();  
+          ensureStock();
+          setTimeout(function(){$("form[action$='cart']").submit();},500);   
+       }   
     });
     
     $('[max]').change(function() {
