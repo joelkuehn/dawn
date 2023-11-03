@@ -5,6 +5,7 @@
       "blocks": {
         "b6e682f5-38de-461a-b9c3-e0e470bda326": {
           "type": "video",
+          "disabled": true,
           "settings": {
             "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0ebd45e82b8c4377a22d39b372526221.mp4"
           }
@@ -33,7 +34,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/DSCF9655_1_1.jpg",
+        "image": "shopify:\/\/shop_images\/DSCF9655_2.jpg",
         "desktop_text_box_position": "center",
         "color_scheme": "background-2",
         "stack_images_on_mobile": true,
