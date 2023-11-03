@@ -33,8 +33,11 @@
         "heading",
         "button"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Artboard_1.jpg",
+        "image": "shopify:\/\/shop_images\/DSCF9655_3.jpg",
         "desktop_text_box_position": "center",
         "color_scheme": "background-2",
         "stack_images_on_mobile": true,
