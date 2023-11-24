@@ -19,8 +19,8 @@
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "SHOP MERCH HERE",
-            "button_link_1": "shopify:\/\/collections\/gear",
+            "button_label_1": "SHOP HOLIDAY HERE!",
+            "button_link_1": "shopify:\/\/collections\/holiday-gifts",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
