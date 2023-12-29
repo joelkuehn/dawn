@@ -3,6 +3,12 @@
     "image_banner": {
       "type": "image-banner",
       "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Save with a New Year <br> Coffee Subscription!<br>"
+          }
+        },
         "b6e682f5-38de-461a-b9c3-e0e470bda326": {
           "type": "video",
           "disabled": true,
@@ -10,17 +16,11 @@
             "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0ebd45e82b8c4377a22d39b372526221.mp4"
           }
         },
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Fresh Holiday<br>Coffee & Gear Available Now!"
-          }
-        },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "SHOP HOLIDAY HERE!",
-            "button_link_1": "shopify:\/\/collections\/holiday-gifts",
+            "button_label_1": "Subscribe Now!",
+            "button_link_1": "shopify:\/\/collections\/subscriptions",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -29,15 +29,15 @@
         }
       },
       "block_order": [
-        "b6e682f5-38de-461a-b9c3-e0e470bda326",
         "heading",
+        "b6e682f5-38de-461a-b9c3-e0e470bda326",
         "button"
       ],
       "custom_css": [
 
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/DSCF2840.jpg",
+        "image": "shopify:\/\/shop_images\/NSCSubscriptionBannerPhoto.jpg",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "background-2",
         "stack_images_on_mobile": true,
