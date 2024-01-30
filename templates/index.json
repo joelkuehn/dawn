@@ -6,7 +6,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Save With A New Year <br> Coffee Subscription!<br>"
+            "heading": "New Coffee Release <br> Aquaires - Red Honey<br>"
           }
         },
         "b6e682f5-38de-461a-b9c3-e0e470bda326": {
@@ -19,8 +19,8 @@
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Subscribe Now!",
-            "button_link_1": "shopify:\/\/collections\/subscriptions",
+            "button_label_1": "Shop Now!",
+            "button_link_1": "shopify:\/\/products\/aquiares-red-honey",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -37,8 +37,8 @@
 
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/NSCSubscriptionBannerPhoto.jpg",
-        "desktop_text_box_position": "flex-end",
+        "image": "shopify:\/\/shop_images\/DSCF1290.jpg",
+        "desktop_text_box_position": "center",
         "color_scheme": "background-2",
         "stack_images_on_mobile": true,
         "adapt_height_first_image": false
