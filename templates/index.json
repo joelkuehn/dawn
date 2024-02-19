@@ -6,7 +6,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "New Coffee Release <br> Aquiares - Red Honey<br>"
+            "heading": "Two Coffees, One Origin: <br> Yunnan, China<br>"
           }
         },
         "b6e682f5-38de-461a-b9c3-e0e470bda326": {
@@ -20,7 +20,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Now!",
-            "button_link_1": "shopify:\/\/products\/aquiares-red-honey",
+            "button_link_1": "shopify:\/\/collections\/coffees",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -37,7 +37,7 @@
 
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/DSCF1290.jpg",
+        "image": "shopify:\/\/shop_images\/DSCF1848.jpg",
         "desktop_text_box_position": "center",
         "color_scheme": "background-2",
         "stack_images_on_mobile": true,
