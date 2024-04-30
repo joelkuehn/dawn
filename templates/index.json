@@ -6,7 +6,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "New Coffee!<br>Las Guacamayas - Natural<br>"
+            "heading": "New Rwandan Coffees! <br> Washed and Natural"
           }
         },
         "b6e682f5-38de-461a-b9c3-e0e470bda326": {
@@ -20,7 +20,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Now!",
-            "button_link_1": "shopify:\/\/products\/las-guacamayas-natural",
+            "button_link_1": "shopify:\/\/collections\/coffee",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -37,7 +37,7 @@
 
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/DSCF2923_1.jpg",
+        "image": "shopify:\/\/shop_images\/BannerImageLowRes_4f519a03-01be-43aa-9fb8-d15a958aff7e.jpg",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "background-2",
         "stack_images_on_mobile": true,
