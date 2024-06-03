@@ -23,6 +23,7 @@
         "blocks": {
           "df67c34b-b305-4c57-99ce-c83139e5f98e": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "Save 15% Off All 12oz Coffee Bags This Weekend! Use code MEMORIALDAY",
               "color_scheme": "inverse",
