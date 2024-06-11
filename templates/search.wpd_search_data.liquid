@@ -14,6 +14,10 @@
         [
             {% for item in search.results %}
 				
+                {%- comment %}<locksmith:1db7>{% endcomment -%}
+                  {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: item, subject_parent: search, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                {%- comment %}</locksmith:1db7>{% endcomment -%}
+				
                 {% capture wlm_check %}{% include 'wlm-search' with item %}{% endcapture %}
                	{% unless wlm_check contains "Liquid error" %}
                 {% include 'wlm-search' with item %}
