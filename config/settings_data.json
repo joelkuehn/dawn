@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "colors_solid_button_labels": "#ffffff",
@@ -6,7 +15,7 @@
     "colors_text": "#202a44",
     "colors_outline_button_labels": "#202a44",
     "colors_background_1": "#fff",
-    "colors_background_2": "#fafafa",
+    "colors_background_2": "#202a44",
     "sale_badge_color_scheme": "accent-1",
     "sold_out_badge_color_scheme": "background-1",
     "accent_icons": "outline-button",
