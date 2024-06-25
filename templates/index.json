@@ -110,6 +110,26 @@
         "layout": "image_first"
       }
     },
+    "slideshow_nGCGFg": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_rBCbxY": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_3_027bf312-be41-4014-b9fc-c1e85b27a002.jpg",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_rBCbxY"
+      ],
+      "settings": {
+      }
+    },
     "multi_column": {
       "type": "multicolumn",
       "blocks": {
@@ -225,6 +245,7 @@
     "image_banner",
     "featured_products",
     "1629916579dcc1a952",
+    "slideshow_nGCGFg",
     "multi_column",
     "163423462154ad684f",
     "163120961845be377c"
