@@ -15,7 +15,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "TWO NEW BOLIVIAN<br>Finca Rosita Natural & Illimani Lot #10!"
+            "heading": "Now Available! <br> AeroPress Clear Coffee Maker!"
           }
         },
         "b6e682f5-38de-461a-b9c3-e0e470bda326": {
@@ -29,7 +29,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Now!",
-            "button_link_1": "shopify:\/\/collections\/coffee",
+            "button_link_1": "shopify:\/\/products\/aeropress",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -46,7 +46,7 @@
 
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Untitled_design_3.jpg",
+        "image": "shopify:\/\/shop_images\/Header_Image2.png",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "background-2",
         "stack_images_on_mobile": true,
