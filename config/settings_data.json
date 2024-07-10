@@ -35,7 +35,7 @@
             "type": "announcement",
             "disabled": true,
             "settings": {
-              "text": "Save 15% Off All 12oz Coffee Bags This Weekend! Use code MEMORIALDAY",
+              "text": "",
               "color_scheme": "inverse",
               "link": "shopify:\/\/collections\/coffees"
             }
