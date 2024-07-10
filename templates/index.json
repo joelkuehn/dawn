@@ -15,14 +15,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Now Available! <br> AeroPress Clear Coffee Maker!"
-          }
-        },
-        "b6e682f5-38de-461a-b9c3-e0e470bda326": {
-          "type": "video",
-          "disabled": true,
-          "settings": {
-            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0ebd45e82b8c4377a22d39b372526221.mp4"
+            "heading": "Now Available <br> AeroPress Clear Coffee Maker!"
           }
         },
         "button": {
@@ -35,12 +28,19 @@
             "button_link_2": "",
             "button_style_secondary_2": false
           }
+        },
+        "b6e682f5-38de-461a-b9c3-e0e470bda326": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0ebd45e82b8c4377a22d39b372526221.mp4"
+          }
         }
       },
       "block_order": [
         "heading",
-        "b6e682f5-38de-461a-b9c3-e0e470bda326",
-        "button"
+        "button",
+        "b6e682f5-38de-461a-b9c3-e0e470bda326"
       ],
       "custom_css": [
 
