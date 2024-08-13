@@ -30,19 +30,6 @@
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
-        "blocks": {
-          "df67c34b-b305-4c57-99ce-c83139e5f98e": {
-            "type": "announcement",
-            "settings": {
-              "text": "Use code \"SUMMERFUN\" for 20% your coffee order thru Monday 8\/12",
-              "color_scheme": "inverse",
-              "link": "shopify:\/\/collections\/coffees"
-            }
-          }
-        },
-        "block_order": [
-          "df67c34b-b305-4c57-99ce-c83139e5f98e"
-        ],
         "settings": {
         }
       },
