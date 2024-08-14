@@ -28,19 +28,6 @@
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
-        "blocks": {
-          "announcement_pXVtqP": {
-            "type": "announcement",
-            "settings": {
-              "text": "Please Account For Possible Shipping Delays Due to Tropical Storm Debby",
-              "color_scheme": "accent-1",
-              "link": ""
-            }
-          }
-        },
-        "block_order": [
-          "announcement_pXVtqP"
-        ],
         "settings": {
         }
       },
