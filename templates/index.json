@@ -15,7 +15,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Now Available <br> AeroPress Clear Coffee Maker!"
+            "heading": "New Coffee Release <br> Luis Calderon - Pink Bourbon"
           }
         },
         "button": {
@@ -46,7 +46,7 @@
 
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Header_Image2.png",
+        "image": "shopify:\/\/shop_images\/WebsiteBanner.jpg",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "background-2",
         "stack_images_on_mobile": true,
