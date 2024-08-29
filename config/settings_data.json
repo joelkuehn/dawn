@@ -30,6 +30,19 @@
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
+        "blocks": {
+          "announcement_xMfzGi": {
+            "type": "announcement",
+            "settings": {
+              "text": "Buy an Aeropress & get 25% off a bag of coffee! Use Code: BACKTOSCHOOL",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "announcement_xMfzGi"
+        ],
         "settings": {
         }
       },
