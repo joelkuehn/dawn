@@ -138,7 +138,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/OakhurstUpdatePhoto.jpg",
             "title": "Oakhurst",
-            "text": "<div class=\"two-col\">\n<div class=\"col\"><a href=\"https:\/\/goo.gl\/maps\/6wRW9NbznLJUcNoJ8\" target=\"_blank\" class=\"location-address\">1620 Oakhurst Commons Dr.<br>Suite 306<br>Charlotte, NC 28205<\/a><\/div>\n<div class=\"col col-two\">\n<p class=\"hours\">Mon-Fri: 7-4:30<br>Sat - Sun: 8-5<\/p>\n<\/div>\n<\/div>"
+            "text": "<div class=\"two-col\">\n<div class=\"col\"><a href=\"https:\/\/goo.gl\/maps\/6wRW9NbznLJUcNoJ8\" target=\"_blank\" class=\"location-address\">1620 Oakhurst Commons Dr.<br>Suite 306<br>Charlotte, NC 28205<\/a><\/div>\n<div class=\"col col-two\">\n<p class=\"hours\">Mon-Fri: 7-4:30<br>Sat - Sun: 7:30-5<\/p>\n<\/div>\n<\/div>"
           }
         },
         "column2": {
