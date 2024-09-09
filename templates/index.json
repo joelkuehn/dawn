@@ -15,14 +15,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "New Coffee Release <br> Luis Calderon - Pink Bourbon"
+            "heading": "New Coffee Release <br> Karagoto AA - Washed"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Now!",
-            "button_link_1": "shopify:\/\/products\/luis-anibal-pink-bourbon",
+            "button_link_1": "shopify:\/\/products\/karagoto-aa",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -46,7 +46,7 @@
 
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/WebsiteBanner.jpg",
+        "image": "shopify:\/\/shop_images\/WebBanner.jpg",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "background-2",
         "stack_images_on_mobile": true,
