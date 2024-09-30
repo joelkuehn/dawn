@@ -22,7 +22,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Now!",
-            "button_link_1": "shopify:\/\/products\/karagoto-aa",
+            "button_link_1": "shopify://products/karagoto-aa",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -33,7 +33,7 @@
           "type": "video",
           "disabled": true,
           "settings": {
-            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0ebd45e82b8c4377a22d39b372526221.mp4"
+            "video": "https://cdn.shopify.com/videos/c/o/v/0ebd45e82b8c4377a22d39b372526221.mp4"
           }
         }
       },
@@ -46,7 +46,7 @@
 
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/WebBanner.jpg",
+        "image": "shopify://shop_images/WebBanner.jpg",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "background-2",
         "stack_images_on_mobile": true,
@@ -86,14 +86,14 @@
         "1629916579dcc1a952-1": {
           "type": "text",
           "settings": {
-            "text": "<p>We love every coffee we offer, but there will always be coffees we’re particularly excited about. Subscribe for convenient access to the offerings we’re most thrilled to share.<\/p>"
+            "text": "<p>We love every coffee we offer, but there will always be coffees we’re particularly excited about. Subscribe for convenient access to the offerings we’re most thrilled to share.</p>"
           }
         },
         "d5c0e8c7-7587-4edb-9f07-938ac0288a39": {
           "type": "button",
           "settings": {
             "button_label": "subscribe to happiness here!",
-            "button_link": "shopify:\/\/collections\/subscriptions"
+            "button_link": "shopify://collections/subscriptions"
           }
         }
       },
@@ -104,7 +104,7 @@
         "d5c0e8c7-7587-4edb-9f07-938ac0288a39"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/DSCF6390_copy.jpg",
+        "image": "shopify://shop_images/DSCF6390_copy.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
@@ -116,7 +116,7 @@
         "slide_rBCbxY": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Untitled_design_3_027bf312-be41-4014-b9fc-c1e85b27a002.jpg",
+            "image": "shopify://shop_images/Untitled_design_3_027bf312-be41-4014-b9fc-c1e85b27a002.jpg",
             "title": "",
             "text": "",
             "button_label": "",
@@ -136,33 +136,33 @@
         "column1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/OakhurstUpdatePhoto.jpg",
+            "image": "shopify://shop_images/OakhurstUpdatePhoto.jpg",
             "title": "Oakhurst",
-            "text": "<div class=\"two-col\">\n<div class=\"col\"><a href=\"https:\/\/goo.gl\/maps\/6wRW9NbznLJUcNoJ8\" target=\"_blank\" class=\"location-address\">1620 Oakhurst Commons Dr.<br>Suite 306<br>Charlotte, NC 28205<\/a><\/div>\n<div class=\"col col-two\">\n<p class=\"hours\">Mon-Fri: 7-4:30<br>Sat - Sun: 7:30-5<\/p>\n<\/div>\n<\/div>"
+            "text": "<div class=\"two-col\">\n<div class=\"col\"><a href=\"https://goo.gl/maps/6wRW9NbznLJUcNoJ8\" target=\"_blank\" class=\"location-address\">1620 Oakhurst Commons Dr.<br>Suite 306<br>Charlotte, NC 28205</a></div>\n<div class=\"col col-two\">\n<p class=\"hours\">Mon-Fri: 7-5<br>Sat - Sun: 7:30-5</p>\n</div>\n</div>"
           }
         },
         "column2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/LegacyUpdatePhoto.jpg",
+            "image": "shopify://shop_images/LegacyUpdatePhoto.jpg",
             "title": "Bank of America Tower",
-            "text": "<div class=\"two-col\">\n<div class=\"col\"><a href=\"https:\/\/goo.gl\/maps\/hm7pBzkpygrdRhEu9\" target=\"_blank\" class=\"location-address\">620 S Tryon<br>Suite 150<br>Charlotte, NC 28202<\/a><\/div>\n<div class=\"col col-two\">\n<p class=\"hours\">Mon-Fri: 7-6<br>Sat-Sun: Closed<\/p>\n<\/div>\n<\/div>"
+            "text": "<div class=\"two-col\">\n<div class=\"col\"><a href=\"https://goo.gl/maps/hm7pBzkpygrdRhEu9\" target=\"_blank\" class=\"location-address\">620 S Tryon<br>Suite 150<br>Charlotte, NC 28202</a></div>\n<div class=\"col col-two\">\n<p class=\"hours\">Mon-Fri: 7-6<br>Sat-Sun: Closed</p>\n</div>\n</div>"
           }
         },
         "column3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/OneWellsUpdatePhoto.jpg",
+            "image": "shopify://shop_images/OneWellsUpdatePhoto.jpg",
             "title": "One Wells Fargo",
-            "text": "<div class=\"two-col\">\n<div class=\"col\"><a href=\"https:\/\/goo.gl\/maps\/rZMjqXdA2BZKmhfy6\" target=\"_blank\" class=\"location-address\">301 College Street Center<br>Charlotte, NC 28202<\/a><\/div>\n<div class=\"col col-two\">\n<p class=\"hours\">Mon-Fri: 7-3<br>Sat-Sun: Closed<\/p>\n<\/div>\n<\/div>"
+            "text": "<div class=\"two-col\">\n<div class=\"col\"><a href=\"https://goo.gl/maps/rZMjqXdA2BZKmhfy6\" target=\"_blank\" class=\"location-address\">301 College Street Center<br>Charlotte, NC 28202</a></div>\n<div class=\"col col-two\">\n<p class=\"hours\">Mon-Fri: 7-3<br>Sat-Sun: Closed</p>\n</div>\n</div>"
           }
         },
         "ea96934a-9913-441e-95f7-d51a668eb6e0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/OptimistParkInside.jpg",
+            "image": "shopify://shop_images/OptimistParkInside.jpg",
             "title": "Optimist Park",
-            "text": "<div class=\"two-col\">\n<div class=\"col\"><a href=\"https:\/\/goo.gl\/maps\/zsbjLCcn8ikJWQzy6\" target=\"_blank\" class=\"location-address\">1824 N Brevard Street<br>Charlotte, NC 28206<\/a><\/div>\n<div class=\"col col-two\">\n<p class=\"hours\">Mon-Fri: 7-3<br>Sat - Sun 8-4\n\n<\/p>\n<\/div>\n<\/div>"
+            "text": "<div class=\"two-col\">\n<div class=\"col\"><a href=\"https://goo.gl/maps/zsbjLCcn8ikJWQzy6\" target=\"_blank\" class=\"location-address\">1824 N Brevard Street<br>Charlotte, NC 28206</a></div>\n<div class=\"col col-two\">\n<p class=\"hours\">Mon-Fri: 7-3<br>Sat - Sun 8-4\n\n</p>\n</div>\n</div>"
           }
         }
       },
@@ -189,9 +189,9 @@
         "163423462154ad684f-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DSCF5614lowres.jpg",
+            "image": "shopify://shop_images/DSCF5614lowres.jpg",
             "title": "The Roastery & Cafe",
-            "text": "<div class=\"two-col\">\n<div class=\"col\"><a href=\"https:\/\/goo.gl\/maps\/B7LZG2JnaWQ4g8MW9\" target=\"_blank\" class=\"location-address\">4500 Old Pineville Road<br>Charlotte, NC 28217<\/a><\/div>\n<div class=\"col col-two\">\n<p class=\"hours\">Mon-Thurs: 7-3<br>Fri: 7-3<br>Sat-Sun: 8-4<\/p>\n<\/div>\n<\/div>"
+            "text": "<div class=\"two-col\">\n<div class=\"col\"><a href=\"https://goo.gl/maps/B7LZG2JnaWQ4g8MW9\" target=\"_blank\" class=\"location-address\">4500 Old Pineville Road<br>Charlotte, NC 28217</a></div>\n<div class=\"col col-two\">\n<p class=\"hours\">Mon-Thurs: 7-3<br>Fri: 7-3<br>Sat-Sun: 8-4</p>\n</div>\n</div>"
           }
         }
       },
@@ -221,7 +221,7 @@
         "163120961845be377c-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Join our mailing list to remain in the loop about current offerings, new blog posts, and educational material.<\/p>"
+            "text": "<p>Join our mailing list to remain in the loop about current offerings, new blog posts, and educational material.</p>"
           }
         },
         "163120961845be377c-2": {
