@@ -15,7 +15,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "New Coffee Release <br> Karagoto AA - Washed"
+            "heading": "New Coffee Release  Karagoto AA - Washed"
           }
         },
         "button": {
@@ -46,7 +46,7 @@
 
       ],
       "settings": {
-        "image": "shopify://shop_images/WebBanner.jpg",
+        "image": "shopify://shop_images/Untitled_design_3_3e717e73-a38e-4e91-bdfc-b0f3540df7d5.jpg",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "background-2",
         "stack_images_on_mobile": true,
