@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner": {
@@ -133,6 +133,14 @@
     "multi_column": {
       "type": "multicolumn",
       "blocks": {
+        "column_4ncX6y": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/DSCF5614lowres.jpg",
+            "title": "The Roastery & Cafe",
+            "text": "<div class=\"two-col\">\n<div class=\"col\"><a href=\"https://goo.gl/maps/B7LZG2JnaWQ4g8MW9\" target=\"_blank\" class=\"location-address\">4500 Old Pineville Road<br>Charlotte, NC 28217</a></div>\n<div class=\"col col-two\">\n<p class=\"hours\">Mon-Fri: 7-3<br>Sat-Sun: 8-4</p>\n</div>\n</div>"
+          }
+        },
         "column1": {
           "type": "column",
           "settings": {
@@ -164,13 +172,23 @@
             "title": "Optimist Park",
             "text": "<div class=\"two-col\">\n<div class=\"col\"><a href=\"https://goo.gl/maps/zsbjLCcn8ikJWQzy6\" target=\"_blank\" class=\"location-address\">1824 N Brevard Street<br>Charlotte, NC 28206</a></div>\n<div class=\"col col-two\">\n<p class=\"hours\">Mon-Fri: 7-3<br>Sat - Sun 8-4\n\n</p>\n</div>\n</div>"
           }
+        },
+        "column_gLm7nK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/VerbenaCafe_Outside_1.jpg",
+            "title": "Verbena",
+            "text": "<div class=\"two-col\">\n<div class=\"col\"><a href=\"https://maps.app.goo.gl/2J3EmbZA4u2SfeHp8\" target=\"_blank\" class=\"location-address\">4612 Gilead St. Charlotte, NC 28216</a></div>\n<div class=\"col col-two\">\n<p class=\"hours\">Mon-Fri: 7-3<br>Sat - Sun 8-4\n\n</p>\n</div>\n</div>"
+          }
         }
       },
       "block_order": [
+        "column_4ncX6y",
         "column1",
         "column2",
         "column3",
-        "ea96934a-9913-441e-95f7-d51a668eb6e0"
+        "ea96934a-9913-441e-95f7-d51a668eb6e0",
+        "column_gLm7nK"
       ],
       "settings": {
         "title": "Locations",
@@ -198,6 +216,7 @@
       "block_order": [
         "163423462154ad684f-0"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "image_width": "full",
