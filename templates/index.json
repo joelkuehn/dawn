@@ -146,7 +146,7 @@
           "settings": {
             "image": "shopify://shop_images/OakhurstUpdatePhoto.jpg",
             "title": "Oakhurst",
-            "text": "<div class=\"two-col\">\n<div class=\"col\"><a href=\"https://goo.gl/maps/6wRW9NbznLJUcNoJ8\" target=\"_blank\" class=\"location-address\">1620 Oakhurst Commons Dr.<br>Suite 306<br>Charlotte, NC 28205</a></div>\n<div class=\"col col-two\">\n<p class=\"hours\">Mon-Fri: 7-5<br>Sat - Sun: 7:30-5</p>\n</div>\n</div>"
+            "text": "<div class=\"two-col\">\n<div class=\"col\">\n<a href=\"https://goo.gl/maps/6wRW9NbznLJUcNoJ8\" target=\"_blank\" class=\"location-address\">1620 Oakhurst Commons Dr.<br>Suite 306<br>Charlotte, NC 28205</a><a href=\"https://order.nightswimcoffee.com/LGE3M8TE7VXZZ/night-swim-coffee---oakhurst\" target=\"_blank\" style=\"text-decoration:underline;margin-top:10px;display:block;\">Order Here</a>\n</div>\n<div class=\"col col-two\">\n<p class=\"hours\">Mon-Fri: 7-5<br>Sat - Sun: 7:30-5</p>\n</div>\n</div>"
           }
         },
         "column2": {
@@ -162,7 +162,7 @@
           "settings": {
             "image": "shopify://shop_images/OneWellsUpdatePhoto.jpg",
             "title": "One Wells Fargo",
-            "text": "<div class=\"two-col\">\n<div class=\"col\"><a href=\"https://goo.gl/maps/rZMjqXdA2BZKmhfy6\" target=\"_blank\" class=\"location-address\">301 College Street Center<br>Charlotte, NC 28202</a></div>\n<div class=\"col col-two\">\n<p class=\"hours\">Mon-Fri: 7-3<br>Sat-Sun: Closed</p>\n</div>\n</div>"
+            "text": "<div class=\"two-col\">\n<div class=\"col\">\n<a href=\"https://goo.gl/maps/rZMjqXdA2BZKmhfy6\" target=\"_blank\" class=\"location-address\">301 College Street Center<br>Charlotte, NC 28202</a><a href=\"https://order.nightswimcoffee.com/L22HHHZQQF54P/night-swim-coffee---one-wells-fargo\" target=\"_blank\" style=\"text-decoration:underline;margin-top:10px;display:block;\">Order Here</a>\n</div>\n<div class=\"col col-two\">\n<p class=\"hours\">Mon-Fri: 7-3<br>Sat-Sun: Closed</p>\n</div>\n</div>"
           }
         },
         "ea96934a-9913-441e-95f7-d51a668eb6e0": {
@@ -191,7 +191,7 @@
         "column_gLm7nK"
       ],
       "custom_css": [
-        ".multicolumn-list.slider, .multicolumn-list.grid--4-col-desktop {padding-bottom:50px}"
+        ".multicolumn-list.slider,.multicolumn-list.grid--4-col-desktop {padding-bottom: 50px;}"
       ],
       "settings": {
         "title": "Locations",
