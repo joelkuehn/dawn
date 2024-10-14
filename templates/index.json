@@ -176,7 +176,7 @@
         "column_gLm7nK": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/VerbenaCafe_Outside_1.jpg",
+            "image": "shopify://shop_images/VerbenaCafe_Outside_1_scale.jpg",
             "title": "Verbena",
             "text": "<div class=\"two-col\">\n<div class=\"col\"><a href=\"https://maps.app.goo.gl/2J3EmbZA4u2SfeHp8\" target=\"_blank\" class=\"location-address\">4612 Gilead St.<br> Charlotte, NC 28216</a></div>\n<div class=\"col col-two\">\n<p class=\"hours\">Mon-Fri: 7-3<br>Sat - Sun 8-4\n\n</p>\n</div>\n</div>"
           }
