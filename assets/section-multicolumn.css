@@ -176,7 +176,8 @@ body.page-about .multicolumn:not(.background-secondary) {margin-bottom:0;}
   }
 
   .multicolumn-list.slider .multicolumn-list__item {
-    width: calc(100% - 3rem);
+    /* width: calc(100% - 3rem); */
+    width: calc(50% - 13rem);
   }
 
   .multicolumn-list.slider .multicolumn-list__item + .multicolumn-list__item {
