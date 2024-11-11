@@ -22,7 +22,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Now!",
-            "button_link_1": "shopify://products/yukro-8",
+            "button_link_1": "shopify://products/young-producer-lot-unblended",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -44,7 +44,7 @@
       ],
       "custom_css": [],
       "settings": {
-        "image": "shopify://shop_images/Untitled_design_7.jpg",
+        "image": "shopify://shop_images/Untitled_design_13.png",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "background-2",
         "stack_images_on_mobile": true,
