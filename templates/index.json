@@ -15,7 +15,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "NEW COFFEE <br> Yukro #8 - Jimma, Ethiopia"
+            "heading": "Unblended Young Producer Lot <br> Antioquia, Colombia"
           }
         },
         "button": {
@@ -42,11 +42,9 @@
         "button",
         "b6e682f5-38de-461a-b9c3-e0e470bda326"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
-        "image": "shopify://shop_images/Untitled_design_3_3e717e73-a38e-4e91-bdfc-b0f3540df7d5.jpg",
+        "image": "shopify://shop_images/Untitled_design_7.jpg",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "background-2",
         "stack_images_on_mobile": true,
@@ -127,8 +125,7 @@
       "block_order": [
         "slide_rBCbxY"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "multi_column": {
       "type": "multicolumn",
@@ -248,8 +245,7 @@
         },
         "163120961845be377c-2": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
