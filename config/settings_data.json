@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "colors_solid_button_labels": "#ffffff",
@@ -22,21 +22,33 @@
     "page_width": "1600",
     "social_twitter_link": "",
     "social_facebook_link": "",
-    "social_instagram_link": "https:\/\/www.instagram.com\/nightswimcoffee\/",
-    "favicon": "shopify:\/\/shop_images\/NightSwim_Circle_White.png",
-    "checkout_logo_image": "shopify:\/\/shop_images\/NightSwim_Primary_Dark.png",
+    "social_instagram_link": "https://www.instagram.com/nightswimcoffee/",
+    "favicon": "shopify://shop_images/NightSwim_Circle_White.png",
+    "checkout_logo_image": "shopify://shop_images/NightSwim_Primary_Dark.png",
     "checkout_accent_color": "#202a44",
     "checkout_button_color": "#202a44",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
-        "settings": {
-        }
+        "blocks": {
+          "announcement_f3GUEy": {
+            "type": "announcement",
+            "settings": {
+              "text": "20% off all online orders at Night Swim this week. Discount applied at checkout!",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "announcement_f3GUEy"
+        ],
+        "settings": {}
       },
       "header": {
         "type": "header",
         "settings": {
-          "logo": "shopify:\/\/shop_images\/NightSwim_Logo.png",
+          "logo": "shopify://shop_images/NightSwim_Logo.png",
           "logo_width": 210,
           "logo_position": "top-center",
           "menu": "main-menu",
@@ -64,7 +76,7 @@
           "d60a5732-3529-45fb-82a7-7ab1947e5150": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/NightSwim_Circle_White.png",
+              "image": "shopify://shop_images/NightSwim_Circle_White.png",
               "image_width": 200,
               "alignment": "center"
             }
@@ -96,7 +108,7 @@
       "main-password-header": {
         "type": "main-password-header",
         "settings": {
-          "logo": "shopify:\/\/shop_images\/NightSwim_Primary_Dark.png",
+          "logo": "shopify://shop_images/NightSwim_Primary_Dark.png",
           "logo_max_width": 100,
           "color_scheme": "background-1"
         }
@@ -108,8 +120,6 @@
         }
       }
     },
-    "content_for_index": [
-
-    ]
+    "content_for_index": []
   }
 }
