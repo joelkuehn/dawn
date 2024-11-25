@@ -15,14 +15,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "NEW! BENSA BOMBE <br> Ethiopian Natural Coffee"
+            "heading": "NEW COFFEE!<br>The Holiday Blend"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Now!",
-            "button_link_1": "shopify://products/bensa-bombe-natural",
+            "button_link_1": "shopify://products/the-holiday-blend-1",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -44,7 +44,7 @@
       ],
       "custom_css": [],
       "settings": {
-        "image": "shopify://shop_images/Untitled_design_8.jpg",
+        "image": "shopify://shop_images/Untitled_design_22.png",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "background-2",
         "stack_images_on_mobile": true,
