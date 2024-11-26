@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "colors_accent_1": "#202a44",
@@ -20,21 +20,33 @@
     "sold_out_badge_color_scheme": "background-1",
     "accent_icons": "text",
     "social_twitter_link": "",
-    "social_facebook_link": "facebook.com\/nightswimcoffee",
-    "social_instagram_link": "https:\/\/www.instagram.com\/nightswimcoffee\/",
-    "checkout_logo_image": "shopify:\/\/shop_images\/NightSwim_Primary_Dark.png",
+    "social_facebook_link": "facebook.com/nightswimcoffee",
+    "social_instagram_link": "https://www.instagram.com/nightswimcoffee/",
+    "checkout_logo_image": "shopify://shop_images/NightSwim_Primary_Dark.png",
     "checkout_accent_color": "#202a44",
     "checkout_button_color": "#202a44",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
-        "settings": {
-        }
+        "blocks": {
+          "announcement_9Y69CH": {
+            "type": "announcement",
+            "settings": {
+              "text": "Roastery Closed on 11/28 and 11/29",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "announcement_9Y69CH"
+        ],
+        "settings": {}
       },
       "header": {
         "type": "header",
         "settings": {
-          "logo": "shopify:\/\/shop_images\/NightSwim_Logo_160x_2x_37eb3b37-118e-4bf4-bdd2-df010ef53464.png",
+          "logo": "shopify://shop_images/NightSwim_Logo_160x_2x_37eb3b37-118e-4bf4-bdd2-df010ef53464.png",
           "logo_width": 160,
           "logo_position": "top-center",
           "menu": "main-menu",
@@ -62,7 +74,7 @@
           "d60a5732-3529-45fb-82a7-7ab1947e5150": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/NightSwim_Circle_200x_2x_0b67aa53-36c4-45e4-a86b-f380f39c04a3.png",
+              "image": "shopify://shop_images/NightSwim_Circle_200x_2x_0b67aa53-36c4-45e4-a86b-f380f39c04a3.png",
               "image_width": 200,
               "alignment": "center"
             }
@@ -105,15 +117,12 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "3acfba32-89f3-4377-ae20-cbb9abc48475": {
-        "type": "shopify:\/\/apps\/order-limits-minmaxify\/blocks\/app-embed-block\/3acfba32-89f3-4377-ae20-cbb9abc48475",
+        "type": "shopify://apps/order-limits-minmaxify/blocks/app-embed-block/3acfba32-89f3-4377-ae20-cbb9abc48475",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       }
     }
   }
