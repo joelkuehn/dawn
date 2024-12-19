@@ -187,6 +187,7 @@
         "ea96934a-9913-441e-95f7-d51a668eb6e0",
         "column_gLm7nK"
       ],
+      "disabled": true,
       "custom_css": [
         ".multicolumn-list.slider,.multicolumn-list.grid--4-col-desktop {padding-bottom: 50px;}"
       ],
