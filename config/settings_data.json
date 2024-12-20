@@ -30,19 +30,6 @@
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
-        "blocks": {
-          "announcement_f3GUEy": {
-            "type": "announcement",
-            "settings": {
-              "text": "Last Call For Shipping! Order by 11:59PM EST Today To Receive Your Coffee Order by 12/24!",
-              "color_scheme": "accent-1",
-              "link": ""
-            }
-          }
-        },
-        "block_order": [
-          "announcement_f3GUEy"
-        ],
         "settings": {}
       },
       "header": {
