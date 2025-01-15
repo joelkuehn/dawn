@@ -30,6 +30,19 @@
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
+        "blocks": {
+          "announcement_VANiM9": {
+            "type": "announcement",
+            "settings": {
+              "text": "SUBSCRIBE AND SAVE 15% Off Your First 3 Subscription Orders This Month! USE CODE: NEWYEAR15",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "announcement_VANiM9"
+        ],
         "settings": {}
       },
       "header": {
