@@ -43,16 +43,10 @@
                   {%- if block.settings.menu != blank -%}
                     <ul class="footer-block__details-content list-unstyled"
                         	{%- for link in block.settings.menu.links -%}
-                        		{%- comment %}<locksmith:7c22>{% endcomment -%}
-                        		  {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: link, subject_parent: block.settings.menu, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
-                        		{%- comment %}</locksmith:7c22>{% endcomment -%}
                         		id="{{ link.title }}"
                         	{%- endfor -%}
                       >
                       {%- for link in block.settings.menu.links -%}
-                        {%- comment %}<locksmith:ac1d>{% endcomment -%}
-                          {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: link, subject_parent: block.settings.menu, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
-                        {%- comment %}</locksmith:ac1d>{% endcomment -%}
                         <li>
                           <a href="{{ link.url }}" class="link link--text list-menu__item list-menu__item--link{% if link.active %} list-menu__item--active{% endif %}">
                             {{ link.title }}
@@ -60,16 +54,10 @@
                           {% if link.links != blank %}
                             <ul class="child list-unstyled">
                               {% for child_link in link.links %}  
-                              {%- comment %}<locksmith:32c6>{% endcomment -%}
-                                {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: child_link, subject_parent: link, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
-                              {%- comment %}</locksmith:32c6>{% endcomment -%}  
                               <li><a href= "{{ child_link.url }}">{{ child_link.title }}</a>
                               {% if child_link.links != blank %}
                                 <ul class="grandchild">
                                 {% for grandchild_link in child_link.links %}  
-                                  {%- comment %}<locksmith:b794>{% endcomment -%}
-                                    {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: grandchild_link, subject_parent: child_link, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
-                                  {%- comment %}</locksmith:b794>{% endcomment -%}  
                                   <li><a href= "{{ grandchild_link.url }}">{{ grandchild_link.title }}</a></li>
                                 {% endfor %}
                                 </ul>

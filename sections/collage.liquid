@@ -58,20 +58,13 @@
   <h2 class="collage-wrapper-title">{{ section.settings.heading | escape }}</h2>
 
   <div class="collage collage--{{ section.settings.desktop_layout }}{% if section.settings.mobile_layout == 'collage' %} collage--mobile{% endif %}">
-    {%- comment %}<locksmith:0477>{% endcomment -%}
-      {%- assign locksmith_618b_forloop__size = 0 %}{%- for block in section.blocks -%}{% capture var %}{% render 'locksmith-variables', scope: 'subject', subject: block.settings.product, subject_parent: section, variable: 'transparent' %}{% endcapture %}{% if var == 'true' %}{% assign locksmith_618b_forloop__size = locksmith_618b_forloop__size | plus: 1 %}{% endif %}{% endfor %}{% assign locksmith_618b_forloop__index = nil -%}
-    {%- comment %}</locksmith:0477>{% endcomment -%}
     {%- for block in section.blocks -%}
-
-      {%- comment %}<locksmith:a23e>{% endcomment -%}
-        {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: block.settings.product, subject_parent: section, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% if locksmith_618b_forloop__index == nil %}{% assign locksmith_618b_forloop__index = 1 %}{% assign locksmith_618b_forloop__index0 = 0 %}{% else %}{% assign locksmith_618b_forloop__index = locksmith_618b_forloop__index | plus: 1 %}{% assign locksmith_618b_forloop__index0 = locksmith_618b_forloop__index0 | plus: 1 %}{% endif %}{% if locksmith_618b_forloop__index == 1 %}{% assign locksmith_618b_forloop__first = true %}{% else %}{% assign locksmith_618b_forloop__first = false %}{% endif %}{% if locksmith_618b_forloop__index == locksmith_618b_forloop__size %}{% assign locksmith_618b_forloop__last = true %}{% else %}{% assign locksmith_618b_forloop__last = false %}{% endif %}{% assign locksmith_618b_forloop__rindex = locksmith_618b_forloop__size | minus: locksmith_618b_forloop__index | minus: 1 %}{% assign locksmith_618b_forloop__rindex0 = locksmith_618b_forloop__size | minus: locksmith_618b_forloop__index0 | minus: 1 %}{% else %}{% continue %}{% endif -%}
-      {%- comment %}</locksmith:a23e>{% endcomment -%}
 
       {% liquid
         assign focus_card_left = false
-        if section.settings.desktop_layout == 'left' and locksmith_618b_forloop__first
+        if section.settings.desktop_layout == 'left' and forloop.first
           assign focus_card_left = true
-        elsif section.settings.desktop_layout == 'right' and locksmith_618b_forloop__last
+        elsif section.settings.desktop_layout == 'right' and forloop.last
           assign focus_card_right = true
         endif
       %}
@@ -109,9 +102,9 @@
               <a href="{{ block.settings.product.url }}" class="collage-content full-unstyled-link card{% if block.settings.secondary_background %} card-colored color-background-1{% endif %}{% if block.settings.image_padding %} collage-card-spacing{% endif %}" {{ block.shopify_attributes }}>
                 {%- if featured_media != blank -%}
                   <div class="collage-card__image-wrapper media media--transparent media--hover-effect"
-                    {% if focus_card_left and locksmith_618b_forloop__first %}
+                    {% if focus_card_left and forloop.first %}
                       style="padding-bottom: {{ 1 | divided_by: featured_media.aspect_ratio | times: 100 }}%;"
-                    {% elsif focus_card_right and locksmith_618b_forloop__last %}
+                    {% elsif focus_card_right and forloop.last %}
                       style="padding-bottom: {{ 1 | divided_by: featured_media.aspect_ratio | times: 100 }}%;"
                     {% endif %}
                   >
@@ -258,9 +251,9 @@
           <div class="collage-card collage-video{% if focus_card_left %} collage-card--left{% elsif focus_card_right %} collage-card--right{% endif %}" {{ block.shopify_attributes }}>
             <noscript>
               <a href="{{ block.settings.video_url }}" class="card{% if block.settings.cover_image == blank %} collage-video-placeholder{% endif %}"
-                {% if block.settings.cover_image != blank and focus_card_left and locksmith_618b_forloop__first %}
+                {% if block.settings.cover_image != blank and focus_card_left and forloop.first %}
                   style="padding-bottom: {{ 1 | divided_by: block.settings.cover_image.aspect_ratio | times: 100 }}%;"
-                {% elsif block.settings.cover_image != blank and focus_card_right and locksmith_618b_forloop__last %}
+                {% elsif block.settings.cover_image != blank and focus_card_right and forloop.last %}
                   style="padding-bottom: {{ 1 | divided_by: block.settings.cover_image.aspect_ratio | times: 100 }}%;"
                 {% endif %}
               >
@@ -336,9 +329,9 @@
             {%- else -%}
               <modal-opener class="no-js-hidden" data-modal="#PopupModal-{{ block.id }}">
                 <div class="deferred-media{% if block.settings.cover_image == blank %} deferred-media--placeholder{% endif %}"
-                  {% if block.settings.cover_image != blank and focus_card_left and locksmith_618b_forloop__first %}
+                  {% if block.settings.cover_image != blank and focus_card_left and forloop.first %}
                     style="padding-bottom: {{ 1 | divided_by: block.settings.cover_image.aspect_ratio | times: 100 }}%;"
-                  {% elsif block.settings.cover_image != blank and focus_card_right and locksmith_618b_forloop__last %}
+                  {% elsif block.settings.cover_image != blank and focus_card_right and forloop.last %}
                     style="padding-bottom: {{ 1 | divided_by: block.settings.cover_image.aspect_ratio | times: 100 }}%;"
                   {% endif %}>
                   <button class="collage-content collage-card__image-wrapper media deferred-media__poster full-unstyled-link{% if block.settings.image_padding %} collage-card-spacing{% endif %}" type="button" aria-haspopup="dialog" data-media-id="{{ block.settings.video_url.id }}">
