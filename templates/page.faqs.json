@@ -1,9 +1,17 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "main-page",
-      "settings": {
-      }
+      "settings": {}
     },
     "1641785331b9231729": {
       "type": "accordion",
@@ -12,63 +20,63 @@
           "type": "text",
           "settings": {
             "title": "What coffee do you serve?",
-            "text": "<p>We serve Night Swim coffee in all of our cafes. We feature two year-round blends, an espresso and a filter coffee. You’ll also be able to sip and buy retail bags of rotating Single-Origin offerings.<\/p>"
+            "text": "<p>We serve Night Swim coffee in all of our cafes. We feature two year-round blends, an espresso and a filter coffee. You’ll also be able to sip and buy retail bags of rotating Single-Origin offerings.</p>"
           }
         },
         "16417853317f4aa7d9-1": {
           "type": "text",
           "settings": {
             "title": "Where can I find your coffee?",
-            "text": "<p>Our coffee is served in all Night Swim Coffee, Not Just Coffee, and Undercurrent Coffee locations.<\/p>"
+            "text": "<p>Our coffee is served in all Night Swim Coffee, Not Just Coffee, and Undercurrent Coffee locations.</p>"
           }
         },
         "16417853317f4aa7d9-2": {
           "type": "text",
           "settings": {
             "title": "Where can I buy your coffee beans?",
-            "text": "<p>Our retail coffee bags are available for purchase in all of our cafes and our website. Our website features an exclusive subscription service, as well!<\/p>"
+            "text": "<p>Our retail coffee bags are available for purchase in all of our cafes and our website. Our website features an exclusive subscription service, as well!</p>"
           }
         },
         "5fb0b802-5319-4502-95cd-200bd8996ceb": {
           "type": "text",
           "settings": {
             "title": "What will I receive in a subscription from you?",
-            "text": "<p>Our subscription boxes will feature a one bag or two bag option. Your order will be roasted and sent to you based on a frequency of your choosing. One bag subscriptions will contain a rotating Single-Origin offering. Two bag subscriptions will contain a year-round blend and a rotating Single-Origin offering.<\/p>"
+            "text": "<p>Our subscription boxes will feature a one bag or two bag option. Your order will be roasted and sent to you based on a frequency of your choosing. One bag subscriptions will contain a rotating Single-Origin offering. Two bag subscriptions will contain a year-round blend and a rotating Single-Origin offering.</p>"
           }
         },
         "cef10e1b-1745-4167-8d6b-264d03f5ac37": {
           "type": "text",
           "settings": {
             "title": "Do you serve food?",
-            "text": "<p>Both our Oakhurst and Legacy Union Cafes offer a full breakfast and lunch menu. The Night Swim Roastery + Cafe has grab-and-go food options along with bagels.<\/p>"
+            "text": "<p>Both our Oakhurst and Legacy Union Cafes offer a full breakfast and lunch menu. The Night Swim Roastery + Cafe has grab-and-go food options along with bagels.</p>"
           }
         },
         "f1827520-fb9d-44ff-a28d-6801219ae215": {
           "type": "text",
           "settings": {
             "title": "Do you have gluten free, nut free, or dairy free options?",
-            "text": "<p>We offer a selection of items that do not contain gluten, nuts, or dairy, however we cannot guarantee that there is no cross-contamination from these products since we do use them in our kitchens.<\/p>"
+            "text": "<p>We offer a selection of items that do not contain gluten, nuts, or dairy, however we cannot guarantee that there is no cross-contamination from these products since we do use them in our kitchens.</p>"
           }
         },
         "c1ed84fa-bf17-47d5-a751-902f05ade66d": {
           "type": "text",
           "settings": {
             "title": "Where is the Night Swim Roastery?",
-            "text": "<p>Our roastery is located at 4500 Old Pineville Road, Charlotte NC 28217. You’re welcome to visit any time! We’d love to say hey.<\/p>"
+            "text": "<p>Our roastery is located at 4500 Old Pineville Road, Charlotte NC 28217. You’re welcome to visit any time! We’d love to say hey.</p>"
           }
         },
         "ecf84f5d-fff0-4c8e-9b59-b7241670766b": {
           "type": "text",
           "settings": {
             "title": "How can I contact Night Swim about a job opportunity?",
-            "text": "<p>If you’re interested in joining our team, send an email to <a href=\"mailto:info@nightswimcoffee.com\" title=\"mailto:info@nightswimcoffee.com\">info@nightswimcoffee.com<\/a><\/p>"
+            "text": "<p>If you’re interested in joining our team, send an email to <a href=\"mailto:careers@nightswimcoffee.com\" title=\"mailto:careers@nightswimcoffee.com\">careers@nightswimcoffee.com</a></p>"
           }
         },
         "f642801e-e05a-48d0-aceb-1ac9861342b0": {
           "type": "text",
           "settings": {
             "title": "Shipping details?",
-            "text": "<p>We roast and ship all coffees to order. In most cases, your order will get processed and ship the following business day. We can't wait to share these beautiful coffees with you!<\/p>"
+            "text": "<p>We roast and ship all coffees to order. In most cases, your order will get processed and ship the following business day. We can't wait to share these beautiful coffees with you!</p>"
           }
         }
       },
@@ -83,8 +91,7 @@
         "ecf84f5d-fff0-4c8e-9b59-b7241670766b",
         "f642801e-e05a-48d0-aceb-1ac9861342b0"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "1634243985d64c22ca": {
       "type": "newsletter",
@@ -98,13 +105,12 @@
         "1634243985d64c22ca-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Join our mailing list to remain in the loop about current offerings, new blog posts, and educational material.<\/p>"
+            "text": "<p>Join our mailing list to remain in the loop about current offerings, new blog posts, and educational material.</p>"
           }
         },
         "1634243985d64c22ca-2": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
