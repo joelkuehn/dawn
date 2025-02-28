@@ -15,14 +15,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Welcoming Back! <br> GUIBEN AND KAKU <br> Yunnan, China"
+            "heading": "New Coffee Release! <br> Nano Genji #6 - Jimma, Ethiopia"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
             "button_label_1": "Order Today!",
-            "button_link_1": "shopify://collections/coffees",
+            "button_link_1": "shopify://products/nano-genji-6",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -44,7 +44,7 @@
       ],
       "custom_css": [],
       "settings": {
-        "image": "shopify://shop_images/dscf1848_2f70a2bb-a30e-40a1-b249-3d33742ace2f.jpg",
+        "image": "shopify://shop_images/Untitled_design_11.jpg",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "background-2",
         "stack_images_on_mobile": true,
