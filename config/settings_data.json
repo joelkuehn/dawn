@@ -30,6 +30,19 @@
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
+        "blocks": {
+          "announcement_NGkn6f": {
+            "type": "announcement",
+            "settings": {
+              "text": "Pi Day Weekend Sale! 14% Off All Online Purchases 3/14 - 3/16",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "announcement_NGkn6f"
+        ],
         "settings": {}
       },
       "header": {
