@@ -29,16 +29,25 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "blocks": {
+          "announcement_YHhf9H": {
+            "type": "announcement",
+            "settings": {
+              "text": "Welcome to our store",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
+          },
           "announcement_9Y69CH": {
             "type": "announcement",
             "settings": {
-              "text": "Please Anticipate Shipping Delays During The Holiday Season",
+              "text": "",
               "color_scheme": "accent-1",
               "link": ""
             }
           }
         },
         "block_order": [
+          "announcement_YHhf9H",
           "announcement_9Y69CH"
         ],
         "settings": {}
@@ -121,6 +130,11 @@
     "blocks": {
       "3acfba32-89f3-4377-ae20-cbb9abc48475": {
         "type": "shopify://apps/order-limits-minmaxify/blocks/app-embed-block/3acfba32-89f3-4377-ae20-cbb9abc48475",
+        "disabled": false,
+        "settings": {}
+      },
+      "4015264832934714879": {
+        "type": "shopify://apps/ecomsend-popups/blocks/app/a5670cf8-5705-4b01-ad9e-447033feae26",
         "disabled": false,
         "settings": {}
       }
