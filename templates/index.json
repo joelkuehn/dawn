@@ -15,14 +15,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "All orders over $50 ship free!"
+            "heading": "New Coffee Release  <br> Lao Xu Zhai- Yunnan, China"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
             "button_label_1": "Order Today!",
-            "button_link_1": "shopify://products/nano-genji-6",
+            "button_link_1": "shopify://products/lao-xu-zhai",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -44,7 +44,7 @@
       ],
       "custom_css": [],
       "settings": {
-        "image": "shopify://shop_images/Untitled_design_11.jpg",
+        "image": "shopify://shop_images/Lao_Xu_Zhai_WebBanner_015e29f9-5f72-460b-8856-68b3e5b9b9f4.jpg",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "background-2",
         "stack_images_on_mobile": true,
