@@ -15,14 +15,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "New Coffee Release!  <br> Lao Xu Zhai -Yunnan, China"
+            "heading": "NEW Rwandan Coffee Releases! <br>Muzo and Akagera"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
             "button_label_1": "Order Today!",
-            "button_link_1": "shopify://products/lao-xu-zhai",
+            "button_link_1": "shopify://collections/coffee",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -44,7 +44,7 @@
       ],
       "custom_css": [],
       "settings": {
-        "image": "shopify://shop_images/Lao_Xu_Zhai_WebBanner_19cb574d-775d-4318-8894-2155a1edc3c7.jpg",
+        "image": "shopify://shop_images/3_66c9a0b2-c7e6-4c3f-9379-04a6eed31236.jpg",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "background-2",
         "stack_images_on_mobile": true,
