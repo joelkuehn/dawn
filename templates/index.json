@@ -15,7 +15,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "NEW Colombian Coffees!"
+            "heading": "New Release: Washed Coffee from Oaxaca"
           }
         },
         "button": {
@@ -44,7 +44,7 @@
       ],
       "custom_css": [],
       "settings": {
-        "image": "shopify://shop_images/Hero-Frame---Leidy-Ivansml_e8295e0a-18d6-4964-a914-44b5c90de97d.jpg",
+        "image": "shopify://shop_images/25-07-17-16270_-FDxBlakePope.jpg",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "background-2",
         "stack_images_on_mobile": true,
