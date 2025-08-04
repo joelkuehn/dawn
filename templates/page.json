@@ -9,21 +9,17 @@
  */
 {
   "sections": {
-    "video_qjyG8t": {
-      "type": "video",
-      "name": "t:sections.video.presets.name",
-      "settings": {
-        "heading": "Video",
-        "cover_image": "shopify://shop_images/Still_image_3.1.1.jpg",
-        "video_url": "https://youtu.be/w0fJkuTg_IA",
-        "description": "careers-jobs-charlotte-nc-coffee-roastery",
-        "full_width": false
-      }
-    },
     "main": {
       "type": "main-page",
       "disabled": true,
       "settings": {}
+    },
+    "custom_liquid_6w7k79": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<video autoplay muted loop playsinline style=\"width:100%; max-width:800px; display:block; margin: 0 auto;\">\n  <source src=\"https://cdn.shopify.com/s/files/1/YOUR-FILE.mp4\" type=\"video/mp4\">\n  Your browser does not support the video tag.\n</video>"
+      }
     },
     "1634243313a0b04d9c": {
       "type": "image-with-text",
@@ -99,8 +95,8 @@
     }
   },
   "order": [
-    "video_qjyG8t",
     "main",
+    "custom_liquid_6w7k79",
     "1634243313a0b04d9c",
     "1634243985d64c22ca"
   ]
