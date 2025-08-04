@@ -18,7 +18,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<div style=\"margin: 0 auto; max-width: 100%;\">\n  <video \n    autoplay \n    muted \n    loop \n    playsinline \n    preload=\"auto\" \n    style=\"width: 100%; height: auto; display: block; margin: 0 auto; background-color: #000;\">\n    <source src=\"https://cdn.shopify.com/videos/c/o/v/c8a1848c5fae460e89912093e2258ebe.mp4\" type=\"video/mp4\">\n    Your browser does not support the video tag.\n  </video>\n</div>"
+        "custom_liquid": "<div style=\"position: relative; width: 100%; max-width: 100%; margin: 0 auto;\">\n\n  <!-- Video -->\n  <video \n    autoplay \n    muted \n    loop \n    playsinline \n    preload=\"auto\" \n    style=\"width: 100%; height: auto; display: block; background-color: #000;\">\n    <source src=\"https://cdn.shopify.com/videos/c/o/v/c8a1848c5fae460e89912093e2258ebe.mp4\" type=\"video/mp4\">\n    Your browser does not support the video tag.\n  </video>\n\n  <!-- Bottom-Centered Button -->\n  <a href=\"https://nsccareers.wufoo.com/forms/z5j63ct0tr1u3l/\" target=\"_blank\" \n     style=\"position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%);\n            padding: 14px 28px; background-color: #ffffffcc; color: #000; \n            text-decoration: none; font-weight: bold; border-radius: 6px; \n            font-size: 16px; backdrop-filter: blur(6px); box-shadow: 0 4px 10px rgba(0,0,0,0.2);\">\n    Apply Now\n  </a>\n\n</div>"
       }
     },
     "1634243313a0b04d9c": {
