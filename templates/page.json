@@ -18,7 +18,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<div style=\"margin: 0; padding: 0;\">\n  <video autoplay muted loop playsinline preload=\"auto\"\n    style=\"width:100vw; height:100vh; object-fit:cover; display:block; margin:0; padding:0; border:none;\">\n    <source src=\"https://cdn.shopify.com/videos/c/o/v/c8a1848c5fae460e89912093e2258ebe.mp4\" type=\"video/mp4\">\n    Your browser does not support the video tag.\n  </video>\n</div>"
+        "custom_liquid": "<div style=\"margin: 0 auto; max-width: 100%;\">\n  <video \n    autoplay \n    muted \n    loop \n    playsinline \n    preload=\"auto\" \n    style=\"width: 100%; height: auto; display: block; margin: 0 auto; background-color: #000;\">\n    <source src=\"https://cdn.shopify.com/videos/c/o/v/c8a1848c5fae460e89912093e2258ebe.mp4\" type=\"video/mp4\">\n    Your browser does not support the video tag.\n  </video>\n</div>"
       }
     },
     "1634243313a0b04d9c": {
