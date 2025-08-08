@@ -15,7 +15,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "New Washed Coffee from Burundi"
+            "heading": "New Washed Coffee from Ethiopia"
           }
         },
         "button": {
@@ -44,7 +44,7 @@
       ],
       "custom_css": [],
       "settings": {
-        "image": "shopify://shop_images/25-08-01-17086_-FDxBlakePope.jpg",
+        "image": "shopify://shop_images/L1002718xBlakePope_2.jpg",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "background-2",
         "stack_images_on_mobile": true,
