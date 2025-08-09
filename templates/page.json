@@ -94,6 +94,49 @@
         "full_width": true
       }
     },
+    "image_with_text_qqYLNH": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_a973EW": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Our Cafes"
+          }
+        },
+        "heading_AaKDTj": {
+          "type": "heading",
+          "settings": {
+            "heading": "View Cafe Locations"
+          }
+        },
+        "text_dkJrb7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use the map to view Night Swim Coffee, Undercurrent Coffee, and Not Just Coffee locations. You may select your preferred location(s) during the application process.</p>"
+          }
+        },
+        "button_McCtz3": {
+          "type": "button",
+          "settings": {
+            "button_label": "APPLY NOW",
+            "button_link": "https://nsccareers.wufoo.com/forms/z5j63ct0tr1u3l/"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_a973EW",
+        "heading_AaKDTj",
+        "text_dkJrb7",
+        "button_McCtz3"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/NSC-All-Shops-Map-Updated-Oct-7-2024.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first"
+      }
+    },
     "multicolumn_cAL3wC": {
       "type": "multicolumn",
       "blocks": {
@@ -148,6 +191,7 @@
     "custom_liquid_6w7k79",
     "1634243313a0b04d9c",
     "1634243985d64c22ca",
+    "image_with_text_qqYLNH",
     "multicolumn_cAL3wC"
   ]
 }
