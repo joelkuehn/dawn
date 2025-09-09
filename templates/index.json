@@ -12,6 +12,12 @@
     "image_banner": {
       "type": "image-banner",
       "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Coming Soon: Worka Sakaro"
+          }
+        },
         "button": {
           "type": "buttons",
           "settings": {
@@ -23,12 +29,6 @@
             "button_style_secondary_2": false
           }
         },
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Coming Soon: Worka Sakaro"
-          }
-        },
         "b6e682f5-38de-461a-b9c3-e0e470bda326": {
           "type": "video",
           "settings": {
@@ -37,8 +37,8 @@
         }
       },
       "block_order": [
-        "button",
         "heading",
+        "button",
         "b6e682f5-38de-461a-b9c3-e0e470bda326"
       ],
       "custom_css": [
