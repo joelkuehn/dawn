@@ -18,12 +18,6 @@
             "heading": "Coming Soon: Worka Sakaro"
           }
         },
-        "text_BkFxVi": {
-          "type": "text",
-          "settings": {
-            "text": "A new anaerobic coffee release from Ethiopia. Available soon."
-          }
-        },
         "button": {
           "type": "buttons",
           "settings": {
@@ -44,12 +38,11 @@
       },
       "block_order": [
         "heading",
-        "text_BkFxVi",
         "button",
         "b6e682f5-38de-461a-b9c3-e0e470bda326"
       ],
       "custom_css": [
-        "/* Force video to cover the full width/height of banner */.banner video {width: 100% !important; height: 100% !important; object-fit: cover !important; object-position: center center !important; display: block; }"
+        "/* Force video to cover the full width/height of banner */.banner video {width: 100% !important; height: 100% !important; object-fit: cover !important; object-position: center center !important; display: block;}"
       ],
       "settings": {
         "image": "shopify://shop_images/still_cover_1.1.1.jpg",
