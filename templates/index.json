@@ -48,13 +48,7 @@
         "button",
         "b6e682f5-38de-461a-b9c3-e0e470bda326"
       ],
-      "custom_css": [
-        "/* tighten the vertical spacing inside this ONE banner */.banner__content,.banner__box {gap: 0.5rem !important; /* try .25rem or 0 for tighter */}",
-        "/* optional: make sure the elements themselves aren't adding extra space */.banner__heading {margin-bottom: 0 !important;}",
-        ".banner__text {margin-top: 0 !important;}",
-        ".banner__text p {margin: 0.25rem 0 !important;}",
-        ".banner__buttons {margin-top: 0.5rem !important;}"
-      ],
+      "custom_css": [],
       "settings": {
         "image": "shopify://shop_images/still_cover_1.1.1.jpg",
         "desktop_text_box_position": "flex-end",
