@@ -12,12 +12,6 @@
     "image_banner": {
       "type": "image-banner",
       "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Coming Soon: Worka Sakaro"
-          }
-        },
         "button": {
           "type": "buttons",
           "settings": {
@@ -29,6 +23,12 @@
             "button_style_secondary_2": false
           }
         },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Coming Soon: Worka Sakaro"
+          }
+        },
         "b6e682f5-38de-461a-b9c3-e0e470bda326": {
           "type": "video",
           "settings": {
@@ -37,8 +37,8 @@
         }
       },
       "block_order": [
-        "heading",
         "button",
+        "heading",
         "b6e682f5-38de-461a-b9c3-e0e470bda326"
       ],
       "custom_css": [
@@ -49,7 +49,7 @@
         "desktop_text_box_position": "flex-end",
         "color_scheme": "background-2",
         "stack_images_on_mobile": true,
-        "adapt_height_first_image": false
+        "adapt_height_first_image": true
       }
     },
     "featured_products": {
