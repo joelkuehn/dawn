@@ -15,13 +15,19 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "New Washed Coffee from Ethiopia"
+            "heading": "Coming Soon: Worka Sakaro"
+          }
+        },
+        "text_BkFxVi": {
+          "type": "text",
+          "settings": {
+            "text": "A new anaerobic coffee release from Ethiopia. Available soon."
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Order Today!",
+            "button_label_1": "Shop Coffees",
             "button_link_1": "shopify://collections/coffee",
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -38,12 +44,19 @@
       },
       "block_order": [
         "heading",
+        "text_BkFxVi",
         "button",
         "b6e682f5-38de-461a-b9c3-e0e470bda326"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "/* tighten the vertical spacing inside this ONE banner */.banner__content,.banner__box {gap: 0.5rem !important; /* try .25rem or 0 for tighter */}",
+        "/* optional: make sure the elements themselves aren't adding extra space */.banner__heading {margin-bottom: 0 !important;}",
+        ".banner__text {margin-top: 0 !important;}",
+        ".banner__text p {margin: 0.25rem 0 !important;}",
+        ".banner__buttons {margin-top: 0.5rem !important;}"
+      ],
       "settings": {
-        "image": "shopify://shop_images/L1002718xBlakePope_2.jpg",
+        "image": "shopify://shop_images/still_cover_1.1.1.jpg",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "background-2",
         "stack_images_on_mobile": true,
