@@ -15,13 +15,13 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "NEW RELEASE: Worka Sakaro Anaerobic from Ethiopia"
+            "heading": "HOLIDAY BOX SET: Ghost Roast Now Available for Pre-Order"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Coffees",
+            "button_label_1": "Order Now",
             "button_link_1": "shopify://collections/coffee",
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -45,7 +45,7 @@
         "/* Force video to cover the full width/height of banner */.banner video {width: 100% !important; height: 100% !important; object-fit: cover !important; object-position: center center !important; display: block;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/still_no_hand_1.1.2.jpg",
+        "image": "shopify://shop_images/DSCF1389BP2025101517-10-25FDxBlakePope.jpg",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "background-2",
         "stack_images_on_mobile": true,
