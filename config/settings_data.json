@@ -30,6 +30,19 @@
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
+        "blocks": {
+          "announcement_TUH3RV": {
+            "type": "announcement",
+            "settings": {
+              "text": "The AWS outage has limited our ability to ship packages, please be patient with us as we await resolution from our shipping platform.",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "announcement_TUH3RV"
+        ],
         "settings": {}
       },
       "header": {
