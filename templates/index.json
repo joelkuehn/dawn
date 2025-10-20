@@ -15,14 +15,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "HOLIDAY BOX SET: Ghost Roast Now Available for Pre-Order"
+            "heading": "GHOST ROAST Now Available from Oaxaca, Mexico"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
             "button_label_1": "PRE-ORDER NOW",
-            "button_link_1": "shopify://products/ghost-roast-holiday-box",
+            "button_link_1": "shopify://products/ghost-roast",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
