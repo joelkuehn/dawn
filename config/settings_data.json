@@ -33,6 +33,7 @@
         "blocks": {
           "announcement_TUH3RV": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "The AWS outage has limited our ability to ship packages, please be patient with us as we await resolution from our shipping platform.",
               "color_scheme": "accent-1",
