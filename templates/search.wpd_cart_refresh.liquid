@@ -97,6 +97,9 @@
 		{% if item.variant.price > item.discounted_price %}   
            {% assign variant_price = item.discounted_price %}
         {% endif %}
+		{% if shop.metafields.wpd.integration_type == 'bdr' %}
+           {% assign variant_price = item.variant.price %}
+        {% endif %}
         {% assign wcp_line_price = variant_price | minus: 0 | times: item.quantity %}
 		{% assign wcp_total = wcp_total | plus: wcp_line_price  %}
         {
