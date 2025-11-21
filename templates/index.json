@@ -15,7 +15,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "GHOST ROAST Now Available from Oaxaca, Mexico"
+            "heading": "IDIDO New Washed Coffee from Ethiopia"
           }
         },
         "button": {
@@ -31,6 +31,7 @@
         },
         "b6e682f5-38de-461a-b9c3-e0e470bda326": {
           "type": "video",
+          "disabled": true,
           "settings": {
             "video": "https://cdn.shopify.com/videos/c/o/v/3c0b49a652f04db99c67b70650534605.mp4"
           }
@@ -45,7 +46,7 @@
         "/* Force video to cover the full width/height of banner */.banner video {width: 100% !important; height: 100% !important; object-fit: cover !important; object-position: center center !important; display: block;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/DSCF1389BP2025101517-10-25FDxBlakePope.jpg",
+        "image": "shopify://shop_images/DSCF3471WEB.jpg",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "background-2",
         "stack_images_on_mobile": true,
