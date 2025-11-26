@@ -33,9 +33,8 @@
         "blocks": {
           "announcement_TUH3RV": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "text": "15% sitewide on coffee, gear, gift boxes, and new subscriptions! Now thru Sunday - discount applied at checkout! 🎁",
+              "text": "FLASH SALE: 15% OFF sitewide on coffee, gear, gift boxes, and new subscriptions! 11/26-11/30 - discount applied at checkout! 🎁",
               "color_scheme": "accent-1",
               "link": "shopify://collections"
             }
