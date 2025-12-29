@@ -76,7 +76,7 @@
           "type": "text",
           "settings": {
             "title": "Shipping details?",
-            "text": "<p>We roast and ship all coffees to order. In most cases, your order will get processed and ship the following business day. We can't wait to share these beautiful coffees with you!</p>"
+            "text": "<p>We roast and ship all coffees to order. In most cases, your order will get processed and ship the following business day. For orders within the United States, we offer free shipping on orders over $50. All orders placed internationally are subject to shipping charges. We can't wait to share these beautiful coffees with you!</p>"
           }
         }
       },
