@@ -33,6 +33,7 @@
         "blocks": {
           "announcement_TUH3RV": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "🎁 The Gift of the Season: HOLIDAY BOX SET NOW AVAILABLE 🎁",
               "color_scheme": "accent-2",
