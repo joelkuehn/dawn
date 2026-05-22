@@ -15,14 +15,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "LIMITED RELEASE - New Natural Pacamara from Colombia"
+            "heading": "GITITU AA <br> New washed coffee from Kenya"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
             "button_label_1": "SHOP NOW",
-            "button_link_1": "shopify://products/paola-carlos-trujillo-colombia",
+            "button_link_1": "shopify://products/gititu-aa",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -46,7 +46,7 @@
         "/* Force video to cover the full width/height of banner */.banner video {width: 100% !important; height: 100% !important; object-fit: cover !important; object-position: center center !important; display: block;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/PAOLA-wideweb.jpg",
+        "image": "shopify://shop_images/DSC_0659-2.jpg",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "background-2",
         "stack_images_on_mobile": true,
