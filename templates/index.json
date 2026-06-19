@@ -15,14 +15,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "GITITU AA <br> New washed coffee from Kenya"
+            "heading": "ARTURO JEINER DIAZ ARTEAGA <br> Our latest Peruvian washed coffee"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
             "button_label_1": "SHOP NOW",
-            "button_link_1": "shopify://products/gititu-aa",
+            "button_link_1": "shopify://products/arturo-jeiner-diaz-arteaga",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
