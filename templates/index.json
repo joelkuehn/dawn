@@ -15,7 +15,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "ARTURO JEINER DIAZ ARTEAGA <br> Our latest Peruvian washed coffee"
+            "heading": "RONALDO HURTADO ESTATE <br>  New Colombian washed coffee"
           }
         },
         "button": {
@@ -46,8 +46,8 @@
         "/* Force video to cover the full width/height of banner */.banner video {width: 100% !important; height: 100% !important; object-fit: cover !important; object-position: center center !important; display: block;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/20260612-L1071275xBlakePopecropdrop.jpg",
-        "desktop_text_box_position": "flex-end",
+        "image": "shopify://shop_images/DSC_2894retouch1x1.jpg",
+        "desktop_text_box_position": "center",
         "color_scheme": "background-2",
         "stack_images_on_mobile": true,
         "adapt_height_first_image": false
