@@ -15,14 +15,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "RONALDO HURTADO ESTATE <br>  New Colombian washed coffee"
+            "heading": "ANDRES MARTINEZ BLACKBERRIES <br>New Co-Ferment Coffee"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
             "button_label_1": "SHOP NOW",
-            "button_link_1": "shopify://products/ronaldo-hurtado-estate",
+            "button_link_1": "shopify://products/andres-martinez-blackberry",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -46,7 +46,7 @@
         "/* Force video to cover the full width/height of banner */.banner video {width: 100% !important; height: 100% !important; object-fit: cover !important; object-position: center center !important; display: block;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/DSC_2894retouch1x1.jpg",
+        "image": "shopify://shop_images/AndresMartinezBlackberry_11.jpg",
         "desktop_text_box_position": "center",
         "color_scheme": "background-2",
         "stack_images_on_mobile": true,
