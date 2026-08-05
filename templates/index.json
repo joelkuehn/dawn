@@ -15,13 +15,13 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "ANDRES MARTINEZ BLACKBERRIES <br>New Co-Ferment Coffee"
+            "heading": "SAN VICENTE YOGONDOY <br> New Oaxacan Coffee Release"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "SHOP NOW",
+            "button_label_1": "COMING SOON",
             "button_link_1": "shopify://collections/coffees",
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -46,7 +46,7 @@
         "/* Force video to cover the full width/height of banner */.banner video {width: 100% !important; height: 100% !important; object-fit: cover !important; object-position: center center !important; display: block;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/AndresMartinezBlackberry_11.jpg",
+        "image": "shopify://shop_images/20260803-L1072482xBlakePope.jpg",
         "desktop_text_box_position": "center",
         "color_scheme": "background-2",
         "stack_images_on_mobile": true,
