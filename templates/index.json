@@ -137,7 +137,7 @@
           "settings": {
             "image": "shopify://shop_images/DSCF5614lowres.jpg",
             "title": "The Roastery & Cafe",
-            "text": "<div class=\"two-col\">\n<div class=\"col\">\n<a href=\"https://goo.gl/maps/B7LZG2JnaWQ4g8MW9\" target=\"_blank\" class=\"location-address\">4500 Old Pineville Road<br>Charlotte, NC 28217</a><a href=\"https://order.nightswimcoffee.com/LRPQMNSN44JBR/night-swim-coffee---old-pineville\" target=\"_blank\" style=\"text-decoration:underline;margin-top:10px;display:block;\">Order Here</a>\n</div>\n<div class=\"col col-two\">\n<p class=\"hours\">Mon-Fri: 7 - 5<br>Sat-Sun: 8 - 5</p>\n</div>\n</div>"
+            "text": "<div class=\"two-col\">\n<div class=\"col\">\n<a href=\"https://goo.gl/maps/B7LZG2JnaWQ4g8MW9\" target=\"_blank\" class=\"location-address\">4500 Old Pineville Road<br>Charlotte, NC 28217</a><a href=\"https://nightswimcoffee.order.tryperdiem.com/order?locationId=LRPQMNSN44JBR&amp;fulfillmentType=PICKUP\" target=\"_blank\" style=\"text-decoration:underline;margin-top:10px;display:block;\">Order Here</a>\n</div>\n<div class=\"col col-two\">\n<p class=\"hours\">Mon-Fri: 7 - 5<br>Sat-Sun: 8 - 5</p>\n</div>\n</div>"
           }
         },
         "column_gLm7nK": {
@@ -145,7 +145,7 @@
           "settings": {
             "image": "shopify://shop_images/20260520-DSC_8252xBlakePope.jpg",
             "title": "Queensbridge",
-            "text": "<div class=\"two-col\">\n<div class=\"col\"><a href=\"https://maps.app.goo.gl/2J3EmbZA4u2SfeHp8\" target=\"_blank\" class=\"location-address\">111 E Carson Blvd<br> Charlotte, NC 28203</a></div>\n<div class=\"col col-two\">\n<p class=\"hours\">Mon-Fri: 7 - 3<br>Sat - Sun 8 - 4 \n\n</p>\n</div>\n</div>"
+            "text": "<div class=\"two-col\">\n<div class=\"col\"><a href=\"https://nightswimcoffee.order.tryperdiem.com/order?locationId=LQM312SKNDSSZ&amp;fulfillmentType=PICKUP\" class=\"location-address\">111 E Carson Blvd<br> Charlotte, NC 28203</a></div>\n<div class=\"col col-two\">\n<p class=\"hours\">Mon-Fri: 7 - 3<br>Sat - Sun 8 - 4 \n\n</p>\n</div>\n</div>"
           }
         },
         "column1": {
@@ -153,7 +153,7 @@
           "settings": {
             "image": "shopify://shop_images/25-05-27-13873_-FDxBlakePope.jpg",
             "title": "Hawkins @ Linea South End",
-            "text": "<div class=\"two-col\">\n  <div class=\"col\">\n    <a href=\"https://maps.app.goo.gl/hcBYZNeiM7jdwzEx8\" target=\"_blank\" class=\"location-address\">\n      2161 Hawkins St Lobby<br>Charlotte, NC 28203\n    </a>\n    <a href=\"https://order.nightswimcoffee.com/LH4HW5RZAGEP1/night-swim-coffee---hawkins\" target=\"_blank\" style=\"text-decoration:underline;margin-top:10px;display:block;\">\n      Order Here\n    </a>\n  </div>\n  <div class=\"col col-two\">\n    <p class=\"hours\">Mon-Thur: 7 - 5<br>Fri: 7 - 6<br>Sat-Sun: 8 - 6</p>\n  </div>\n</div>"
+            "text": "<div class=\"two-col\">\n  <div class=\"col\">\n    <a href=\"https://maps.app.goo.gl/hcBYZNeiM7jdwzEx8\" target=\"_blank\" class=\"location-address\">\n      2161 Hawkins St Lobby<br>Charlotte, NC 28203\n    </a>\n    <a href=\"https://nightswimcoffee.order.tryperdiem.com/order?locationId=LH4HW5RZAGEP1&amp;fulfillmentType=PICKUP\" target=\"_blank\" style=\"text-decoration:underline;margin-top:10px;display:block;\">\n      Order Here\n    </a>\n  </div>\n  <div class=\"col col-two\">\n    <p class=\"hours\">Mon-Thur: 7 - 5<br>Fri: 7 - 6<br>Sat-Sun: 8 - 6</p>\n  </div>\n</div>"
           }
         },
         "column_dahpEx": {
@@ -161,7 +161,7 @@
           "settings": {
             "image": "shopify://shop_images/OakhurstUpdatePhoto.jpg",
             "title": "Oakhurst",
-            "text": "<div class=\"two-col\">\n<div class=\"col\">\n<a href=\"https://goo.gl/maps/6wRW9NbznLJUcNoJ8\" target=\"_blank\" class=\"location-address\">1620 Oakhurst Commons Drive<br>Suite 306<br>Charlotte, NC 28205</a><a href=\"https://order.nightswimcoffee.com/LGE3M8TE7VXZZ/night-swim-coffee---oakhurst\" target=\"_blank\" style=\"text-decoration:underline;margin-top:10px;display:block;\">Order Here</a>\n</div>\n<div class=\"col col-two\">\n<p class=\"hours\">Mon-Fri: 7 - 5<br>Sat - Sun: 7:30 - 5</p>\n</div>\n</div>"
+            "text": "<div class=\"two-col\">\n<div class=\"col\">\n<a href=\"https://goo.gl/maps/6wRW9NbznLJUcNoJ8\" target=\"_blank\" class=\"location-address\">1620 Oakhurst Commons Drive<br>Suite 306<br>Charlotte, NC 28205</a><a href=\"https://nightswimcoffee.order.tryperdiem.com/order?locationId=LGE3M8TE7VXZZ&amp;fulfillmentType=PICKUP\" target=\"_blank\" style=\"text-decoration:underline;margin-top:10px;display:block;\">Order Here</a>\n</div>\n<div class=\"col col-two\">\n<p class=\"hours\">Mon-Fri: 7 - 5<br>Sat - Sun: 7:30 - 5</p>\n</div>\n</div>"
           }
         },
         "column2": {
@@ -177,7 +177,7 @@
           "settings": {
             "image": "shopify://shop_images/OneWellsUpdatePhoto.jpg",
             "title": "One Wells Fargo",
-            "text": "<div class=\"two-col\">\n<div class=\"col\">\n<a href=\"https://goo.gl/maps/rZMjqXdA2BZKmhfy6\" target=\"_blank\" class=\"location-address\">301 College Street Center<br>Charlotte, NC 28202</a><a href=\"https://order.nightswimcoffee.com/L22HHHZQQF54P/night-swim-coffee---one-wells-fargo\" target=\"_blank\" style=\"text-decoration:underline;margin-top:10px;display:block;\">Order Here</a>\n</div>\n<div class=\"col col-two\">\n<p class=\"hours\">Mon-Fri: 7 - 3<br>Sat-Sun: Closed</p>\n</div>\n</div>"
+            "text": "<div class=\"two-col\">\n<div class=\"col\">\n<a href=\"https://goo.gl/maps/rZMjqXdA2BZKmhfy6\" target=\"_blank\" class=\"location-address\">301 College Street Center<br>Charlotte, NC 28202</a><a href=\"https://nightswimcoffee.order.tryperdiem.com/order?locationId=L22HHHZQQF54P&amp;fulfillmentType=PICKUP\" target=\"_blank\" style=\"text-decoration:underline;margin-top:10px;display:block;\">Order Here</a>\n</div>\n<div class=\"col col-two\">\n<p class=\"hours\">Mon-Fri: 7 - 3<br>Sat-Sun: Closed</p>\n</div>\n</div>"
           }
         },
         "ea96934a-9913-441e-95f7-d51a668eb6e0": {
@@ -185,14 +185,14 @@
           "settings": {
             "image": "shopify://shop_images/L1030532BP2025102903-11-25FDxBlakePope_4496d762-d3bb-4d73-921f-3792e992d49e.jpg",
             "title": "Brevard",
-            "text": "<div class=\"two-col\">\n<div class=\"col\">\n<a href=\"https://goo.gl/maps/zsbjLCcn8ikJWQzy6\" target=\"_blank\" class=\"location-address\">1824 N Brevard Street<br>Charlotte, NC 28206</a><a href=\"https://order.nightswimcoffee.com/LYPRZCRFTAB12/night-swim-coffee---n-brevard-street\" target=\"_blank\" style=\"text-decoration:underline;margin-top:10px;display:block;\">Order Here</a>\n</div>\n<div class=\"col col-two\">\n<p class=\"hours\">Mon-Fri: 7 - 5<br>Sat - Sun 8 - 4\n\n</p>\n</div>\n</div>"
+            "text": "<div class=\"two-col\">\n<div class=\"col\">\n<a href=\"https://goo.gl/maps/zsbjLCcn8ikJWQzy6\" target=\"_blank\" class=\"location-address\">1824 N Brevard Street<br>Charlotte, NC 28206</a><a href=\"https://nightswimcoffee.order.tryperdiem.com/order?locationId=LYPRZCRFTAB12&amp;fulfillmentType=PICKUP\" target=\"_blank\" style=\"text-decoration:underline;margin-top:10px;display:block;\">Order Here</a>\n</div>\n<div class=\"col col-two\">\n<p class=\"hours\">Mon-Fri: 7 - 5<br>Sat - Sun 8 - 4\n\n</p>\n</div>\n</div>"
           }
         },
         "column_BW7hca": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/OMB-Coming-Soon3.png",
-            "title": "OMB Brewery",
+            "title": "Madison LoSo",
             "text": "<div class=\"two-col\">\n<div class=\"col\">\n<a href=\"https://goo.gl/maps/zsbjLCcn8ikJWQzy6\" target=\"_blank\" class=\"location-address\">4150 Yancey Rd<br>Charlotte, NC 28217</a><a href=\"https://order.nightswimcoffee.com/LYPRZCRFTAB12/night-swim-coffee---n-brevard-street\" target=\"_blank\" style=\"text-decoration:underline;margin-top:10px;display:block;\">Order Here</a>\n</div>\n<div class=\"col col-two\">\n<p class=\"hours\">Mon-Fri: TBD<br>Sat - Sun TBD\n\n</p>\n</div>\n</div>"
           }
         }
