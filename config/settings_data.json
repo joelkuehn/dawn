@@ -33,11 +33,10 @@
         "blocks": {
           "announcement_TUH3RV": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "text": "🎁 The Gift of the Season: HOLIDAY BOX SET NOW AVAILABLE 🎁",
-              "color_scheme": "accent-2",
-              "link": "shopify://products/holiday-box"
+              "text": "NEW Night Swim App for Online Ordering & more. Tap to download! 📲",
+              "color_scheme": "accent-1",
+              "link": "https://apps.apple.com/app/id6800859578"
             }
           }
         },
